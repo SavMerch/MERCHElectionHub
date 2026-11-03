@@ -2,16 +2,52 @@
  "state": "FL",
  "published": true,
  "researched": "2026-11-03",
- "note": "Nominee names come from search snippets of secondary sources and should be confirmed against the state's certified ballot. No announced transition team, chief of staff or cabinet picks were found, so no cabinet prospects are listed. Single low-quality aggregator source: confidence low.",
+ "note": "Scenario analysis assumes Donalds wins; it is not a call. No announced transition team, chief of staff or cabinet pick was found. Cabinet entries are limited to people with a documented, sourced role (running mate, campaign manager) and are inferences, not announcements. Nominee names are confirmed by multiple 2026 reports.",
  "nominees": [
   {
    "name": "Byron Donalds",
    "party": "R",
-   "role": "U.S. Representative",
-   "team": [],
+   "role": "Republican nominee; U.S. Representative",
+   "team": [
+    "Chris Hudson, campaign manager (Bonita Springs consultant; former Americans for Prosperity VP of government affairs, ex-Florida Senate staffer).",
+    "Fabrizio, Lee & Associates (Tony Fabrizio), polling firm hired for his congressional campaign and expected to continue, per the report's own speculation."
+   ],
    "sources": [
+    "https://www.wlrn.org/government-politics/2026-08-25/byron-donalds-makes-his-pick-for-lieutenant-governor-heres-what-to-know",
+    "https://www.governing.com/politics/byron-donalds-plans-for-governing-florida-if-elected",
+    "https://floridapolitics.com/archives/738748-byron-donalds-brings-on-chris-hudson-as-campaign-manager",
+    "https://floridapolitics.com/archives/714667-byron-donalds-brings-tony-fabrizios-firm-into-campaign-operation/",
     "https://www.betterworld.info/taxonomy/term/30954"
-   ]
+   ],
+   "analysis": {
+    "assumption": "Scenario: assumes Byron Donalds wins the Nov. 3, 2026 general election. Not a call or forecast.",
+    "summary": "Republican-to-Republican handoff from an outgoing governor who has not been his ally. The transition question is which DeSantis agency heads he keeps and which Trump-orbit hires he adds. Donalds says he has no real policy differences with DeSantis, so expect continuity on policy with new personnel at the top.",
+    "timing": "Inauguration expected Jan. 5, 2027 (state constitution as recalled; verify).",
+    "priorities": [
+     "Insurance costs, transportation, and raising math and reading proficiency from about 30% to 50% (Governing).",
+     "Property-tax amendment sponsored by running mate Avila is on the same ballot; if it passes, early budget and local-government impact work follows (WLRN).",
+     "Keep open lines to House and Senate leaders and align priorities step by step (Governing)."
+    ],
+    "firstMoves": [
+     "Name chief of staff and general counsel.",
+     "Decide which DeSantis agency heads stay; agency-head appointments need Senate confirmation (verify).",
+     "Set the insurance and property-tax agenda for the March legislative session.",
+     "Give Lt. Gov. Avila a portfolio; the role is largely ceremonial otherwise (WLRN)."
+    ],
+    "risks": [
+     "Handoff friction with DeSantis' office; bills to formalize transition support (SB 1078 / HB 1063, filed Jan. 2026) were not confirmed passed.",
+     "Elected Cabinet officers (AG, CFO, Agriculture Commissioner) are separate offices he does not appoint."
+    ],
+    "pollContext": "Last 270toWin average we hold: Donalds 45.3, Jolly 40.8 (April; flagged stale).",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.wlrn.org/government-politics/2026-08-25/byron-donalds-makes-his-pick-for-lieutenant-governor-heres-what-to-know",
+     "https://www.governing.com/politics/byron-donalds-plans-for-governing-florida-if-elected",
+     "https://thecapitolist.com/lawmakers-file-bills-to-formalize-gubernatorial-transition-process/",
+     "https://270towin.com/2026-governor-polls/florida"
+    ]
+   }
   },
   {
    "name": "David Jolly",
@@ -23,5 +59,30 @@
    ]
   }
  ],
- "cabinet": {}
+ "cabinet": {
+  "Lieutenant Governor (running mate)": [
+   {
+    "name": "Bryan Avila",
+    "currentPosition": "Florida state senator (R-Miami)",
+    "status": "Announced running mate (Aug. 25, 2026); would be lieutenant governor if the ticket wins",
+    "confidence": "high",
+    "lastResearched": "2026-11-03",
+    "sources": [
+     "https://www.wlrn.org/government-politics/2026-08-25/byron-donalds-makes-his-pick-for-lieutenant-governor-heres-what-to-know"
+    ]
+   }
+  ],
+  "Political / campaign leadership": [
+   {
+    "name": "Chris Hudson",
+    "currentPosition": "Donalds for Governor campaign manager",
+    "status": "Inferred from campaign role; no transition or administration role announced",
+    "confidence": "low",
+    "lastResearched": "2026-11-03",
+    "sources": [
+     "https://floridapolitics.com/archives/738748-byron-donalds-brings-on-chris-hudson-as-campaign-manager"
+    ]
+   }
+  ]
+ }
 }

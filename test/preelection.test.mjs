@@ -26,3 +26,10 @@ test('research files: published ones carry sources; none list unsourced cabinet 
   const fs=readFileSync;const idx=JSON.parse(fs('research/index.json','utf8')).states;
   for(const s of idx){const r=JSON.parse(fs('research/'+s+'.json','utf8'));for(const n of r.nominees)assert.ok(n.sources&&n.sources.every(u=>/^https:\/\//.test(u)),s+' '+n.name);
     for(const list of Object.values(r.cabinet||{}))for(const p of list)assert.ok(p.sources&&p.sources.length,s+' prospect needs sources')}});
+test('scenario analyses are labeled, sourced and never claim a result',()=>{
+  const fs=readFileSync;const idx=JSON.parse(fs('research/index.json','utf8')).states;let n=0;
+  for(const s of idx){const r=JSON.parse(fs('research/'+s+'.json','utf8'));for(const x of r.nominees)if(x.analysis){n++;const a=x.analysis;
+    assert.match(a.assumption,/^Scenario: assumes .* wins/,s);assert.match(a.assumption,/Not a call/,s);
+    assert.ok(a.sources.length&&a.sources.every(u=>/^https:\/\//.test(u)),s);
+    assert.doesNotMatch(JSON.stringify(a),/has won|was elected|projected winner|will win/i,s)}}
+  assert.ok(n>=3)});

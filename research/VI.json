@@ -2,17 +2,51 @@
  "state": "VI",
  "published": true,
  "researched": "2026-11-03",
- "note": "Territory governors take office in January. No transition team or cabinet picks found; no polling found. Plaskett (sitting delegate to Congress) won the Democratic primary on Aug 1, 2026. The four others are independents. Wikipedia still lists a Roach ticket; Roach lost the primary, so the Green Papers list is used.",
+ "note": "Scenario analysis assumes Plaskett wins; it is not a call. No transition team, chief of staff or cabinet picks were found, and no polling. Primary figures are unofficial same-day votes. Cabinet entries are limited to the announced running mate.",
  "nominees": [
   {
    "name": "Stacey E. Plaskett",
    "party": "D",
    "role": "Democratic nominee; sitting delegate to Congress",
-   "team": [],
+   "team": [
+    "Milton Potter, running mate; described as Senate President (St. Thomas Source). Sen. Franklin Johnson spoke at her launch as a supporter."
+   ],
    "sources": [
     "https://www.thegreenpapers.com/G26/VI",
-    "https://www.virginislandsnewsonline.com/en/news/madam-governor-stacey-e-plaskett-milton-e-potter-win-democratic-primary"
-   ]
+    "https://www.virginislandsnewsonline.com/en/news/madam-governor-stacey-e-plaskett-milton-e-potter-win-democratic-primary",
+    "https://stthomassource.com/?p=432634",
+    "https://viconsortium.com/vi-politics/virgin-islands-plaskett-launches-governor-bid-in-frederiksted-with-hospital-plan--wapa-overhaul-pledge-and-epstein-pushback"
+   ],
+   "analysis": {
+    "assumption": "Scenario: assumes Stacey Plaskett wins the Nov. 3, 2026 general election. Not a call or forecast.",
+    "summary": "Democrat-to-Democrat handoff from Gov. Albert Bryan Jr. The binding constraint is confirmation, not selection: the Legislature approves every Cabinet-level nominee, and the Bryan Cabinet was not complete until Oct. 22, 2019.",
+    "timing": "Inauguration expected Jan. 4, 2027 (first Monday in January per the Revised Organic Act as recalled; verify).",
+    "priorities": [
+     "Two nationally accredited hospitals within six years and a local health workforce (VI Consortium).",
+     "Rebuild WAPA using the $4.7 billion already secured (VI Consortium).",
+     "Education gains, a 311 line and public dashboards (VI Consortium).",
+     "Ticket framed as 'federal access and local execution' (Potter, VI Consortium)."
+    ],
+    "firstMoves": [
+     "Name Finance, Health and budget leaders first.",
+     "Stand up WAPA and hospital project teams.",
+     "Send the full nominee slate to the Legislature early; the Bryan Cabinet spanned about 28 departments and offices (vi.gov).",
+     "Her Delegate seat passes to the next Delegate (Janelle Sarauw won the Democratic primary; general still pending)."
+    ],
+    "risks": [
+     "Slow confirmations and acting commissioners.",
+     "Opponents raised Epstein-related attacks during the campaign; she called them a distraction (VI Consortium)."
+    ],
+    "pollContext": "No polling found. Primary: Plaskett/Potter 46.99% of 9,561 same-day votes (unofficial).",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://viconsortium.com/vi-politics/virgin-islands-plaskett-launches-governor-bid-in-frederiksted-with-hospital-plan--wapa-overhaul-pledge-and-epstein-pushback",
+     "https://www.virginislandsnewsonline.com/en/news/madam-governor-stacey-e-plaskett-milton-e-potter-win-democratic-primary",
+     "https://www.vi.gov/final-seven-sworn-in-to-complete-the-bryan-roach-cabinet/",
+     "https://stthomassource.com/?p=432634"
+    ]
+   }
   },
   {
    "name": "Oakland Benta",
@@ -55,5 +89,19 @@
    ]
   }
  ],
- "cabinet": {}
+ "cabinet": {
+  "Lieutenant Governor (running mate)": [
+   {
+    "name": "Milton E. Potter",
+    "currentPosition": "Senate President, U.S. Virgin Islands Legislature (per St. Thomas Source)",
+    "status": "Announced running mate; Democratic primary winner with Plaskett",
+    "confidence": "high",
+    "lastResearched": "2026-11-03",
+    "sources": [
+     "https://stthomassource.com/?p=432634",
+     "https://www.virginislandsnewsonline.com/en/news/madam-governor-stacey-e-plaskett-milton-e-potter-win-democratic-primary"
+    ]
+   }
+  ]
+ }
 }

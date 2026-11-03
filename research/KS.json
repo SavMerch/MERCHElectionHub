@@ -1,0 +1,87 @@
+{
+ "state": "KS",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Scenario analysis assumes Masterson wins; it is not a call. The candidate's name is Ty Masterson. No announced transition team, chief of staff or cabinet pick was found. Cabinet entries are inferences from documented roles, not announcements. The Kansas 2019 precedent and the Trump endorsement come from search headlines that were not opened.",
+ "nominees": [
+  {
+   "name": "Ty Masterson",
+   "party": "R",
+   "role": "Republican nominee; Kansas Senate President",
+   "team": [
+    "Ryan Smith (Rapid Loop Consulting), general consultant; Tony Fabrizio, polling; John Brabender (BrabenderCox), media; Eric Pahls (Big Dog Strategies), adviser (Washington Examiner).",
+    "Outside groups Take Back Kansas / Take Back Kansas Action with Trump-campaign alumni (Chris Grant, David Lee, Tim Saler, Pat McCarthy)."
+   ],
+   "sources": [
+    "https://www.wibw.com/2026/06/01/republican-gubernatorial-candidate-ty-masterson-names-running-mate/",
+    "https://www.wibw.com/2025/07/21/gubernatorial-candidate-ty-masterson-shares-top-campaign-priorities/",
+    "https://www.washingtonexaminer.com/?p=3883028",
+    "https://www2.ljworld.com/news/state-government/2026/may/26/trump-endorses-kansas-senate-president-in-gop-campaign-for-governor/"
+   ],
+   "analysis": {
+    "assumption": "Scenario: assumes Ty Masterson wins the Nov. 3, 2026 general election. Not a call or forecast.",
+    "summary": "A win flips the governor's office from Democrat (Laura Kelly) to Republican, so the whole executive branch turns over, and the Senate loses its president at the same time. Expect a transition staffed from the Trump-endorsed campaign network and his Senate office.",
+    "timing": "Inauguration expected Jan. 11, 2027 (second Monday in January; verify).",
+    "priorities": [
+     "Continue about $2 billion in tax cuts; rein in local property taxes through budget oversight, possibly elected county appraisers (WIBW).",
+     "Tie education spending to reading and math results (WIBW).",
+     "Economy, farmers and ranchers, public safety (Klemp, WIBW)."
+    ],
+    "firstMoves": [
+     "Name chief of staff and Budget director; Senate President Chief of Staff Jacklynn Walters is a documented insider option (inference).",
+     "Replace Kelly-era agency heads or ask them to resign and reapply; secretaries are appointed and need Senate confirmation (verify).",
+     "Prepare a tax and property-tax bill for the opening session.",
+     "Manage the Senate leadership vacancy: Masterson and running mate Jeff Klemp are both state senators (vacancy rules: verify)."
+    ],
+    "risks": [
+     "Senate leadership election decides how smoothly the agenda moves.",
+     "Total executive turnover on a short clock; a 2019 headline suggests Kelly filled her team before inauguration, a usable precedent (not opened)."
+    ],
+    "pollContext": "Last 270toWin average we hold: Masterson 49.5, Holscher 43.8 (Oct. 6).",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.wibw.com/2026/06/01/republican-gubernatorial-candidate-ty-masterson-names-running-mate/",
+     "https://www.wibw.com/2025/07/21/gubernatorial-candidate-ty-masterson-shares-top-campaign-priorities/",
+     "https://www2.ljworld.com/news/state-government/2019/jan/09/new-kansas-governor-fills-out-administration-ahead-of-inauguration/",
+     "https://www.270towin.com/2026-governor-polls/kansas"
+    ]
+   }
+  },
+  {
+   "name": "Cindy Holscher",
+   "party": "D",
+   "role": "Democratic nominee; Kansas state senator",
+   "team": [],
+   "sources": [
+    "https://www.270towin.com/2026-governor-polls/kansas"
+   ]
+  }
+ ],
+ "cabinet": {
+  "Lieutenant Governor (running mate)": [
+   {
+    "name": "Jeff Klemp",
+    "currentPosition": "Kansas state senator (Leavenworth County); businessman",
+    "status": "Announced running mate (June 1, 2026)",
+    "confidence": "high",
+    "lastResearched": "2026-11-03",
+    "sources": [
+     "https://www.wibw.com/2026/06/01/republican-gubernatorial-candidate-ty-masterson-names-running-mate/"
+    ]
+   }
+  ],
+  "Chief of Staff": [
+   {
+    "name": "Jacklynn Walters",
+    "currentPosition": "Chief of Staff, Kansas Senate President's office",
+    "status": "Inferred from her role in Masterson's office; no administration role announced",
+    "confidence": "low",
+    "lastResearched": "2026-11-03",
+    "sources": [
+     "https://kclyradio.com/?p=156219"
+    ]
+   }
+  ]
+ }
+}

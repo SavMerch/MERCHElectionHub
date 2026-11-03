@@ -1,0 +1,38 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {validate,collectUrls,runAnalysis,parseJson,buildPrompt} from '../netlify/functions/lib/analyze.mjs';
+import analyze from '../netlify/functions/analyze.mjs';import bg from '../netlify/functions/analyze-background.mjs';
+const mem=()=>{const m=new Map();return {m,get:async k=>m.get(k)??null,setJSON:async(k,v)=>{m.set(k,v)}}};
+const api=(json)=>async()=>({ok:true,json:async()=>json,text:async()=>''});
+test('validate drops items whose sources were not returned by search',()=>{
+  const allowed=new Set(['https://a.com/x']);
+  const r=validate({summary:'s',findings:[{heading:'h',text:'t',label:'reported',sources:['https://a.com/x']},{text:'u',sources:['https://made-up.com']}],prospects:[{role:'r',name:'n',sources:['https://made-up.com']}]},allowed);
+  assert.equal(r.findings.length,1);assert.equal(r.prospects.length,0);assert.equal(r.dropped,2)});
+test('validate rejects result-claiming language',()=>{const r=validate({summary:'He has won',findings:[]},new Set());assert.equal(r.rejected,'result-claiming language')});
+test('collectUrls reads search results and citations',()=>{const s=collectUrls([{type:'web_search_tool_result',content:[{type:'web_search_result',url:'https://a.com'}]},{type:'text',text:'x',citations:[{url:'https://b.com'}]}]);assert.ok(s.has('https://a.com')&&s.has('https://b.com'))});
+test('runAnalysis handles pause_turn then validates',async()=>{let n=0;
+  const f=async()=>{n++;return n===1?{ok:true,json:async()=>({stop_reason:'pause_turn',content:[{type:'web_search_tool_result',content:[{url:'https://a.com/x'}]}]})}:{ok:true,json:async()=>({stop_reason:'end_turn',content:[{type:'text',text:'{"summary":"s","findings":[{"heading":"h","text":"t","label":"reported","sources":["https://a.com/x"]}],"prospects":[],"gaps":["g"]}'}]})}};
+  const r=await runAnalysis({fetchImpl:f,apiKey:'k',prompt:'p'});assert.equal(n,2);assert.equal(r.findings.length,1)});
+test('runAnalysis surfaces API errors',async()=>{await assert.rejects(runAnalysis({fetchImpl:async()=>({ok:false,status:401,text:async()=>'bad'}),apiKey:'k',prompt:'p'}),/401/)});
+test('prompt forbids unsourced claims and winner claims',()=>{const p=buildPrompt({state:'KS',stateName:'Kansas',tab:'Cabinet',cand:{name:'X',party:'R'}});assert.match(p,/No source = do not include/);assert.match(p,/Do NOT claim/)});
+test('analyze endpoint: not configured, bad token, cap, cache, start',async()=>{
+  const mk=(m,q,b)=>new Request('https://x.test/api/analyze?'+q,{method:m,body:b?JSON.stringify(b):undefined});
+  delete process.env.ANTHROPIC_API_KEY;let r=await analyze(mk('POST','token=t',{}),{},{store:mem()});assert.equal(r.status,503);
+  process.env.ANTHROPIC_API_KEY='k';process.env.ANALYZE_TOKEN='tok';
+  r=await analyze(mk('POST','token=bad',{state:'KS',tab:'Cabinet',cand:'R'}),{},{store:mem()});assert.equal(r.status,403);
+  r=await analyze(mk('POST','token=tok',{state:'KS',tab:'Nope',cand:'R'}),{},{store:mem()});assert.equal(r.status,400);
+  const st=mem();let calls=0;const f=async()=>{calls++;return new Response('',{status:202})};
+  r=await analyze(mk('POST','token=tok',{state:'KS',tab:'Cabinet',cand:'R'}),{},{store:st,fetch:f});assert.equal(r.status,202);assert.equal(calls,1);
+  r=await analyze(mk('POST','token=tok',{state:'KS',tab:'Cabinet',cand:'R'}),{},{store:st,fetch:f});assert.equal(r.status,202);assert.equal(calls,1,'running job not restarted');
+  st.m.set('analysis/ks-cabinet-r',{status:'done',finishedAt:Date.now()});
+  r=await analyze(mk('POST','token=tok',{state:'KS',tab:'Cabinet',cand:'R'}),{},{store:st,fetch:f});assert.equal((await r.json()).cached,true);
+  process.env.ANALYZE_DAILY_MAX='1';st.m.set('analysis/fl-policy-d',null);
+  r=await analyze(mk('POST','token=tok',{state:'FL',tab:'Policy',cand:'D'}),{},{store:st,fetch:f});assert.equal(r.status,429);delete process.env.ANALYZE_DAILY_MAX;
+  r=await analyze(mk('GET','state=KS&tab=Cabinet&cand=R'),{},{store:st});assert.equal((await r.json()).result.status,'done')});
+test('background stores result or error',async()=>{process.env.ANALYZE_TOKEN='tok';process.env.ANTHROPIC_API_KEY='k';
+  const st=mem();const body=JSON.stringify({state:'KS',tab:'Cabinet',cand:'R',stateName:'Kansas',candidate:{name:'X',party:'R'}});
+  const rq=()=>new Request('https://x.test/',{method:'POST',headers:{'x-analyze-token':'tok'},body});
+  await bg(rq(),{},{store:st,fetch:api({stop_reason:'end_turn',content:[{type:'text',text:'{"summary":"s","findings":[],"prospects":[],"gaps":[]}'}]})});
+  assert.equal(st.m.get('analysis/ks-cabinet-r').status,'done');
+  await bg(rq(),{},{store:st,fetch:async()=>({ok:false,status:500,text:async()=>'x'})});
+  assert.equal(st.m.get('analysis/ks-cabinet-r').status,'error');
+  const f=await bg(new Request('https://x.test/',{method:'POST',headers:{'x-analyze-token':'no'},body}),{},{store:st});assert.equal(f.status,403)});

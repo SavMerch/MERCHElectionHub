@@ -42,3 +42,10 @@ Leaders are never labeled winners. `projected`/`certified` come only from source
 
 ## Not verified
 No adapter has seen real votes. Netlify scheduling in production and browser rendering of the new branding were not checked. Terms of use and rate limits of the state feeds were not checked.
+
+## Cabinet / Policy / Scenarios research and "Conduct analysis"
+
+- `research/FL.json` and `research/KS.json` now hold, per nominee: `positions[]`, `insights[]`, `cabinet{role:[prospects]}` and a scenario `analysis`. The Cabinet, Policy and Scenarios tabs have an R/D candidate toggle. Every position and prospect needs an https source (enforced by tests). Prospects are labeled ANNOUNCED, HOLDOVER OPTION, STATED INTENT or INFERRED; roles without a sourced name show "None identified".
+- **Conduct analysis** button (per tab, per candidate) calls `/api/analyze`, which starts `analyze-background` (Anthropic Messages API + web search) and stores the result in Blobs. Results are shown in a separate "AI-generated" panel; items whose sources were not returned by the search are dropped.
+- Env vars to enable it: `ANTHROPIC_API_KEY` (required; without it the button reports "not configured"), `ANALYZE_TOKEN` (optional; falls back to `REFRESH_TOKEN`; the page asks for it once per browser session), `ANALYZE_DAILY_MAX` (default 20 runs/day), `ANALYZE_MODEL` (default `claude-sonnet-5-5`), `ANALYZE_SEARCH_TOOL` (default `web_search_20250305`). Each run consumes API credits; results are cached 6 hours.
+- Not yet exercised against the live Anthropic API or on Netlify (unit-tested with mocked responses only). Check the first run in Netlify's function logs.

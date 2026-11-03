@@ -2,7 +2,7 @@
  "state": "FL",
  "published": true,
  "researched": "2026-11-03",
- "note": "Scenario analysis assumes Donalds wins; it is not a call. No announced transition team, chief of staff or cabinet pick was found. Cabinet entries are limited to people with a documented, sourced role (running mate, campaign manager) and are inferences, not announcements. Nominee names are confirmed by multiple 2026 reports.",
+ "note": "Scenario analyses assume each nominee wins; they are not calls or forecasts. No transition team, chief of staff or cabinet pick has been announced by either campaign in anything we found. Cabinet entries are of three kinds, always labeled: ANNOUNCED (stated by the campaign), HOLDOVER OPTION (a current post-holder whom a new governor would decide to keep or replace; the candidate's own statement is cited where one exists) and INFERRED (a documented campaign role, not an announcement). Roles with no sourced name are shown as 'none identified' rather than guessed. Independently elected Cabinet officers (AG, CFO, Agriculture Commissioner) are not governor appointments.",
  "nominees": [
   {
    "name": "Byron Donalds",
@@ -21,7 +21,7 @@
    ],
    "analysis": {
     "assumption": "Scenario: assumes Byron Donalds wins the Nov. 3, 2026 general election. Not a call or forecast.",
-    "summary": "Republican-to-Republican handoff from an outgoing governor who has not been his ally. The transition question is which DeSantis agency heads he keeps and which Trump-orbit hires he adds. Donalds says he has no real policy differences with DeSantis, so expect continuity on policy with new personnel at the top.",
+    "summary": "Republican-to-Republican handoff from an outgoing governor who has not been his ally. The transition question is which DeSantis agency heads he keeps and which Trump-orbit hires he adds. Donalds says he has no real policy differences with DeSantis, so expect continuity on policy with new personnel at the top. His stated policy lines (vouchers, vaccines, home rule, Amendment 3) mostly extend current practice; see Policy positions.",
     "timing": "Inauguration expected Jan. 5, 2027 (state constitution as recalled; verify).",
     "priorities": [
      "Insurance costs, transportation, and raising math and reading proficiency from about 30% to 50% (Governing).",
@@ -45,44 +45,326 @@
      "https://www.wlrn.org/government-politics/2026-08-25/byron-donalds-makes-his-pick-for-lieutenant-governor-heres-what-to-know",
      "https://www.governing.com/politics/byron-donalds-plans-for-governing-florida-if-elected",
      "https://thecapitolist.com/lawmakers-file-bills-to-formalize-gubernatorial-transition-process/",
-     "https://270towin.com/2026-governor-polls/florida"
+     "https://270towin.com/2026-governor-polls/florida",
+     "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+    ]
+   },
+   "positions": [
+    {
+     "topic": "Education / vouchers",
+     "stance": "Strongly supports universal vouchers; his only stated change is a universal scorecard so parents can compare public and private school performance.",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "topic": "Public health / vaccines",
+     "stance": "Opposes vaccine mandates; supports Surgeon General Ladapo's proposed rule dropping school-entry requirements for four vaccines; open to reappointing Ladapo. Measles and polio requirements are in statute and would need legislation.",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "topic": "Local government / home rule",
+     "stance": "Supports DeSantis's expansion of state control over local governments; plans more DOGE-style audits of local governments and removing elected officials as needed.",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "topic": "Data centers",
+     "stance": "Wants local communities to decide whether to allow data centers.",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "topic": "Property tax",
+     "stance": "Supports Amendment 3 (substantial homestead property-tax cut). His running mate Avila sponsored the property-tax amendment.",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor",
+      "https://www.wlrn.org/government-politics/2026-08-25/byron-donalds-makes-his-pick-for-lieutenant-governor-heres-what-to-know"
+     ]
+    },
+    {
+     "topic": "Insurance, transportation, student proficiency",
+     "stance": "Names insurance costs and transportation as priorities and a goal of raising math and reading proficiency from about 30% to 50%.",
+     "sources": [
+      "https://www.governing.com/politics/byron-donalds-plans-for-governing-florida-if-elected"
+     ]
+    },
+    {
+     "topic": "Governing style",
+     "stance": "Says he has no real policy differences with DeSantis; plans step-by-step alignment with House and Senate leaders.",
+     "sources": [
+      "https://www.governing.com/politics/byron-donalds-plans-for-governing-florida-if-elected"
+     ]
+    }
+   ],
+   "insights": [
+    "Continuity case: nearly every stated position extends current DeSantis policy, so the main transition uncertainty is personnel and tone, not direction. Expect agency work plans (education, health, local-government oversight) to carry over.",
+    "If Amendment 3 passes, local-government revenue shrinks and state backfill becomes a first-year budget fight. Local governments' cost-share capacity for FEMA Public Assistance and HUD CDBG-DR/MIT matching is the advisory exposure to watch.",
+    "A Ladapo reappointment decision would be the first clear signal of how much he distances himself from DeSantis-era health policy.",
+    "Home-rule audits and removal of local officials raise compliance and litigation exposure for counties and municipalities, a demand driver for grant-management and compliance support."
+   ],
+   "cabinet": {
+    "Lieutenant Governor (running mate)": [
+     {
+      "name": "Bryan Avila",
+      "currentPosition": "Florida state senator (R-Miami)",
+      "status": "ANNOUNCED running mate (Aug. 25, 2026)",
+      "kind": "announced",
+      "confidence": "high",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.wlrn.org/government-politics/2026-08-25/byron-donalds-makes-his-pick-for-lieutenant-governor-heres-what-to-know"
+      ]
+     }
+    ],
+    "Political / campaign leadership": [
+     {
+      "name": "Chris Hudson",
+      "currentPosition": "Donalds for Governor campaign manager",
+      "status": "INFERRED from campaign role; no administration role announced",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://floridapolitics.com/archives/738748-byron-donalds-brings-on-chris-hudson-as-campaign-manager"
+      ]
+     }
+    ],
+    "Health": [
+     {
+      "name": "Joseph Ladapo",
+      "currentPosition": "Current Florida Surgeon General",
+      "status": "HOLDOVER OPTION: Donalds says he is open to reappointing him",
+      "kind": "holdover",
+      "confidence": "medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+      ]
+     }
+    ],
+    "Education": [
+     {
+      "name": "Paul Burns",
+      "currentPosition": "Interim education commissioner (named June 30, 2026); senior chancellor at the department since about 2024",
+      "status": "HOLDOVER OPTION: interim post; the State Board (governor-appointed) names the commissioner on the governor's recommendation. No Donalds statement found",
+      "kind": "holdover",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://floridaphoenix.com/?p=241885",
+       "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+      ]
+     }
+    ],
+    "Human Services": [
+     {
+      "name": "Vacancy: DCF secretary",
+      "currentPosition": "Taylor Hatch announced departing (June 30, 2026); successor not named in sources we opened",
+      "status": "OPEN POST: a new governor inherits whoever DeSantis names or an acting head",
+      "kind": "holdover",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://floridaphoenix.com/?p=241885"
+      ]
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Jared Perdue",
+      "currentPosition": "Named to lead the Division of Emergency Management (Aug. 26, 2026 headline; article not opened)",
+      "status": "HOLDOVER OPTION; Sept. 2 appointments: Jay K. Arnold Jr. (chief of staff/finance), Dr. Frank E. Lumm (SERT chief), Amy Godsey (acting response bureau chief)",
+      "kind": "holdover",
+      "confidence": "low-medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.tampabay.com/news/florida-politics/2026/08/26/desantis-emergency-management-jared-perdue-hurricanes/",
+       "https://www.floridadisaster.org/news-media/news/20260902-florida-division-of-emergency-management-announces-key-leadership-appointments/"
+      ]
+     }
     ]
    }
   },
   {
    "name": "David Jolly",
    "party": "D",
-   "role": "Former U.S. Representative",
-   "team": [],
+   "role": "Democratic nominee; former U.S. Representative (first elected as a Republican)",
+   "team": [
+    "Running mate: Gwen Graham, former U.S. Representative (WLRN).",
+    "No campaign manager, pollster or transition lead named in the sources we opened. Public supporters (not staff): Al Sharpton, Rep. Jim Clyburn."
+   ],
    "sources": [
-    "https://www.betterworld.info/taxonomy/term/30954"
-   ]
-  }
- ],
- "cabinet": {
-  "Lieutenant Governor (running mate)": [
-   {
-    "name": "Bryan Avila",
-    "currentPosition": "Florida state senator (R-Miami)",
-    "status": "Announced running mate (Aug. 25, 2026); would be lieutenant governor if the ticket wins",
-    "confidence": "high",
-    "lastResearched": "2026-11-03",
-    "sources": [
-     "https://www.wlrn.org/government-politics/2026-08-25/byron-donalds-makes-his-pick-for-lieutenant-governor-heres-what-to-know"
+    "https://www.wlrn.org/light/government-politics/2026-10-12/david-jolly-florida-governors-race",
+    "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor",
+    "https://www.orlandoweekly.com/news/orlando-area-news/how-would-a-democratic-governor-work-with-a-gop-led-legislature-in-florida/",
+    "https://davidjolly.com/heres-what-david-jolly-told-tampa-voters-in-his-bid-for-florida-governor/"
+   ],
+   "positions": [
+    {
+     "topic": "Public health / vaccines",
+     "stance": "Supports current school vaccine mandates and exemptions; would fire Surgeon General Ladapo on Day 1 and replace him with someone who 'embraces science and evidence-based public health'.",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor",
+      "https://www.orlandoweekly.com/news/orlando-area-news/how-would-a-democratic-governor-work-with-a-gop-led-legislature-in-florida/"
+     ]
+    },
+    {
+     "topic": "Education / vouchers",
+     "stance": "Supports vouchers with changes: private schools taking vouchers must meet public-school standards including serving students with disabilities, tuition capped at voucher value, financial-need eligibility restored. Wants an education commissioner who supports teachers, books, science and diversity.",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor",
+      "https://www.orlandoweekly.com/news/orlando-area-news/how-would-a-democratic-governor-work-with-a-gop-led-legislature-in-florida/"
+     ]
+    },
+    {
+     "topic": "Local government / home rule",
+     "stance": "Would reverse course on home rule so local governments set their own budgets and policies; opposes removing elected officials.",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "topic": "Data centers",
+     "stance": "One-year statewide moratorium on new data centers; open to a permanent ban.",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "topic": "Property tax",
+     "stance": "Opposes Amendment 3.",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "topic": "Ethics, civil rights, environment, reproductive care",
+     "stance": "Proposes an ethics and transparency office focused on campaign finance, an Office of Civil Rights, environmental policy set by environmental science, and expanded access to reproductive care.",
+     "sources": [
+      "https://www.orlandoweekly.com/news/orlando-area-news/how-would-a-democratic-governor-work-with-a-gop-led-legislature-in-florida/",
+      "https://www.wlrn.org/light/government-politics/2026-10-12/david-jolly-florida-governors-race"
+     ]
+    },
+    {
+     "topic": "Working with the Legislature",
+     "stance": "Says he would contact incoming Republican leaders Sam Garrison (House) and Jim Boyd (Senate) immediately; counts on Democratic legislative gains and the attorney general for litigation; says he has identified Republican allies on voucher changes.",
+     "sources": [
+      "https://www.orlandoweekly.com/news/orlando-area-news/how-would-a-democratic-governor-work-with-a-gop-led-legislature-in-florida/",
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    }
+   ],
+   "insights": [
+    "The sharpest contrast with Donalds is state-local relations and public health: Jolly's agenda needs personnel changes (Surgeon General, Education commissioner) that the governor can start quickly, while most other items need a Republican supermajority Legislature.",
+    "Executive levers are his strongest tools: appointments, vetoes, litigation and executive orders. Expect early action to center on agency heads, the State Board of Education appointments and an ethics office rather than on statute.",
+    "Opposing Amendment 3 while promising local autonomy would put him in a different relationship with counties and cities than the current administration; local governments would likely be the first stakeholders to engage.",
+    "Reaching Garrison and Boyd is a stated first step; whether those leaders engage is unknown and is the main execution risk."
+   ],
+   "cabinet": {
+    "Lieutenant Governor (running mate)": [
+     {
+      "name": "Gwen Graham",
+      "currentPosition": "Former U.S. Representative",
+      "status": "ANNOUNCED running mate",
+      "kind": "announced",
+      "confidence": "high",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.wlrn.org/light/government-politics/2026-10-12/david-jolly-florida-governors-race"
+      ]
+     }
+    ],
+    "Health": [
+     {
+      "name": "Replacement for Joseph Ladapo: none named",
+      "currentPosition": "Current Surgeon General Ladapo",
+      "status": "STATED INTENT: Jolly says he would fire Ladapo on Day 1; no successor identified in sources we opened",
+      "kind": "signal",
+      "confidence": "medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor",
+       "https://www.orlandoweekly.com/news/orlando-area-news/how-would-a-democratic-governor-work-with-a-gop-led-legislature-in-florida/"
+      ]
+     }
+    ],
+    "Education": [
+     {
+      "name": "Education commissioner: none named",
+      "currentPosition": "Interim commissioner Paul Burns (current)",
+      "status": "STATED INTENT: wants a commissioner who supports teachers, books, science and diversity; no name identified",
+      "kind": "signal",
+      "confidence": "medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.orlandoweekly.com/news/orlando-area-news/how-would-a-democratic-governor-work-with-a-gop-led-legislature-in-florida/"
+      ]
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Jared Perdue",
+      "currentPosition": "Current Division of Emergency Management head (Aug. 26, 2026 headline; article not opened)",
+      "status": "HOLDOVER OPTION: no Jolly statement found",
+      "kind": "holdover",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.tampabay.com/news/florida-politics/2026/08/26/desantis-emergency-management-jared-perdue-hurricanes/",
+       "https://www.floridadisaster.org/news-media/news/20260902-florida-division-of-emergency-management-announces-key-leadership-appointments/"
+      ]
+     }
+    ],
+    "Human Services": [
+     {
+      "name": "Vacancy: DCF secretary",
+      "currentPosition": "Taylor Hatch announced departing (June 30, 2026)",
+      "status": "OPEN POST: a new governor inherits the appointee or acting head",
+      "kind": "holdover",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://floridaphoenix.com/?p=241885"
+      ]
+     }
     ]
-   }
-  ],
-  "Political / campaign leadership": [
-   {
-    "name": "Chris Hudson",
-    "currentPosition": "Donalds for Governor campaign manager",
-    "status": "Inferred from campaign role; no transition or administration role announced",
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes David Jolly wins the Nov. 3, 2026 general election. Not a call or forecast.",
+    "summary": "A Democrat would take over from a Republican administration facing a Republican supermajority Legislature and an independently elected Cabinet. The transition would be about personnel changes the governor controls alone (Surgeon General, education commissioner, State Board appointments, agency heads) and a legislative approach built on outreach to Republican leaders. His stated agenda reverses current policy on vaccines, home rule and data centers.",
+    "timing": "Inauguration expected Jan. 5, 2027 (verify).",
+    "priorities": [
+     "Replace Surgeon General Ladapo on Day 1 and reverse school-vaccine rule changes (WLRN).",
+     "Voucher guardrails, education commissioner aligned with teachers and science (WLRN, Orlando Weekly).",
+     "Restore local home rule; one-year data-center moratorium; oppose Amendment 3 (WLRN).",
+     "Ethics and transparency office; Office of Civil Rights (Orlando Weekly, WLRN)."
+    ],
+    "firstMoves": [
+     "Name a chief of staff, general counsel and Surgeon General nominee (none identified; analyst inference).",
+     "Decide which DeSantis-era agency heads stay; secretaries need Senate confirmation (verify).",
+     "Open contact with House Speaker-designate Sam Garrison and Senate President-designate Jim Boyd, as he says he would.",
+     "Set up the ethics office and State Board of Education appointments by executive action where law allows (verify)."
+    ],
+    "risks": [
+     "Republican supermajority can block or override; most of his agenda needs legislation.",
+     "Senate confirmation of agency heads and the State Board appointees could slow personnel changes.",
+     "No announced staff or transition structure found; planning capacity is unverified."
+    ],
+    "pollContext": "Last 270toWin average we hold: Donalds 45.3, Jolly 40.8 (April; flagged stale).",
     "confidence": "low",
-    "lastResearched": "2026-11-03",
+    "researched": "2026-11-03",
     "sources": [
-     "https://floridapolitics.com/archives/738748-byron-donalds-brings-on-chris-hudson-as-campaign-manager"
+     "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor",
+     "https://www.wlrn.org/light/government-politics/2026-10-12/david-jolly-florida-governors-race",
+     "https://www.orlandoweekly.com/news/orlando-area-news/how-would-a-democratic-governor-work-with-a-gop-led-legislature-in-florida/",
+     "https://270towin.com/2026-governor-polls/florida"
     ]
    }
-  ]
- }
+  }
+ ]
 }

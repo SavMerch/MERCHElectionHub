@@ -25,7 +25,8 @@ test('research files: published ones carry sources; none list unsourced cabinet 
   import('node:fs').then(()=>{});
   const fs=readFileSync;const idx=JSON.parse(fs('research/index.json','utf8')).states;
   for(const s of idx){const r=JSON.parse(fs('research/'+s+'.json','utf8'));for(const n of r.nominees)assert.ok(n.sources&&n.sources.every(u=>/^https:\/\//.test(u)),s+' '+n.name);
-    for(const list of Object.values(r.cabinet||{}))for(const p of list)assert.ok(p.sources&&p.sources.length,s+' prospect needs sources')}});
+    const lists=[...Object.values(r.cabinet||{}),...r.nominees.flatMap(n=>Object.values(n.cabinet||{}))];for(const list of lists)for(const p of list)assert.ok(p.sources&&p.sources.length&&p.sources.every(u=>/^https:\/\//.test(u)),s+' prospect needs https sources');
+    for(const n of r.nominees)for(const x of n.positions||[])assert.ok(x.stance&&x.sources&&x.sources.length&&x.sources.every(u=>/^https:\/\//.test(u)),s+' position needs sources')}});
 test('scenario analyses are labeled, sourced and never claim a result',()=>{
   const fs=readFileSync;const idx=JSON.parse(fs('research/index.json','utf8')).states;let n=0;
   for(const s of idx){const r=JSON.parse(fs('research/'+s+'.json','utf8'));for(const x of r.nominees)if(x.analysis){n++;const a=x.analysis;

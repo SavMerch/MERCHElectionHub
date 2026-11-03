@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {parse} from '../netlify/functions/lib/adapters/nv.mjs';
+import {validateRace} from '../netlify/functions/lib/normalize.mjs';
+const ov={contests:[{id:'g',name:'Governor',choices:[{id:'a',kind:'Candidate',label:'Ford, Aaron D.',candidate:{displayName:'Ford, Aaron D.',partyId:'p1'}},{id:'b',kind:'Candidate',label:'X',candidate:{displayName:'X',partyId:'p2'}}]},{id:'m',name:'Question 1',choices:[]}],parties:[{id:'p1',abbreviation:'DEM'},{id:'p2',abbreviation:'REP'}]};
+const pre={g:{counties:[{countyCode:'01',choices:[{choiceId:'a',votes:null},{choiceId:'b',votes:null}]}]}};
+test('NV pre-polls: nulls stay null, only target offices',()=>{const r=parse({overview:ov,results:pre});assert.equal(r.length,1);assert.equal(r[0].candidates[0].votes,null);
+  const v=validateRace(r[0]);assert.ok(['pre_election','polls_open'].includes(v.status));assert.equal(v.candidates[0].party,'D')});
+test('NV sums counties',()=>{const res={g:{counties:[{choices:[{choiceId:'a',votes:30},{choiceId:'b',votes:10}]},{choices:[{choiceId:'a',votes:20},{choiceId:'b',votes:40}]}]}};
+  const [r]=parse({overview:ov,results:res});assert.deepEqual(r.candidates.map(c=>c.votes),[50,50]);assert.equal(r.candidates[0].pct,50);assert.equal(r.reportingPct,null)});
+test('NV rejects unknown shape',()=>{assert.throws(()=>parse({overview:{}}))});

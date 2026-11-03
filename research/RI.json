@@ -1,0 +1,40 @@
+{
+ "state": "RI",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "These are campaign staff and advisers, not announced administration appointments. Campaign roles do not establish who will serve in a cabinet. No transition team or cabinet picks were found. Polling shows a three-way race (Foulkes ahead of independent Ken Block).",
+ "nominees": [
+  {
+   "name": "Helena Foulkes",
+   "party": "D",
+   "role": "Democratic nominee",
+   "team": [
+    "Campaign staff reported Jan 2026: RJ Kermes (director of campaign operations; formerly chief of staff to Central Falls Mayor Maria Rivera), Angelika Pellegrino (communications director; formerly spokesperson for Sen. Sheldon Whitehouse), Nora Barre (director of outreach; formerly executive director of Downtown Providence Park Network).",
+    "Reported campaign advisers with Raimondo-era ties: Jon Romano (formerly a top Raimondo staffer who led the Promise program), Jonathan Blair (Raimondo's 2018 campaign manager); consultant Putnam Partners."
+   ],
+   "sources": [
+    "https://www.bostonglobe.com/2026/01/07/metro/foulkes-hires-key-staff-ri-governors-race",
+    "https://www.golocalprov.com/politics/foulkes-campaign-taps-raimondo-consultants-staffers-and-advisers"
+   ]
+  },
+  {
+   "name": "Aaron Guckian",
+   "party": "R",
+   "role": "Republican nominee",
+   "team": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections"
+   ]
+  },
+  {
+   "name": "Ken Block",
+   "party": "I",
+   "role": "Independent candidate",
+   "team": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

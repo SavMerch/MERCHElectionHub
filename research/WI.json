@@ -1,0 +1,27 @@
+{
+ "state": "WI",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Nominee names come from search snippets of secondary sources and should be confirmed against the state's certified ballot. No announced transition team, chief of staff or cabinet picks were found, so no cabinet prospects are listed.",
+ "nominees": [
+  {
+   "name": "David Crowley",
+   "party": "D",
+   "role": "Nominee",
+   "team": [],
+   "sources": [
+    "https://wisconsinexaminer.com/?p=48143"
+   ]
+  },
+  {
+   "name": "Tom Tiffany",
+   "party": "R",
+   "role": "Nominee",
+   "team": [],
+   "sources": [
+    "https://wisconsinexaminer.com/?p=48143"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

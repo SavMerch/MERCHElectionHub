@@ -1,0 +1,29 @@
+{
+ "state": "GU",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "No transition team, cabinet picks or polling found. Lt. Gov. Josh Tenorio lost the Democratic primary. Both tickets won their primaries (reported Aug 2, 2026).",
+ "nominees": [
+  {
+   "name": "Therese Terlaje",
+   "party": "D",
+   "role": "Democratic nominee",
+   "team": [],
+   "sources": [
+    "https://www.islapublic.org/news/2026-08-02/terlaje-perez-will-face-ada-calvo-in-race-for-adelup",
+    "https://en.wikipedia.org/wiki/2026_Guam_gubernatorial_election"
+   ]
+  },
+  {
+   "name": "Vicente \"Tony\" Ada",
+   "party": "R",
+   "role": "Republican nominee",
+   "team": [],
+   "sources": [
+    "https://www.islapublic.org/news/2026-08-02/terlaje-perez-will-face-ada-calvo-in-race-for-adelup",
+    "https://en.wikipedia.org/wiki/2026_Guam_gubernatorial_election"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

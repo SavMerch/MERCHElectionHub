@@ -1,0 +1,38 @@
+[build]
+  command = "node scripts/build.mjs"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/data"
+  to = "/.netlify/functions/data"
+  status = 200
+
+[[redirects]]
+  from = "/api/refresh"
+  to = "/.netlify/functions/refresh-now"
+  status = 200
+
+[[redirects]]
+  from = "/api/election-results"
+  to = "/.netlify/functions/election-results"
+  status = 200
+
+[[redirects]]
+  from = "/api/probe"
+  to = "/.netlify/functions/probe"
+  status = 200
+
+[[headers]]
+  for = "/research/*"
+  [headers.values]
+    Cache-Control = "public, max-age=300"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

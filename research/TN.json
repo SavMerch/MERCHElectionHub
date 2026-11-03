@@ -1,0 +1,27 @@
+{
+ "state": "TN",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "First research pass (2026-11-03) found no announced transition team, chief of staff or cabinet picks, so no cabinet prospects are listed. Research pending until a winner is called.",
+ "nominees": [
+  {
+   "name": "Marsha Blackburn",
+   "party": "R",
+   "role": "Republican nominee; sitting U.S. Senator",
+   "team": [],
+   "sources": [
+    "https://www.nbcnews.com/politics/politics-news/sen-marsha-blackburn-announces-running-governor-tennessee-rcna223338"
+   ]
+  },
+  {
+   "name": "Jerri Green",
+   "party": "D",
+   "role": "Democratic nominee",
+   "team": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

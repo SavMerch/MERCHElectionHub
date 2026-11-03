@@ -1,0 +1,27 @@
+{
+ "state": "MN",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "First research pass (2026-11-03) found no announced transition team, chief of staff or cabinet picks, so no cabinet prospects are listed. Research pending until a winner is called. Search results were mostly old campaign-staff stories from earlier Klobuchar races, which are not used.",
+ "nominees": [
+  {
+   "name": "Amy Klobuchar",
+   "party": "D",
+   "role": "Democratic-Farmer-Labor nominee; sitting U.S. Senator",
+   "team": [],
+   "sources": [
+    "https://www.valleynewslive.com/2026/01/22/sen-amy-klobuchar-takes-first-step-run-minnesota-governor-source-says/"
+   ]
+  },
+  {
+   "name": "Lisa Demuth",
+   "party": "R",
+   "role": "Republican nominee",
+   "team": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

@@ -1,0 +1,59 @@
+{
+ "state": "VI",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Territory governors take office in January. No transition team or cabinet picks found; no polling found. Plaskett (sitting delegate to Congress) won the Democratic primary on Aug 1, 2026. The four others are independents. Wikipedia still lists a Roach ticket; Roach lost the primary, so the Green Papers list is used.",
+ "nominees": [
+  {
+   "name": "Stacey E. Plaskett",
+   "party": "D",
+   "role": "Democratic nominee; sitting delegate to Congress",
+   "team": [],
+   "sources": [
+    "https://www.thegreenpapers.com/G26/VI",
+    "https://www.virginislandsnewsonline.com/en/news/madam-governor-stacey-e-plaskett-milton-e-potter-win-democratic-primary"
+   ]
+  },
+  {
+   "name": "Oakland Benta",
+   "party": "O",
+   "role": "Independent candidate",
+   "team": [],
+   "sources": [
+    "https://www.thegreenpapers.com/G26/VI",
+    "https://www.virginislandsnewsonline.com/en/news/madam-governor-stacey-e-plaskett-milton-e-potter-win-democratic-primary"
+   ]
+  },
+  {
+   "name": "Adlah \"Foncie\" Donastorg",
+   "party": "O",
+   "role": "Independent candidate",
+   "team": [],
+   "sources": [
+    "https://www.thegreenpapers.com/G26/VI",
+    "https://www.virginislandsnewsonline.com/en/news/madam-governor-stacey-e-plaskett-milton-e-potter-win-democratic-primary"
+   ]
+  },
+  {
+   "name": "Gustav James",
+   "party": "O",
+   "role": "Independent candidate",
+   "team": [],
+   "sources": [
+    "https://www.thegreenpapers.com/G26/VI",
+    "https://www.virginislandsnewsonline.com/en/news/madam-governor-stacey-e-plaskett-milton-e-potter-win-democratic-primary"
+   ]
+  },
+  {
+   "name": "Warren Mosler",
+   "party": "O",
+   "role": "Independent candidate",
+   "team": [],
+   "sources": [
+    "https://www.thegreenpapers.com/G26/VI",
+    "https://www.virginislandsnewsonline.com/en/news/madam-governor-stacey-e-plaskett-milton-e-potter-win-democratic-primary"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

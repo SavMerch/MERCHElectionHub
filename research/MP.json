@@ -1,0 +1,42 @@
+{
+ "state": "MP",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "No transition team, cabinet picks or polling found. Apatang (Independent) became governor July 24, 2025 after Gov. Palacios died, and is not running. Primary results were not found; the ballot above is from Green Papers (latest item Oct 2026) and Wikipedia (as of May 2026), so verify it.",
+ "nominees": [
+  {
+   "name": "Ralph Torres",
+   "party": "R",
+   "role": "Republican nominee; former governor (2015-2023)",
+   "team": [],
+   "sources": [
+    "https://www.thegreenpapers.com/G26/MP",
+    "https://en.wikipedia.org/wiki/2026_Northern_Mariana_Islands_gubernatorial_election",
+    "https://www.pacificislandtimes.com/post/how-gov-palacios-death-recasts-the-northern-marianas-political-terrain"
+   ]
+  },
+  {
+   "name": "Blas Jonathan \"BJ\" Attao",
+   "party": "O",
+   "role": "Independent candidate",
+   "team": [],
+   "sources": [
+    "https://www.thegreenpapers.com/G26/MP",
+    "https://en.wikipedia.org/wiki/2026_Northern_Mariana_Islands_gubernatorial_election",
+    "https://www.pacificislandtimes.com/post/how-gov-palacios-death-recasts-the-northern-marianas-political-terrain"
+   ]
+  },
+  {
+   "name": "Lawrence Camacho",
+   "party": "O",
+   "role": "Independent candidate",
+   "team": [],
+   "sources": [
+    "https://www.thegreenpapers.com/G26/MP",
+    "https://en.wikipedia.org/wiki/2026_Northern_Mariana_Islands_gubernatorial_election",
+    "https://www.pacificislandtimes.com/post/how-gov-palacios-death-recasts-the-northern-marianas-political-terrain"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

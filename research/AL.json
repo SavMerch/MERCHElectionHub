@@ -1,0 +1,30 @@
+{
+ "state": "AL",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "The team is a government-review group, not a cabinet slate: neither source names prospective cabinet members, and neither says Doufexis would be the governor's chief of staff. The team is said to include no lobbyists, legislators or former elected officials. Listed backgrounds are not predictions of appointments.",
+ "nominees": [
+  {
+   "name": "Tommy Tuberville",
+   "party": "R",
+   "role": "Republican nominee; sitting U.S. Senator",
+   "team": [
+    "Golden Age Action Team, announced July 24, 2026 and led by Jordan Doufexis (Tuberville's chief of staff). Stated purpose: review state government operations and recommend changes, focusing on waste and duplication. Members and documented backgrounds: Jonathan Gray (Mobile political consultant), Gibson Vance (Montgomery trial lawyer, former Alabama State Bar president), Jim McLane (founder of correctional health care company NaphCare), Chad Witcher (Synergi Partners COO; campaign finance chair), Loree Skelton (health care attorney; Alabama Cannabis Commission member), Bruce Culpepper (retired Shell Oil Company U.S. country chair), Reid Dove (AAA Cooper Transportation chairman), Kyle Burt (KyKenKee president)."
+   ],
+   "sources": [
+    "https://1819news.com/news/item/tuberville-announces-transition-team-in-anticipation-of-gubernatorial-win-this-is-a-team-of-heavy-hitters",
+    "https://aldailynews.com/tuberville-names-advisers-to-golden-age-transition-team/"
+   ]
+  },
+  {
+   "name": "Doug Jones",
+   "party": "D",
+   "role": "Democratic nominee",
+   "team": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

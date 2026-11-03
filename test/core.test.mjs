@@ -1,0 +1,15 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {phaseAt,shouldRun} from '../netlify/functions/lib/phase.mjs';
+import {validateRace,applyCalls,deriveStatus} from '../netlify/functions/lib/normalize.mjs';
+import {parse} from '../netlify/functions/lib/adapters/ca.mjs';
+import {readFileSync} from 'node:fs';
+const J=/const J=`([^`]+)`/.exec(readFileSync('site/index.html','utf8'))[1];
+test('56 jurisdictions, unique grid cells',()=>{const r=J.split('|');assert.equal(r.length,56);assert.equal(new Set(r.map(x=>x.split(',').slice(-2).join())).size,56)});
+test('phases',()=>{assert.equal(phaseAt(new Date('2026-11-04T02:00:00Z')),'night');assert.equal(phaseAt(new Date('2026-11-06T00:00:00Z')),'counting');assert.equal(phaseAt(new Date('2026-11-20T00:00:00Z')),'certification');assert.ok(shouldRun('fast',new Date('2026-11-04T02:00:00Z')));assert.ok(!shouldRun('fast',new Date('2026-11-06T00:00:00Z')))});
+const race=(o={})=>({state:'CA',office:'Governor',candidates:[{name:'A',party:'Democratic',votes:'10,000',pct:'55'},{name:'B',party:'Republican',votes:9000,pct:45}],reportingPct:50,...o});
+test('leading is never winner: status counting, no call',()=>{const v=validateRace(race());assert.equal(v.status,'counting');assert.equal(v.call,undefined)});
+test('no votes -> not counting',()=>{const v=validateRace(race({candidates:[{name:'A',party:'D',votes:0},{name:'B',party:'R',votes:0}]}));assert.ok(['pre_election','polls_open'].includes(v.status))});
+test('rejects bad data',()=>{assert.throws(()=>validateRace(race({candidates:[{name:'A',votes:-1}]})));assert.throws(()=>validateRace(race({candidates:[]})));assert.throws(()=>validateRace(race({reportingPct:140})))});
+test('calls need https source',()=>{const r=[validateRace(race())];applyCalls(r,[{state:'CA',office:'Governor',winner:'A',winnerParty:'D',status:'projected',source:'http://x'}]);assert.equal(r[0].call,undefined);applyCalls(r,[{state:'CA',office:'Governor',winner:'A',winnerParty:'D',status:'projected',source:'https://x.gov'}]);assert.equal(r[0].status,'projected')});
+test('unofficial_final needs final flag',()=>{assert.equal(deriveStatus({candidates:[{votes:5}],reportingPct:100,final:false}),'counting');assert.equal(deriveStatus({candidates:[{votes:5}],reportingPct:100,final:true}),'unofficial_final')});
+test('CA parse rejects unknown shape',()=>{assert.throws(()=>parse({foo:1}))});

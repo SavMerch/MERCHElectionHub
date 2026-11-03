@@ -1,0 +1,27 @@
+{
+ "state": "FL",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Nominee names come from search snippets of secondary sources and should be confirmed against the state's certified ballot. No announced transition team, chief of staff or cabinet picks were found, so no cabinet prospects are listed. Single low-quality aggregator source: confidence low.",
+ "nominees": [
+  {
+   "name": "Byron Donalds",
+   "party": "R",
+   "role": "U.S. Representative",
+   "team": [],
+   "sources": [
+    "https://www.betterworld.info/taxonomy/term/30954"
+   ]
+  },
+  {
+   "name": "David Jolly",
+   "party": "D",
+   "role": "Former U.S. Representative",
+   "team": [],
+   "sources": [
+    "https://www.betterworld.info/taxonomy/term/30954"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

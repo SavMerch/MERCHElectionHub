@@ -1,0 +1,28 @@
+{
+ "state": "CA",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "First research pass (2026-11-03) found no announced transition team, chief of staff or cabinet picks, so no cabinet prospects are listed. Research pending until a winner is called.",
+ "nominees": [
+  {
+   "name": "Xavier Becerra",
+   "party": "D",
+   "role": "Democratic nominee; former U.S. HHS Secretary",
+   "team": [],
+   "sources": [
+    "https://www.multistate.us/elections/governor-race/california-2026",
+    "https://nbcmontana.com/news/nation-world/former-hhs-head-xavier-becerra-launches-bid-for-governor-of-california"
+   ]
+  },
+  {
+   "name": "Steve Hilton",
+   "party": "R",
+   "role": "Nominee",
+   "team": [],
+   "sources": [
+    "https://www.multistate.us/elections/governor-race/california-2026"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

@@ -1,0 +1,29 @@
+{
+ "state": "NV",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Nominee names come from search snippets of secondary sources and should be confirmed against the state's certified ballot. No announced transition team, chief of staff or cabinet picks were found, so no cabinet prospects are listed.",
+ "nominees": [
+  {
+   "name": "Joe Lombardo",
+   "party": "R",
+   "role": "Incumbent governor",
+   "team": [],
+   "sources": [
+    "https://www.bhfs.com/insight/2026-gubernatorial-race-overview/",
+    "https://www.nbcnews.com/politics/rcna248043"
+   ]
+  },
+  {
+   "name": "Aaron Ford",
+   "party": "D",
+   "role": "Attorney General",
+   "team": [],
+   "sources": [
+    "https://www.bhfs.com/insight/2026-gubernatorial-race-overview/",
+    "https://www.nbcnews.com/politics/rcna248043"
+   ]
+  }
+ ],
+ "cabinet": {}
+}

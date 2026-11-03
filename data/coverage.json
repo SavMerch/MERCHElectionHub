@@ -1,0 +1,144 @@
+{
+ "asOf": "2026-11-03",
+ "note": "Browser inspection (built-in browser, 2026-11-03 ~12:00-12:45 ET). Inspected: OH NV NY MA OR NM OK SD AK HI TN WI NE NH MD IL. Not inspected: AL KS ME WY VI GU MP. 'VERIFIED READY' = endpoint returned valid 2026 general-election candidate data with no votes yet. Nothing is VERIFIED LIVE because polls have not closed; adapters are unrun against real votes.",
+ "jurisdictions": {
+  "AL": {
+   "candidate": "https://www.sos.alabama.gov/alabama-votes/election-results",
+   "status": "UNVERIFIED"
+  },
+  "AK": {
+   "candidate": "https://www.elections.alaska.gov/results/",
+   "status": "BLOCKED",
+   "detail": "www.elections.alaska.gov/results/ returned 403 Forbidden to the browser pane. Not worked around."
+  },
+  "HI": {
+   "candidate": "https://elections.hawaii.gov/election-results/",
+   "status": "UNVERIFIED",
+   "detail": "General-election text files are placeholders (\"Information will be posted at a later date\"). The 2026 primary summary.txt (tab-delimited) was inspected and an adapter written to that format; the general file URL is unconfirmed, so the adapter needs HI_RESULTS_URL and ENABLE_HI=1.",
+   "adapter": "hi"
+  },
+  "IL": {
+   "candidate": "https://elections.il.gov/",
+   "status": "HISTORICAL ONLY",
+   "detail": "CSV per office exists (Downloads/ElectionOperations/ElectionResults/ByOffice/69/\u2026-2026GP.csv) but only for the March 2026 general primary; the 2026 general election is not listed yet. A format fetch timed out, so the CSV layout is unverified."
+  },
+  "KS": {
+   "candidate": "https://www.sos.ks.gov/elections/",
+   "status": "UNVERIFIED"
+  },
+  "ME": {
+   "candidate": "https://www.maine.gov/sos/cec/elec/results/index.html",
+   "status": "UNVERIFIED"
+  },
+  "MD": {
+   "candidate": "https://elections.maryland.gov/",
+   "status": "UNVERIFIED",
+   "detail": "Unofficial results page exists at elections.maryland.gov/elections/2026/general_results/index.html; no CSV/JSON link found yet."
+  },
+  "MA": {
+   "candidate": "https://electionstats.state.ma.us/",
+   "status": "HISTORICAL ONLY",
+   "endpoint": "https://electionstats.state.ma.us/elections/search/year_from:2026/year_to:2026/stage:General",
+   "format": "JSON (served as text/html)",
+   "auth": false,
+   "adapter": null,
+   "detail": "JSON search works and lists only a 2026-03-03 special election; the November general is not listed yet. Office and district IDs for the general are unknown until it appears. Same platform as NH (nh.electionstats.com)."
+  },
+  "NE": {
+   "candidate": "https://electionresults.nebraska.gov/",
+   "status": "VERIFIED READY",
+   "endpoint": "https://electionresults.nebraska.gov/resultsCSV.aspx?text=All&type=SW&map=CTY (+type=CG&map=DIST)",
+   "format": "CSV",
+   "auth": false,
+   "cors": false,
+   "adapter": "ne",
+   "detail": "Senate, Governor and 3 House districts with 0 votes."
+  },
+  "NV": {
+   "candidate": "https://silverstateelection.nv.gov/",
+   "status": "VERIFIED READY",
+   "endpoint": "https://silverstateelection.nv.gov/results-config.json -> manifest.json",
+   "format": "JSON",
+   "auth": false,
+   "cors": false,
+   "adapter": "nv",
+   "detail": "Governor and 4 US House districts with candidates; county votes null. Manifest release sequence 5 generated 2026-10-28. No US Senate race on the 2026 ballot there. Cloudflare/Incapsula wrapper on the site: unattended server fetches not yet tested."
+  },
+  "NH": {
+   "candidate": "https://nh.electionstats.com/",
+   "status": "UNVERIFIED",
+   "detail": "nh.electionstats.com search URL returned \"Page not found\" in the browser pane; the NH ElectionStats path was not confirmed."
+  },
+  "NM": {
+   "candidate": "https://electionresults.sos.nm.gov/",
+   "status": "VERIFIED READY",
+   "endpoint": "https://electionresults.sos.nm.gov/resultsCSV.aspx?text=All&type=FED&map=CTY (+type=SW)",
+   "format": "CSV",
+   "auth": false,
+   "cors": false,
+   "adapter": "nm",
+   "detail": "Senate, 3 House districts and Governor with 0 votes and 0/2204 precincts. Site auto-updates about every 5 minutes."
+  },
+  "NY": {
+   "candidate": "https://www.elections.ny.gov/",
+   "status": "UNVERIFIED",
+   "detail": "ENR site (nyenr.elections.ny.gov) is server-rendered ASP.NET HTML; no JSON/CSV requests seen. Polls close 9 PM; page lists no contests yet, so contest pages could not be inspected."
+  },
+  "OH": {
+   "candidate": "https://liveresults.ohiosos.gov/",
+   "status": "VERIFIED READY",
+   "endpoint": "https://liveresults.ohiosos.gov/Api/v1/Contest/GetContestDetailsObject?contestName=...",
+   "format": "JSON",
+   "auth": false,
+   "cors": false,
+   "adapter": "oh",
+   "detail": "2026 Governor, US Senate and 15 US House districts returned with candidates and 0 votes. Also GetElectionSummaryCsv (CSV). Undocumented API; terms of use not checked."
+  },
+  "OK": {
+   "candidate": "https://results.okelections.us/",
+   "status": "BLOCKED",
+   "detail": "results.okelections.us returned 403 Forbidden to the browser pane. Not worked around."
+  },
+  "OR": {
+   "candidate": "https://results.oregonvotes.gov/",
+   "status": "UNVERIFIED",
+   "detail": "Same vendor platform as NM/SD/NE, but /resultsCSV.aspx is not available. Exports are ASP.NET postbacks (ResultsExport.aspx) and a test postback returned HTML, not a file."
+  },
+  "SD": {
+   "candidate": "https://electionresults.sd.gov/",
+   "status": "VERIFIED READY",
+   "endpoint": "https://electionresults.sd.gov/resultsCSV.aspx?text=All&type=SWR&map=CTY",
+   "format": "CSV",
+   "auth": false,
+   "cors": false,
+   "adapter": "sd",
+   "detail": "Senate, at-large House and Governor with 0 votes, 0/671 precincts, source timestamp."
+  },
+  "TN": {
+   "candidate": "https://www.tnelectionresults.com/home",
+   "status": "UNVERIFIED",
+   "detail": "Real ENR dashboard is tnelectionresults.com (the .tn.gov host does not load). Shows \"November 3, 2026 Election\"; no JSON/CSV/export link found."
+  },
+  "WI": {
+   "candidate": "https://elections.wi.gov/elections-voting/results",
+   "status": "BLOCKED",
+   "detail": "State commission publishes only post-canvass results (archive page shows 2026 primary, no election-night feed). Statewide election-night totals come from counties; no free state feed identified."
+  },
+  "WY": {
+   "candidate": "https://wyoelections.wyo.gov/",
+   "status": "UNVERIFIED"
+  },
+  "VI": {
+   "candidate": "https://vivote.gov/",
+   "status": "UNVERIFIED"
+  },
+  "GU": {
+   "candidate": "https://gec.guam.gov/",
+   "status": "UNVERIFIED"
+  },
+  "MP": {
+   "candidate": "https://www.votecnmi.gov.mp/",
+   "status": "UNVERIFIED"
+  }
+ }
+}

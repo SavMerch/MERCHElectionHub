@@ -178,12 +178,48 @@
      {
       "name": "Jared Perdue",
       "currentPosition": "Named to lead the Division of Emergency Management (Aug. 26, 2026 headline; article not opened)",
-      "status": "HOLDOVER OPTION; Sept. 2 appointments: Jay K. Arnold Jr. (chief of staff/finance), Dr. Frank E. Lumm (SERT chief), Amy Godsey (acting response bureau chief)",
+      "why": "Current head, so the default if the new governor keeps the post. No Donalds statement found; a Republican successor to DeSantis has less reason to replace an appointee made this summer.",
+      "status": "Current head, so the default if the new governor keeps the post. No Donalds statement found; a Republican successor to DeSantis has less reason to replace an appointee made this summer.",
       "kind": "holdover",
       "confidence": "low-medium",
       "lastResearched": "2026-11-03",
       "sources": [
-       "https://www.tampabay.com/news/florida-politics/2026/08/26/desantis-emergency-management-jared-perdue-hurricanes/",
+       "https://www.tampabay.com/news/florida-politics/2026/08/26/desantis-emergency-management-jared-perdue-hurricanes/"
+      ]
+     },
+     {
+      "name": "Jay K. Arnold Jr.",
+      "currentPosition": "Chief of Staff and Deputy Executive Director, Finance and Administration (named Sept. 2, 2026)",
+      "why": "Senior career-style deputy; the natural interim or successor if the head leaves (inference).",
+      "status": "Senior career-style deputy; the natural interim or successor if the head leaves (inference).",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.floridadisaster.org/news-media/news/20260902-florida-division-of-emergency-management-announces-key-leadership-appointments/"
+      ]
+     },
+     {
+      "name": "Dr. Frank E. Lumm",
+      "currentPosition": "State Emergency Response Team (SERT) Chief (named Sept. 2, 2026)",
+      "why": "Runs the operational response side; a credible operations-focused alternate (inference).",
+      "status": "Runs the operational response side; a credible operations-focused alternate (inference).",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.floridadisaster.org/news-media/news/20260902-florida-division-of-emergency-management-announces-key-leadership-appointments/"
+      ]
+     },
+     {
+      "name": "Amy Godsey",
+      "currentPosition": "Acting Bureau Chief of Response (named Sept. 2, 2026)",
+      "why": "Acting title and newest of the three, so the weakest alternate (inference).",
+      "status": "Acting title and newest of the three, so the weakest alternate (inference).",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
        "https://www.floridadisaster.org/news-media/news/20260902-florida-division-of-emergency-management-announces-key-leadership-appointments/"
       ]
      }
@@ -309,13 +345,49 @@
     "Emergency Management": [
      {
       "name": "Jared Perdue",
-      "currentPosition": "Current Division of Emergency Management head (Aug. 26, 2026 headline; article not opened)",
-      "status": "HOLDOVER OPTION: no Jolly statement found",
+      "currentPosition": "Named to lead the Division of Emergency Management (Aug. 26, 2026 headline; article not opened)",
+      "why": "Current head, so the default if the new governor keeps the post. No Jolly statement found; a party change makes a reset of agency heads more likely.",
+      "status": "Current head, so the default if the new governor keeps the post. No Jolly statement found; a party change makes a reset of agency heads more likely.",
       "kind": "holdover",
+      "confidence": "low-medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.tampabay.com/news/florida-politics/2026/08/26/desantis-emergency-management-jared-perdue-hurricanes/"
+      ]
+     },
+     {
+      "name": "Jay K. Arnold Jr.",
+      "currentPosition": "Chief of Staff and Deputy Executive Director, Finance and Administration (named Sept. 2, 2026)",
+      "why": "Senior career-style deputy; the natural interim or successor if the head leaves (inference).",
+      "status": "Senior career-style deputy; the natural interim or successor if the head leaves (inference).",
+      "kind": "inferred",
       "confidence": "low",
       "lastResearched": "2026-11-03",
       "sources": [
-       "https://www.tampabay.com/news/florida-politics/2026/08/26/desantis-emergency-management-jared-perdue-hurricanes/",
+       "https://www.floridadisaster.org/news-media/news/20260902-florida-division-of-emergency-management-announces-key-leadership-appointments/"
+      ]
+     },
+     {
+      "name": "Dr. Frank E. Lumm",
+      "currentPosition": "State Emergency Response Team (SERT) Chief (named Sept. 2, 2026)",
+      "why": "Runs the operational response side; a credible operations-focused alternate (inference).",
+      "status": "Runs the operational response side; a credible operations-focused alternate (inference).",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.floridadisaster.org/news-media/news/20260902-florida-division-of-emergency-management-announces-key-leadership-appointments/"
+      ]
+     },
+     {
+      "name": "Amy Godsey",
+      "currentPosition": "Acting Bureau Chief of Response (named Sept. 2, 2026)",
+      "why": "Acting title and newest of the three, so the weakest alternate (inference).",
+      "status": "Acting title and newest of the three, so the weakest alternate (inference).",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
        "https://www.floridadisaster.org/news-media/news/20260902-florida-division-of-emergency-management-announces-key-leadership-appointments/"
       ]
      }

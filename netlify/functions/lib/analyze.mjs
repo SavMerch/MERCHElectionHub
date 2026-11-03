@@ -1,6 +1,7 @@
 // "Conduct analysis": live, sourced research via the Anthropic Messages API + web_search tool.
 // Output is AI-generated, labeled as such, and every item must cite a URL that the search tool actually returned.
-export const TABS={Cabinet:'cabinet prospects and who a new governor would likely keep, replace or appoint',Policy:'policy positions and what they imply for the agencies and local governments',Scenarios:'the transition outlook, timing, priorities, first moves and risks'};
+export const TABS={Cabinet:'cabinet prospects and who a new governor would likely keep, replace or appoint',Policy:'policy positions and what they imply for the agencies and local governments',Scenarios:'the transition outlook, timing, priorities, first moves and risks',Advisory:'disaster-recovery and public-sector advisory exposure (see the advisory brief below)'};
+const ADV=`Advisory brief: for this candidate, find what is on the record about FEMA Public Assistance and Hazard Mitigation, HUD CDBG-DR/CDBG-MIT, grant management and compliance, infrastructure and transportation funding, broadband and economic development, state emergency management leadership and readiness, and state procurement and professional-services practices. For each area give (a) verified commitments or statements, labeled "reported", and (b) what it likely means for a disaster-recovery and grants-management advisory firm (new demand, procurement changes, compliance risk, cost-share pressure on local governments), labeled "inference". Also note state-specific context that drives demand: recent disaster declarations, open recovery programs, pending state or local funding changes. Use findings headings that name the area. Put named people in prospects only if a source ties them to these functions.`;
 export const key=(s,t,c)=>`analysis/${s}-${t}-${c}`.toLowerCase();
 export function buildPrompt({state,stateName,tab,cand,incumbent,known}){
   return `You are researching the ${new Date().getFullYear()} ${stateName} (${state}) governor's race for a transition-advisory dashboard.
@@ -12,7 +13,7 @@ Use web_search. Prefer news outlets, official state sites and campaign sites. Ru
 - Mark each finding label "reported" (a source states it) or "inference" (your reasoning from reported facts).
 - Do not invent names. If a role has no identifiable prospect, put it in "gaps".
 - Cabinet prospects must be real people tied to the candidate or the role by a cited source, with the basis stated.
-Return ONLY JSON: {"summary":string,"findings":[{"heading":string,"text":string,"label":"reported"|"inference","sources":[url]}],"prospects":[{"role":string,"name":string,"basis":string,"label":"reported"|"inference","sources":[url]}],"gaps":[string]}`}
+${tab==='Advisory'?ADV+'\n':''}Return ONLY JSON: {"summary":string,"findings":[{"heading":string,"text":string,"label":"reported"|"inference","sources":[url]}],"prospects":[{"role":string,"name":string,"basis":string,"label":"reported"|"inference","sources":[url]}],"gaps":[string]}`}
 export function collectUrls(content){const s=new Set();const walk=x=>{if(!x||typeof x!=='object')return;if(Array.isArray(x))return x.forEach(walk);if(typeof x.url==='string'&&/^https:\/\//.test(x.url))s.add(x.url);Object.values(x).forEach(walk)};
   for(const b of content||[]){if(b.type==='web_search_tool_result'||b.type==='text')walk(b)}return s}
 export function parseJson(text){const m=text.match(/\{[\s\S]*\}/);if(!m)return null;try{return JSON.parse(m[0])}catch(e){return null}}

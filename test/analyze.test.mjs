@@ -36,3 +36,4 @@ test('background stores result or error',async()=>{process.env.ANALYZE_TOKEN='to
   await bg(rq(),{},{store:st,fetch:async()=>({ok:false,status:500,text:async()=>'x'})});
   assert.equal(st.m.get('analysis/ks-cabinet-r').status,'error');
   const f=await bg(new Request('https://x.test/',{method:'POST',headers:{'x-analyze-token':'no'},body}),{},{store:st});assert.equal(f.status,403)});
+test('advisory prompt carries the advisory brief and rules',()=>{const p=buildPrompt({state:'FL',stateName:'Florida',tab:'Advisory',cand:{name:'X',party:'D'}});assert.match(p,/FEMA Public Assistance/);assert.match(p,/CDBG-DR/);assert.match(p,/No source = do not include/)});

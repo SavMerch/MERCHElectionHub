@@ -1,0 +1,179 @@
+{
+ "state": "CT",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. Incumbent continuity; only the governor's FY2027 budget release was opened, so this entry is thin. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "Ned Lamont",
+   "party": "D",
+   "role": "Democratic incumbent governor seeking a third term",
+   "team": [],
+   "sources": [
+    "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+   ],
+   "positions": [
+    {
+     "topic": "Taxes",
+     "stance": "Keeps middle-class income tax cuts, expanded EITC rates, senior exemptions and the motor-vehicle tax cap; eliminates sales tax on school supplies; raises Sales Tax-Free Week ceiling to $300; converts THC tax to a 10.75% excise tax (Governor's press release).",
+     "sources": [
+      "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+     ]
+    },
+    {
+     "topic": "Education and local aid",
+     "stance": "About $193 million in supplemental K-12 grants; more than $100 million one-time to lower local property taxes; about $300 million for the Early Childhood Education Endowment; universal free school breakfast.",
+     "sources": [
+      "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+     ]
+    },
+    {
+     "topic": "Fiscal management",
+     "stance": "Over $1 billion in extra pension payments in each of FY2026 and FY2027; Federal Cuts Response Fund up $50 million; $813.7 million of volatile revenue spent under a governor's declaration.",
+     "sources": [
+      "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Pensions and reserves",
+     "shift": "Continued large pension paydowns and a federal-cuts response fund.",
+     "lever": "legislative (budget)",
+     "sources": [
+      "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+     ]
+    },
+    {
+     "area": "Municipal aid",
+     "shift": "More one-time local aid to hold down property taxes.",
+     "lever": "legislative (budget)",
+     "sources": [
+      "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Federal cuts",
+     "detail": "A larger Federal Cuts Response Fund signals expected federal reductions; Medicaid shortfalls cited ($80 million).",
+     "severity": "medium",
+     "sources": [
+      "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+     ]
+    },
+    {
+     "title": "Volatility cap",
+     "detail": "Spending of surplus depends on a governor's declaration under the volatility cap.",
+     "severity": "low",
+     "sources": [
+      "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+     ]
+    }
+   ],
+   "insights": [
+    "Third-term incumbent: expect continuity in the budget framework; personnel change is incremental. These figures are from the governor's own release.",
+    "Sources for Lamont's third-term agenda beyond the FY2027 budget were not opened."
+   ],
+   "analysis": {
+    "assumption": "Scenario: assumes Ned Lamont wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "Incumbent continuity: fiscal-guardrail budgeting, municipal aid and pension payments.",
+    "timing": "Next term begins Jan. 2027 (verify).",
+    "priorities": [
+     "Continue FY2027 budget framework."
+    ],
+    "firstMoves": [
+     "No cabinet changes announced in sources opened."
+    ],
+    "risks": [
+     "Federal funding cuts."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "low",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+    ]
+   },
+   "cabinet": {
+    "Chief of Staff": [
+     {
+      "name": "Paul Mounds Jr.",
+      "currentPosition": "Chief of Staff to the Governor",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Jeffrey Beckham",
+      "currentPosition": "Secretary, Office of Policy and Management",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "Manisha Juthani",
+      "currentPosition": "Commissioner, Department of Public Health",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Garrett Eucalitto",
+      "currentPosition": "Commissioner, Department of Transportation",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Commerce / Economic Development": [
+     {
+      "name": "Daniel O'Keefe",
+      "currentPosition": "Commissioner, Department of Economic and Community Development",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "William Turner",
+      "currentPosition": "Commissioner, Dept. of Emergency Services and Public Protection / emergency management leadership",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   }
+  }
+ ]
+}

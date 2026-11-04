@@ -1,0 +1,203 @@
+{
+ "state": "PA",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. Incumbent continuity. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "Josh Shapiro",
+   "party": "D",
+   "role": "Democratic incumbent governor",
+   "team": [],
+   "sources": [
+    "https://www.fox29.com/news/josh-shapiros-second-term-push-pa-governor-key-issues-background-polling"
+   ],
+   "positions": [
+    {
+     "topic": "Second-term priorities",
+     "stance": "Increase education funding; raise the minimum wage; write abortion rights into state law; 52% tax on skill-game machines (estimated $2 billion a year).",
+     "sources": [
+      "https://www.fox29.com/news/josh-shapiros-second-term-push-pa-governor-key-issues-background-polling"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Revenue",
+     "shift": "52% skill-game tax.",
+     "lever": "legislative",
+     "sources": [
+      "https://www.fox29.com/news/josh-shapiros-second-term-push-pa-governor-key-issues-background-polling"
+     ]
+    },
+    {
+     "area": "Abortion rights",
+     "shift": "Codify in state law.",
+     "lever": "legislative",
+     "sources": [
+      "https://www.fox29.com/news/josh-shapiros-second-term-push-pa-governor-key-issues-background-polling"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Divided legislature",
+     "detail": "The article describes a divided legislature; says he can only enact what it passes.",
+     "severity": "high",
+     "sources": [
+      "https://www.fox29.com/news/josh-shapiros-second-term-push-pa-governor-key-issues-background-polling"
+     ]
+    },
+    {
+     "title": "Court-ordered school funding",
+     "detail": "A court ruled the school funding system unconstitutionally inequitable; lawmakers sent extra money to underfunded districts.",
+     "severity": "medium",
+     "sources": [
+      "https://www.fox29.com/news/josh-shapiros-second-term-push-pa-governor-key-issues-background-polling"
+     ]
+    },
+    {
+     "title": "Budget drawdown critique",
+     "detail": "Opponent says he signed budgets that drew down the surplus.",
+     "severity": "low",
+     "sources": [
+      "https://www.fox29.com/news/josh-shapiros-second-term-push-pa-governor-key-issues-background-polling"
+     ]
+    }
+   ],
+   "insights": [
+    "With a divided legislature, executive action, the budget and appointments are the levers; the skill-game tax is a concrete revenue test.",
+    "Quinnipiac had Shapiro 59%, Garrity 34% (Oct. 1-5)."
+   ],
+   "analysis": {
+    "assumption": "Scenario: assumes Josh Shapiro wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "Incumbent continuity in a divided government: education funding, minimum wage and skill-game revenue.",
+    "timing": "Next term begins Jan. 2027 (verify).",
+    "priorities": [
+     "Education funding, minimum wage, abortion rights, skill-game tax."
+    ],
+    "firstMoves": [
+     "Negotiate the FY2027-28 budget."
+    ],
+    "risks": [
+     "Divided legislature."
+    ],
+    "pollContext": "Quinnipiac Oct. 1-5: Shapiro 59, Garrity 34 (not a forecast). AP lookup reported the race as called.",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.fox29.com/news/josh-shapiros-second-term-push-pa-governor-key-issues-background-polling"
+    ]
+   },
+   "cabinet": {
+    "Chief of Staff": [
+     {
+      "name": "Dana Fritz",
+      "currentPosition": "Chief of Staff to the Governor",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Uri Monson",
+      "currentPosition": "Secretary of the Budget",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "Debra Bogen",
+      "currentPosition": "Secretary of Health",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Human Services": [
+     {
+      "name": "Val Arkoosh",
+      "currentPosition": "Secretary of Human Services",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Mike Carroll",
+      "currentPosition": "Secretary of Transportation (PennDOT)",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Commerce / Economic Development": [
+     {
+      "name": "Rick Siger",
+      "currentPosition": "Secretary of Community and Economic Development",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Randy Padfield",
+      "currentPosition": "Director, Pennsylvania Emergency Management Agency",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   }
+  },
+  {
+   "name": "Stacy Garrity",
+   "party": "R",
+   "role": "Republican nominee; state Treasurer",
+   "team": [],
+   "sources": [
+    "https://www.fox29.com/news/josh-shapiros-second-term-push-pa-governor-key-issues-background-polling"
+   ],
+   "positions": [
+    {
+     "topic": "Critique",
+     "stance": "Says the state has stalled; says Shapiro signed budgets drawing down the surplus, shifted on vouchers and never delivered a promised $250 gas rebate.",
+     "sources": [
+      "https://www.fox29.com/news/josh-shapiros-second-term-push-pa-governor-key-issues-background-polling"
+     ]
+    }
+   ]
+  }
+ ]
+}

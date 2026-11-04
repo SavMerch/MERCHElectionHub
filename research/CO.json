@@ -1,0 +1,162 @@
+{
+ "state": "CO",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "Phil Weiser",
+   "party": "D",
+   "role": "Democratic nominee; Colorado Attorney General",
+   "team": [
+    "Jena Griswold, Colorado Secretary of State, is the Democratic nominee for Attorney General (Foley Hoag); not an appointee."
+   ],
+   "sources": [
+    "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado",
+    "https://foleyhoag.com/news-and-insights/blogs/state-ag-insights/2026/september/colorado-2026-elections-democratic-nominees-for-governor-and-attorney-general-what-healthcare-li/"
+   ],
+   "positions": [
+    {
+     "topic": "Housing and affordability",
+     "stance": "Increase attainable owner-occupied homes by 40,000; stands with renters; commentary notes few specifics.",
+     "sources": [
+      "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+     ]
+    },
+    {
+     "topic": "Health care",
+     "stance": "'Primary care for all'; strengthen the Colorado Option; doubts a full public option, would study single-payer; challenge hospital consolidation, surprise billing and medical debt; safety-net stabilization task force for federal cuts; continue insulin caps and drug-price enforcement.",
+     "sources": [
+      "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado",
+      "https://foleyhoag.com/news-and-insights/blogs/state-ag-insights/2026/september/colorado-2026-elections-democratic-nominees-for-governor-and-attorney-general-what-healthcare-li/"
+     ]
+    },
+    {
+     "topic": "Rights and elections",
+     "stance": "Protect elections, reproductive and LGBTQ+ rights, public lands and fair representation; early supporter of emergency redistricting, which Polis opposed.",
+     "sources": [
+      "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+     ]
+    },
+    {
+     "topic": "Labor",
+     "stance": "Would not support the Worker Protection Act that Polis vetoed twice.",
+     "sources": [
+      "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+     ]
+    },
+    {
+     "topic": "Litigation",
+     "stance": "His office has sued the Trump administration almost 70 times.",
+     "sources": [
+      "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Health",
+     "shift": "Systemwide shift toward primary care and consolidation scrutiny.",
+     "lever": "mixed",
+     "sources": [
+      "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado",
+      "https://foleyhoag.com/news-and-insights/blogs/state-ag-insights/2026/september/colorado-2026-elections-democratic-nominees-for-governor-and-attorney-general-what-healthcare-li/"
+     ]
+    },
+    {
+     "area": "Federal relations",
+     "shift": "Continued litigation posture; commentary asks about 'uncooperative federalism' but he has not committed.",
+     "lever": "executive",
+     "sources": [
+      "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+     ]
+    },
+    {
+     "area": "Redistricting",
+     "shift": "Support for a mid-decade map change (a ballot measure question raised in commentary).",
+     "lever": "legislative / ballot",
+     "sources": [
+      "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Federal funding cuts",
+     "detail": "Safety-net stabilization task force proposed in response to federal cuts.",
+     "severity": "high",
+     "sources": [
+      "https://foleyhoag.com/news-and-insights/blogs/state-ag-insights/2026/september/colorado-2026-elections-democratic-nominees-for-governor-and-attorney-general-what-healthcare-li/"
+     ]
+    },
+    {
+     "title": "Budget and TABOR",
+     "detail": "The commentary did not cover revenue plans or TABOR constraints; a known structural constraint to verify.",
+     "severity": "medium",
+     "sources": [
+      "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+     ]
+    },
+    {
+     "title": "Differences from Polis",
+     "detail": "Redistricting split; style shift; some continuity on immigration data-sharing positions.",
+     "severity": "low",
+     "sources": [
+      "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+     ]
+    }
+   ],
+   "insights": [
+    "Continuity-with-reset: same party as Polis, so agency heads can be retained, but Weiser's health and litigation agenda favors appointees from his AG office (inference).",
+    "AG succession (Griswold is the Democratic nominee) means the new governor and AG would be close allies; the AG's race status was not checked here."
+   ],
+   "cabinet": {
+    "Political / campaign leadership": [
+     {
+      "name": "Jena Griswold",
+      "currentPosition": "Secretary of State; Democratic nominee for Attorney General",
+      "why": "INFERRED: ticket-adjacent ally, not an appointee; AG race status not verified",
+      "status": "INFERRED: ticket-adjacent ally, not an appointee; AG race status not verified",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://foleyhoag.com/news-and-insights/blogs/state-ag-insights/2026/september/colorado-2026-elections-democratic-nominees-for-governor-and-attorney-general-what-healthcare-li/"
+      ]
+     }
+    ]
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes Phil Weiser wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "A Democratic-to-Democratic handoff from Polis with a shift in style and priorities: health-system oversight, affordability and a litigation posture toward the federal government. The AG's office is likely to be held by an ally.",
+    "timing": "Inauguration expected Jan. 12, 2027 (second Tuesday in January; verify).",
+    "priorities": [
+     "Primary care for all and health-cost enforcement.",
+     "Housing affordability.",
+     "Protect elections and rights."
+    ],
+    "firstMoves": [
+     "Name chief of staff and agency heads; decide which Polis appointees stay (none identified).",
+     "Set up safety-net stabilization task force.",
+     "Coordinate with the incoming AG on litigation."
+    ],
+    "risks": [
+     "Federal funding cuts.",
+     "TABOR constraints not addressed in sources."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado",
+     "https://foleyhoag.com/news-and-insights/blogs/state-ag-insights/2026/september/colorado-2026-elections-democratic-nominees-for-governor-and-attorney-general-what-healthcare-li/"
+    ]
+   }
+  }
+ ]
+}

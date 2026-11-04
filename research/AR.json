@@ -1,0 +1,235 @@
+{
+ "state": "AR",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. Incumbent continuity. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "Sarah Huckabee Sanders",
+   "party": "R",
+   "role": "Republican incumbent governor",
+   "team": [
+    "Staff announced July 31, 2026: Heather Patterson (Director of Advance and Coalitions), Josh Stewart (Director of Legislative Affairs), Zach Jacobs (Policy Director)."
+   ],
+   "sources": [
+    "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers",
+    "https://www.kait8.com/2026/07/31/gov-sanders-announces-new-staff-ahead-2027-legislative-session/"
+   ],
+   "positions": [
+    {
+     "topic": "Taxes",
+     "stance": "Fourth income-tax cut (about $180 million) after cutting rates 20% over three years; lawmakers signaled a special session on tax cuts.",
+     "sources": [
+      "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+     ]
+    },
+    {
+     "topic": "Education",
+     "stance": "Top priority; credits LEARNS Act; school vouchers up to $309 million (+$122 million) plus up to $70 million surplus.",
+     "sources": [
+      "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+     ]
+    },
+    {
+     "topic": "Public safety",
+     "stance": "1,500 new prison beds, tougher sentencing, $53.4 million employee pay plan mostly for corrections and troopers.",
+     "sources": [
+      "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+     ]
+    },
+    {
+     "topic": "Health",
+     "stance": "No new Medicaid coverage mandates; no new multiyear spending obligations.",
+     "sources": [
+      "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Tax cuts",
+     "shift": "Another income-tax cut after the fiscal session.",
+     "lever": "legislative (special session)",
+     "sources": [
+      "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+     ]
+    },
+    {
+     "area": "Vouchers",
+     "shift": "Voucher funding grows to about $309 million.",
+     "lever": "legislative (budget)",
+     "sources": [
+      "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+     ]
+    },
+    {
+     "area": "Corrections",
+     "shift": "Continued prison expansion and a repeat-offender pilot.",
+     "lever": "mixed",
+     "sources": [
+      "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Voucher cost growth",
+     "detail": "Opponent argues spending diverts public money from public schools and tax cuts favor wealthier residents.",
+     "severity": "medium",
+     "sources": [
+      "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+     ]
+    },
+    {
+     "title": "Prison siting",
+     "detail": "Proposed 3,000-bed Franklin County prison not mentioned in her budget message.",
+     "severity": "low",
+     "sources": [
+      "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+     ]
+    }
+   ],
+   "insights": [
+    "Second-term continuity: personnel changes come in the governor's office (new policy, legislative and coalitions directors) rather than agency heads, per sources opened.",
+    "The key calendar item is the special session on tax cuts after the fiscal session."
+   ],
+   "cabinet": {
+    "Chief of Staff": [
+     {
+      "name": "Zach Jacobs",
+      "currentPosition": "Policy Director (announced July 31, 2026); previously Deputy Chief of Staff, Arkansas Department of Education",
+      "why": "ANNOUNCED staff role; not the chief of staff",
+      "status": "ANNOUNCED staff role; not the chief of staff",
+      "kind": "announced",
+      "confidence": "medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.kait8.com/2026/07/31/gov-sanders-announces-new-staff-ahead-2027-legislative-session/"
+      ]
+     }
+    ],
+    "Political / campaign leadership": [
+     {
+      "name": "Josh Stewart",
+      "currentPosition": "Director of Legislative Affairs (announced July 31, 2026)",
+      "why": "ANNOUNCED staff role",
+      "status": "ANNOUNCED staff role",
+      "kind": "announced",
+      "confidence": "medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.kait8.com/2026/07/31/gov-sanders-announces-new-staff-ahead-2027-legislative-session/"
+      ]
+     },
+     {
+      "name": "Heather Patterson",
+      "currentPosition": "Director of Advance and Coalitions (announced July 31, 2026)",
+      "why": "ANNOUNCED staff role",
+      "status": "ANNOUNCED staff role",
+      "kind": "announced",
+      "confidence": "medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.kait8.com/2026/07/31/gov-sanders-announces-new-staff-ahead-2027-legislative-session/"
+      ]
+     }
+    ],
+    "Commerce / Economic Development": [
+     {
+      "name": "Hugh McDonald",
+      "currentPosition": "Secretary of Commerce",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Education": [
+     {
+      "name": "Jacob Oliva",
+      "currentPosition": "Secretary of Education",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "Renee Mallory",
+      "currentPosition": "Secretary of Health",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Lorie Tudor",
+      "currentPosition": "Director, Arkansas DOT",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes Sarah Huckabee Sanders wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "Incumbent continuity: a second term built on tax cuts, LEARNS and prisons. Transition work is about legislative sequencing (fiscal session, tax-cut special session) and staffing.",
+    "timing": "Next term begins Jan. 2027 (verify).",
+    "priorities": [
+     "Fourth income-tax cut, voucher funding growth, prison expansion (Axios)."
+    ],
+    "firstMoves": [
+     "Run the tax-cut special session.",
+     "Staff legislative and policy shops (announced).",
+     "Prepare 2027 session package."
+    ],
+    "risks": [
+     "Voucher and prison cost growth.",
+     "Opposition critique on tax-cut distribution."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers",
+     "https://www.kait8.com/2026/07/31/gov-sanders-announces-new-staff-ahead-2027-legislative-session/"
+    ]
+   }
+  },
+  {
+   "name": "Fred Love",
+   "party": "D",
+   "role": "Democratic nominee; state senator (Little Rock)",
+   "team": [],
+   "sources": [
+    "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+   ],
+   "positions": [
+    {
+     "topic": "Critique of Sanders",
+     "stance": "Says tax cuts favor wealthier residents and vouchers divert public money from public schools.",
+     "sources": [
+      "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+     ]
+    }
+   ]
+  }
+ ]
+}

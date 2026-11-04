@@ -1,0 +1,203 @@
+{
+ "state": "IL",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. Incumbent continuity. Transit and Medicaid positions were not covered in the sources opened. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "JB Pritzker",
+   "party": "D",
+   "role": "Democratic incumbent governor seeking a third term",
+   "team": [
+    "Christian Mitchell, former deputy governor and former state representative, 'would help execute the agenda' (Capitol News Illinois)."
+   ],
+   "sources": [
+    "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+   ],
+   "positions": [
+    {
+     "topic": "Budget",
+     "stance": "Balance the annual operating budget and chip away at the structural deficit; touts 12 credit upgrades since taking office.",
+     "sources": [
+      "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+     ]
+    },
+    {
+     "topic": "Education",
+     "stance": "Fully implement universal preschool in 2027 or 2028; says lawmakers can raise K-12 funding without reforming the EBF law (adds $350 million a year).",
+     "sources": [
+      "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+     ]
+    },
+    {
+     "topic": "Data centers, AI, utilities, nuclear",
+     "stance": "Address data centers, AI and utility bills; attract more nuclear power; AI cabinet created by executive order; says Congress should lead AI regulation.",
+     "sources": [
+      "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+     ]
+    },
+    {
+     "topic": "Revenue",
+     "stance": "Still supports a graduated income tax but leaves the proposal to lawmakers.",
+     "sources": [
+      "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Data centers and AI",
+     "shift": "Regulation of data centers possible in the mid-November veto session; AI cabinet set up by executive order.",
+     "lever": "mixed",
+     "sources": [
+      "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+     ]
+    },
+    {
+     "area": "Early childhood",
+     "shift": "Universal preschool full implementation.",
+     "lever": "legislative (budget)",
+     "sources": [
+      "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Structural deficit",
+     "detail": "Budget growth from $38.5 billion (FY2019) to $55.9 billion (this year's plan) is the opposition's line of attack.",
+     "severity": "medium",
+     "sources": [
+      "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+     ]
+    },
+    {
+     "title": "School-funding pressure",
+     "detail": "Teacher unions want more than the $350 million a year EBF adds.",
+     "severity": "medium",
+     "sources": [
+      "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+     ]
+    }
+   ],
+   "insights": [
+    "Third-term continuity; Christian Mitchell is the named executor of the agenda (role not announced).",
+    "The mid-November veto session is the first policy venue (data centers)."
+   ],
+   "cabinet": {
+    "Chief of Staff": [
+     {
+      "name": "Christian Mitchell",
+      "currentPosition": "Former deputy governor and former state representative",
+      "why": "INFERRED: 'would help execute' the agenda; formal role not announced",
+      "status": "INFERRED: 'would help execute' the agenda; formal role not announced",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+      ]
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Alexis Sturm",
+      "currentPosition": "Director, Governor's Office of Management and Budget",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "Sameer Vohra",
+      "currentPosition": "Director, Illinois Department of Public Health",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Omer Osman",
+      "currentPosition": "Secretary, Illinois DOT",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Alicia Tate-Nadeau",
+      "currentPosition": "Director, Illinois Emergency Management Agency",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Human Services": [
+     {
+      "name": "Grace Hou",
+      "currentPosition": "Secretary, Department of Human Services",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Commerce / Economic Development": [
+     {
+      "name": "Kristin Richards",
+      "currentPosition": "Director, Department of Commerce and Economic Opportunity",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes JB Pritzker wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "Incumbent continuity with a data-center and AI regulatory push and a continuing preschool build-out.",
+    "timing": "Next term begins Jan. 2027 (verify).",
+    "priorities": [
+     "Budget balance, preschool, data centers and utilities, nuclear."
+    ],
+    "firstMoves": [
+     "Veto-session action on data centers.",
+     "Prepare FY2028 budget."
+    ],
+    "risks": [
+     "Structural deficit and education-funding demands."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://capitolnewsillinois.com/news/pritzker-says-so-much-more-to-do-in-illinois-as-he-seeks-rare-3rd-term/"
+    ]
+   }
+  }
+ ]
+}

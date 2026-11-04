@@ -2,7 +2,7 @@
  "state": "FL",
  "published": true,
  "researched": "2026-11-03",
- "note": "Scenario analyses assume each nominee wins; they are not calls or forecasts. No transition team, chief of staff or cabinet pick has been announced by either campaign in anything we found. Cabinet entries are of three kinds, always labeled: ANNOUNCED (stated by the campaign), HOLDOVER OPTION (a current post-holder whom a new governor would decide to keep or replace; the candidate's own statement is cited where one exists) and INFERRED (a documented campaign role, not an announcement). Roles with no sourced name are shown as 'none identified' rather than guessed. Independently elected Cabinet officers (AG, CFO, Agriculture Commissioner) are not governor appointments.",
+ "note": "Scenario analyses assume each nominee wins; they are not calls or forecasts. No transition team, chief of staff or cabinet pick has been announced by either campaign in anything we found. Cabinet entries are of three kinds, always labeled: ANNOUNCED (stated by the campaign), HOLDOVER OPTION (a current post-holder whom a new governor would decide to keep or replace; the candidate's own statement is cited where one exists) and INFERRED (a documented campaign role, not an announcement). Roles with no sourced name are shown as 'none identified' rather than guessed. Independently elected Cabinet officers (AG, CFO, Agriculture Commissioner) are not governor appointments. AP lookup reports the Florida governor race as called; the winner shown (Donalds) is per the user-supplied table. Analysis labels are unchanged. AP lookup reports the Florida governor race as called; the winner shown (Donalds) is per the user-supplied table. Analysis labels are unchanged.",
  "nominees": [
   {
    "name": "Byron Donalds",
@@ -224,7 +224,75 @@
       ]
      }
     ]
-   }
+   },
+   "policyShifts": [
+    {
+     "area": "Public health",
+     "shift": "Drop school-entry requirements for four vaccines through Ladapo's proposed rule; measles and polio stay in statute.",
+     "lever": "mixed (rule vs statute)",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "area": "Local government",
+     "shift": "More DOGE-style audits of local governments and removals of local officials.",
+     "lever": "executive",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "area": "Education",
+     "shift": "Universal scorecard for public and private schools.",
+     "lever": "legislative / executive",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "area": "Property tax",
+     "shift": "Support for Amendment 3 (homestead cut).",
+     "lever": "ballot / legislative",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Statute limits on vaccines",
+     "detail": "Legislature requires measles and polio vaccines for K-12; removing them needs a law change.",
+     "severity": "medium",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "title": "Amendment 3 fiscal fallout",
+     "detail": "Critics warn local governments would turn to Tallahassee for backfill with strings attached.",
+     "severity": "medium",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+     ]
+    },
+    {
+     "title": "Elected Cabinet",
+     "detail": "AG, CFO and Agriculture Commissioner are separate offices.",
+     "severity": "medium",
+     "sources": [
+      "https://www.wlrn.org/government-politics/2026-08-25/byron-donalds-makes-his-pick-for-lieutenant-governor-heres-what-to-know"
+     ]
+    },
+    {
+     "title": "Handoff from DeSantis",
+     "detail": "Relationship with the outgoing governor's office is not an ally relationship.",
+     "severity": "medium",
+     "sources": [
+      "https://www.governing.com/politics/byron-donalds-plans-for-governing-florida-if-elected"
+     ]
+    }
+   ]
   },
   {
    "name": "David Jolly",
@@ -438,5 +506,10 @@
     ]
    }
   }
- ]
+ ],
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ }
 }

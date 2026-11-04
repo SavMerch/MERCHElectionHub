@@ -1,0 +1,151 @@
+{
+ "state": "WY",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "Eric Barlow",
+   "party": "R",
+   "role": "Republican nominee; state senator (Gillette)",
+   "team": [],
+   "sources": [
+    "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/",
+    "https://wyofile.com/the-barlow-effect/"
+   ],
+   "positions": [
+    {
+     "topic": "Data centers and energy",
+     "stance": "Protect water and electric rates and give communities information; using Wyoming coal and gas to power data centers is 'not a bad thing.'",
+     "sources": [
+      "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+     ]
+    },
+    {
+     "topic": "Water",
+     "stance": "Colorado River: build an upper-basin coalition with more scientific and legal resources; no federal top-down control.",
+     "sources": [
+      "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+     ]
+    },
+    {
+     "topic": "Economic development",
+     "stance": "Calls the Wyoming Business Council an important partner for diversifying the economy; supports the University of Wyoming as valuable.",
+     "sources": [
+      "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+     ]
+    },
+    {
+     "topic": "Wildlife",
+     "stance": "Wyoming should manage its own grizzly population.",
+     "sources": [
+      "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+     ]
+    },
+    {
+     "topic": "Fuel tax",
+     "stance": "Voted no on a 2020 fuel-tax increase; the claim he sponsored it is false.",
+     "sources": [
+      "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Water",
+     "shift": "Upper-basin coalition posture on the Colorado River.",
+     "lever": "executive / interstate",
+     "sources": [
+      "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Freedom Caucus",
+     "detail": "The Freedom Caucus took control of the Wyoming House in 2025; Barlow's relation to the caucus was not clear in sources opened.",
+     "severity": "medium",
+     "sources": [
+      "https://wyofile.com/the-barlow-effect/"
+     ]
+    },
+    {
+     "title": "University budget fights",
+     "detail": "A House effort to cut $40 million from University of Wyoming's budget failed in the Senate; Barlow's stance not stated.",
+     "severity": "low",
+     "sources": [
+      "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+     ]
+    }
+   ],
+   "insights": [
+    "Republican-to-Republican handoff from Gordon; the main uncertainty is legislative dynamics with the Freedom Caucus.",
+    "Water and energy are the policy anchors."
+   ],
+   "analysis": {
+    "assumption": "Scenario: assumes Eric Barlow wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "A Republican handoff from Gordon; the question is the working relationship with a Freedom Caucus-led House and how much of Gordon's staff stays.",
+    "timing": "Inauguration expected early January 2027 (verify).",
+    "priorities": [
+     "Colorado River coalition, data centers and rates, economic diversification."
+    ],
+    "firstMoves": [
+     "Name chief of staff and agency heads (none identified)."
+    ],
+    "risks": [
+     "Freedom Caucus."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "low",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/",
+     "https://wyofile.com/the-barlow-effect/"
+    ]
+   },
+   "cabinet": {
+    "Transportation": [
+     {
+      "name": "Darin Westby",
+      "currentPosition": "Director, Wyoming Department of Transportation",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "Franz Fuchs",
+      "currentPosition": "Director, Wyoming Department of Health",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Lynn Budd",
+      "currentPosition": "Director, Wyoming Office of Homeland Security",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -2,7 +2,7 @@
  "state": "RI",
  "published": true,
  "researched": "2026-11-03",
- "note": "These are campaign staff and advisers, not announced administration appointments. Campaign roles do not establish who will serve in a cabinet. No transition team or cabinet picks were found. Polling shows a three-way race (Foulkes ahead of independent Ken Block).",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. Existing campaign-staff entries kept; they are not announced appointments. Original note: Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. Existing campaign-staff entries kept; they are not announced appointments. Original note: These are campaign staff and advisers, not announced administration appointments. Campaign roles do not establish who will serve in a cabinet. No transition team or cabinet picks were found. Polling shows a three-way race (Foulkes ahead of independent Ken Block).",
  "nominees": [
   {
    "name": "Helena Foulkes",
@@ -10,12 +10,171 @@
    "role": "Democratic nominee",
    "team": [
     "Campaign staff reported Jan 2026: RJ Kermes (director of campaign operations; formerly chief of staff to Central Falls Mayor Maria Rivera), Angelika Pellegrino (communications director; formerly spokesperson for Sen. Sheldon Whitehouse), Nora Barre (director of outreach; formerly executive director of Downtown Providence Park Network).",
-    "Reported campaign advisers with Raimondo-era ties: Jon Romano (formerly a top Raimondo staffer who led the Promise program), Jonathan Blair (Raimondo's 2018 campaign manager); consultant Putnam Partners."
+    "Reported campaign advisers with Raimondo-era ties: Jon Romano (formerly a top Raimondo staffer who led the Promise program), Jonathan Blair (Raimondo's 2018 campaign manager); consultant Putnam Partners.",
+    "Eric Hyers, veteran operative (Cicilline and Raimondo campaigns), choreographed the kickoff (WPRI).",
+    "Eric Hyers, veteran operative (Cicilline and Raimondo campaigns), choreographed the kickoff (WPRI)."
    ],
    "sources": [
     "https://www.bostonglobe.com/2026/01/07/metro/foulkes-hires-key-staff-ri-governors-race",
-    "https://www.golocalprov.com/politics/foulkes-campaign-taps-raimondo-consultants-staffers-and-advisers"
-   ]
+    "https://www.golocalprov.com/politics/foulkes-campaign-taps-raimondo-consultants-staffers-and-advisers",
+    "https://www.oceanstatemedia.org/elections/2025-09-10/helena-buonanno-foulkes-launches-rhode-island-governor-campaign-says-state-deserves-better-leadership",
+    "https://www.wpri.com/news/local-news/ted-nesi/nesis-notes-sept-13/amp"
+   ],
+   "positions": [
+    {
+     "topic": "Government competence and ethics",
+     "stance": "Says the state's shortfall is competence; ban lobbyist donations during the legislative session; create an inspector general; bolster the rainy day fund.",
+     "sources": [
+      "https://www.oceanstatemedia.org/elections/2025-09-10/helena-buonanno-foulkes-launches-rhode-island-governor-campaign-says-state-deserves-better-leadership",
+      "https://www.wpri.com/news/local-news/ted-nesi/nesis-notes-sept-13/amp"
+     ]
+    },
+    {
+     "topic": "Washington Bridge",
+     "stance": "Uses the bridge failure as the main example against Gov. McKee.",
+     "sources": [
+      "https://www.wpri.com/news/local-news/ted-nesi/nesis-notes-sept-13/amp"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Ethics",
+     "shift": "Inspector general and lobbyist-donation ban in session.",
+     "lever": "legislative / executive",
+     "sources": [
+      "https://www.wpri.com/news/local-news/ted-nesi/nesis-notes-sept-13/amp"
+     ]
+    },
+    {
+     "area": "Reserves",
+     "shift": "Bolster the rainy day fund.",
+     "lever": "legislative",
+     "sources": [
+      "https://www.wpri.com/news/local-news/ted-nesi/nesis-notes-sept-13/amp"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "General Assembly",
+     "detail": "She criticized legislative leadership directly and indirectly; her agenda needs those same leaders.",
+     "severity": "high",
+     "sources": [
+      "https://www.wpri.com/news/local-news/ted-nesi/nesis-notes-sept-13/amp"
+     ]
+    },
+    {
+     "title": "Bridge and infrastructure exposure",
+     "detail": "The Washington Bridge failure is the leading example of state project management risk.",
+     "severity": "medium",
+     "sources": [
+      "https://www.wpri.com/news/local-news/ted-nesi/nesis-notes-sept-13/amp"
+     ]
+    }
+   ],
+   "insights": [
+    "The 'competence' pitch makes agency-head quality and a new inspector general the first signals of her approach.",
+    "Her campaign-team names are Raimondo-era alumni (Romano, Blair); appointments from that network are plausible but unannounced (inference)."
+   ],
+   "analysis": {
+    "assumption": "Scenario: assumes Helena Foulkes wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "A Democratic-to-Democratic handoff where the incoming governor criticized the incumbent's management; expect a visible reset of agency leadership and project oversight.",
+    "timing": "Inauguration expected early January 2027 (verify).",
+    "priorities": [
+     "Inspector general, lobbyist donation ban, rainy day fund."
+    ],
+    "firstMoves": [
+     "Name chief of staff and agency heads (none identified).",
+     "Order infrastructure project reviews (inference from Washington Bridge criticism)."
+    ],
+    "risks": [
+     "General Assembly relations."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "low",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.oceanstatemedia.org/elections/2025-09-10/helena-buonanno-foulkes-launches-rhode-island-governor-campaign-says-state-deserves-better-leadership",
+     "https://www.wpri.com/news/local-news/ted-nesi/nesis-notes-sept-13/amp"
+    ]
+   },
+   "cabinet": {
+    "Chief of Staff": [
+     {
+      "name": "Jon Romano",
+      "currentPosition": "Former top Raimondo staffer who led the Promise program; reported Foulkes adviser",
+      "why": "Reported campaign adviser with deep state-government experience; the most senior-profile name in the sourced reporting.",
+      "status": "Reported campaign adviser with deep state-government experience; the most senior-profile name in the sourced reporting.",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.golocalprov.com/politics/foulkes-campaign-taps-raimondo-consultants-staffers-and-advisers"
+      ]
+     },
+     {
+      "name": "Jonathan Blair",
+      "currentPosition": "Raimondo's 2018 campaign manager; reported Foulkes adviser",
+      "why": "Reported adviser; campaign-management background rather than state-government operations.",
+      "status": "Reported adviser; campaign-management background rather than state-government operations.",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.golocalprov.com/politics/foulkes-campaign-taps-raimondo-consultants-staffers-and-advisers"
+      ]
+     },
+     {
+      "name": "Eric Hyers",
+      "currentPosition": "Veteran operative who staged her kickoff (Cicilline and Raimondo campaigns)",
+      "why": "Veteran political operative; fits a political-director or senior-adviser role more than chief of staff.",
+      "status": "Veteran political operative; fits a political-director or senior-adviser role more than chief of staff.",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.wpri.com/news/local-news/ted-nesi/nesis-notes-sept-13/amp"
+      ]
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Joseph Codega Jr.",
+      "currentPosition": "State Budget Officer",
+      "why": "Current budget officer; continuity pick, but her 'competence' reset may replace him. Verify holder.",
+      "status": "Current budget officer; continuity pick, but her 'competence' reset may replace him. Verify holder.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Commerce / Economic Development": [
+     {
+      "name": "Liz Tanner",
+      "currentPosition": "Secretary of Commerce",
+      "why": "Current commerce secretary under McKee; she criticized McKee's management so a reset is plausible. Verify holder.",
+      "status": "Current commerce secretary under McKee; she criticized McKee's management so a reset is plausible. Verify holder.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Peter Alviti Jr.",
+      "currentPosition": "Director, RIDOT",
+      "why": "Leads the agency tied to the Washington Bridge failure she campaigned on; a likely replacement target rather than a keeper (inference).",
+      "status": "Leads the agency tied to the Washington Bridge failure she campaigned on; a likely replacement target rather than a keeper (inference).",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   }
   },
   {
    "name": "Aaron Guckian",
@@ -36,5 +195,10 @@
    ]
   }
  ],
- "cabinet": {}
+ "cabinet": {},
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ }
 }

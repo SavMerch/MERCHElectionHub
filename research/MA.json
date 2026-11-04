@@ -1,0 +1,144 @@
+{
+ "state": "MA",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. Incumbent continuity; the policy source opened is Healey's 2024 agenda, so it is dated. Housing secretary Juana Matias (named successor, took over April 1) was reported in the same source. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "Maura Healey",
+   "party": "D",
+   "role": "Democratic incumbent governor",
+   "team": [
+    "Cabinet changes reported through Feb. 2026 (see cabinet)."
+   ],
+   "sources": [
+    "https://www.wgbh.org/news/local/2026-02-19/state-housing-secretary-to-step-down-healeys-eighth-state-cabinet-departure-in-three-years",
+    "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure"
+   ],
+   "positions": [
+    {
+     "topic": "Housing",
+     "stance": "Affordable Homes Act ($4.1 billion), MassDreams and Commonwealth Builder Fund (2024 agenda).",
+     "sources": [
+      "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure"
+     ]
+    },
+    {
+     "topic": "Early education",
+     "stance": "Universal pre-K in 26 Gateway Cities by end of 2026; child care assistance expansion; Literacy Launch; fully fund Student Opportunity Act.",
+     "sources": [
+      "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure"
+     ]
+    },
+    {
+     "topic": "Transportation",
+     "stance": "Double MBTA operating funding; reduced-fare program; Cape Cod Bridges.",
+     "sources": [
+      "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure"
+     ]
+    },
+    {
+     "topic": "Climate",
+     "stance": "HVAC heat-pump training; Disaster Relief Resiliency Fund.",
+     "sources": [
+      "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Housing",
+     "shift": "Continued implementation under a new housing secretary.",
+     "lever": "executive",
+     "sources": [
+      "https://www.wgbh.org/news/local/2026-02-19/state-housing-secretary-to-step-down-healeys-eighth-state-cabinet-departure-in-three-years"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Cabinet turnover",
+     "detail": "Eight cabinet departures in three years; only five of the original cabinet remain.",
+     "severity": "medium",
+     "sources": [
+      "https://www.wgbh.org/news/local/2026-02-19/state-housing-secretary-to-step-down-healeys-eighth-state-cabinet-departure-in-three-years"
+     ]
+    }
+   ],
+   "insights": [
+    "Healey's cabinet has churned heavily: another round of departures after re-election is plausible (inference).",
+    "The 2024-era agenda is the source; a 2027 agenda was not opened."
+   ],
+   "cabinet": {
+    "Administration": [
+     {
+      "name": "Matthew Gorzkowicz",
+      "currentPosition": "Administration and Finance Secretary",
+      "why": "HOLDOVER: intends to stay through the end of 2026",
+      "status": "HOLDOVER: intends to stay through the end of 2026",
+      "kind": "holdover",
+      "confidence": "medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.wgbh.org/news/local/2026-02-19/state-housing-secretary-to-step-down-healeys-eighth-state-cabinet-departure-in-three-years"
+      ]
+     }
+    ],
+    "Education": [
+     {
+      "name": "Stephen Zrike Jr.",
+      "currentPosition": "Salem Schools Superintendent; set to take over as Education Secretary (Feb. 2026 report)",
+      "why": "ANNOUNCED successor to Patrick Tutwiler",
+      "status": "ANNOUNCED successor to Patrick Tutwiler",
+      "kind": "announced",
+      "confidence": "medium",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.wgbh.org/news/local/2026-02-19/state-housing-secretary-to-step-down-healeys-eighth-state-cabinet-departure-in-three-years"
+      ]
+     }
+    ],
+    "Human Services": [
+     {
+      "name": "Kate Walsh (departed)",
+      "currentPosition": "Former Health and Human Services Secretary",
+      "why": "DEPARTED: successor not named in the source",
+      "status": "DEPARTED: successor not named in the source",
+      "kind": "holdover",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.wgbh.org/news/local/2026-02-19/state-housing-secretary-to-step-down-healeys-eighth-state-cabinet-departure-in-three-years"
+      ]
+     }
+    ]
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes Maura Healey wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "Incumbent continuity with cabinet churn already underway: housing and education secretaries replaced in early 2026.",
+    "timing": "Next term begins Jan. 2027 (verify).",
+    "priorities": [
+     "Housing, early education, MBTA, climate resilience."
+    ],
+    "firstMoves": [
+     "Fill remaining vacancies; decide which cabinet members stay past 2026."
+    ],
+    "risks": [
+     "Turnover."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "low",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.wgbh.org/news/local/2026-02-19/state-housing-secretary-to-step-down-healeys-eighth-state-cabinet-departure-in-three-years",
+     "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure"
+    ]
+   }
+  }
+ ]
+}

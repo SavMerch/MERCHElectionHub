@@ -34,9 +34,9 @@ Use web_search. Prefer news outlets, official state sites and campaign sites. Ru
 - Every finding must cite at least one https URL that your searches returned. No source = do not include it.
 - Mark each finding label "reported" (a source states it) or "inference" (your reasoning from reported facts).
 - Do not invent names. If a role has no identifiable prospect, put it in "gaps".
-- Cabinet prospects must be real people tied to the candidate or the role by a cited source, with the basis stated.
+- Cabinet prospects must be real people tied to the candidate or the role by a cited source, with the basis stated. For the Cabinet tab, these are strong candidates who may be considered (not announced appointees): for each key role give one "likely" plus 2-3 "alternate" candidates, setting rank to "likely", "alternate 1", "alternate 2" or "alternate 3".
 ${tab==='Advisory'?ADV+'\n':''}${tab==='Transition'?TRN+'\n':''}Keep the whole JSON under 5000 tokens: at most 8 findings, 8 prospects, short sentences. Put the JSON in one block and nothing after it.
-Return ONLY JSON: {"summary":string,"findings":[{"heading":string,"text":string,"label":"reported"|"inference","sources":[url]}],"prospects":[{"role":string,"name":string,"basis":string,"label":"reported"|"inference","sources":[url]}],"gaps":[string]}`}
+Return ONLY JSON: {"summary":string,"findings":[{"heading":string,"text":string,"label":"reported"|"inference","sources":[url]}],"prospects":[{"role":string,"rank":string,"name":string,"basis":string,"label":"reported"|"inference","sources":[url]}],"gaps":[string]}`}
 export function collectUrls(content){const s=new Set();const walk=x=>{if(!x||typeof x!=='object')return;if(Array.isArray(x))return x.forEach(walk);if(typeof x.url==='string'&&/^https:\/\//.test(x.url))s.add(x.url);Object.values(x).forEach(walk)};
   for(const b of content||[]){if(b.type==='web_search_tool_result'||b.type==='text')walk(b)}return s}
 export function parseJson(text){const m=text.match(/\{[\s\S]*\}/);if(!m)return null;try{return JSON.parse(m[0])}catch(e){return null}}
@@ -46,7 +46,7 @@ export function validate(raw,allowed){const out={summary:String(raw&&raw.summary
   const ok=a=>[...new Set((Array.isArray(a)?a:[]).map(u=>matchUrl(u,allowed)).filter(Boolean))];
   const lab=l=>l==='reported'?'reported':'inference';
   for(const f of raw.findings||[]){const s=ok(f.sources);if(!s.length||!f.text){out.dropped++;continue}out.findings.push({heading:String(f.heading||'').slice(0,120),text:String(f.text).slice(0,1200),label:lab(f.label),sources:s})}
-  for(const p of raw.prospects||[]){const s=ok(p.sources);if(!s.length||!p.name||!p.role){out.dropped++;continue}out.prospects.push({role:String(p.role).slice(0,80),name:String(p.name).slice(0,80),basis:String(p.basis||'').slice(0,400),label:lab(p.label),sources:s})}
+  for(const p of raw.prospects||[]){const s=ok(p.sources);if(!s.length||!p.name||!p.role){out.dropped++;continue}out.prospects.push({role:String(p.role).slice(0,80),rank:String(p.rank||'').slice(0,20),name:String(p.name).slice(0,80),basis:String(p.basis||'').slice(0,400),label:lab(p.label),sources:s})}
   if(raw.scores&&typeof raw.scores==='object'){out.scores={};for(const k of ['leg','cab','agency']){const x=raw.scores[k]||{},sc=Number(x.score),sr=ok(x.sources);if(Number.isFinite(sc)&&sc>=0&&sc<=100&&sr.length&&x.rationale)out.scores[k]={score:Math.round(sc),rationale:String(x.rationale).slice(0,600),label:lab(x.label),sources:sr};else out.dropped++}}
   out.gaps=(raw.gaps||[]).slice(0,20).map(g=>String(g).slice(0,200));
   if(/\b(has won|was elected|projected winner|will win)\b/i.test(JSON.stringify(out))){return {summary:'',findings:[],prospects:[],gaps:[],dropped:out.dropped+1,rejected:'result-claiming language'}}

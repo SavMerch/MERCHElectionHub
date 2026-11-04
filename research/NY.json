@@ -1,0 +1,178 @@
+{
+ "state": "NY",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. Incumbent continuity; only a local summary of the FY2027 executive budget was opened. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "Kathy Hochul",
+   "party": "D",
+   "role": "Democratic incumbent governor",
+   "team": [],
+   "sources": [
+    "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+   ],
+   "positions": [
+    {
+     "topic": "Budget",
+     "stance": "About $260 billion all-funds; no tax increases; tax relief for tipped wages; $14.6 billion in reserves; AA+ rating.",
+     "sources": [
+      "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+     ]
+    },
+    {
+     "topic": "Child care and schools",
+     "stance": "$4.5 billion child care and pre-K; $39.3 billion school aid; $1.6 billion universal pre-K; $395 million free school meals.",
+     "sources": [
+      "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+     ]
+    },
+    {
+     "topic": "Health and housing",
+     "stance": "$38.2 billion Medicaid; $750 million hospitals and nursing homes; $25 billion affordable housing initiative.",
+     "sources": [
+      "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+     ]
+    },
+    {
+     "topic": "Transit and safety",
+     "stance": "$8.6 billion for the MTA; $352 million gun violence prevention; $77 million subway policing.",
+     "sources": [
+      "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Child care",
+     "shift": "Large child-care and pre-K funding commitments.",
+     "lever": "legislative (budget)",
+     "sources": [
+      "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+     ]
+    },
+    {
+     "area": "Housing",
+     "shift": "$25 billion affordable housing initiative.",
+     "lever": "legislative / executive",
+     "sources": [
+      "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Fiscal outlook",
+     "detail": "Not assessed: sources opened were summaries of the executive budget only.",
+     "severity": "low",
+     "sources": [
+      "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+     ]
+    }
+   ],
+   "insights": [
+    "Incumbent continuity; FY2027 numbers are from a local news summary of the executive budget.",
+    "Third-term cabinet details were not found."
+   ],
+   "analysis": {
+    "assumption": "Scenario: assumes Kathy Hochul wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "Incumbent continuity: a no-new-taxes, affordability-focused budget with large child-care and housing commitments.",
+    "timing": "Next term begins Jan. 2027 (verify).",
+    "priorities": [
+     "Child care, housing, MTA, public safety."
+    ],
+    "firstMoves": [
+     "No cabinet changes announced in sources opened."
+    ],
+    "risks": [
+     "Federal funding."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "low",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+    ]
+   },
+   "cabinet": {
+    "Chief of Staff": [
+     {
+      "name": "Karen Persichilli Keogh",
+      "currentPosition": "Secretary to the Governor",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Blake Washington",
+      "currentPosition": "Director, Division of the Budget",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "James McDonald",
+      "currentPosition": "Commissioner, Department of Health",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Marie Therese Dominguez",
+      "currentPosition": "Commissioner, Department of Transportation",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Jackie Bray",
+      "currentPosition": "Commissioner, Division of Homeland Security and Emergency Services",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Commerce / Economic Development": [
+     {
+      "name": "Hope Knight",
+      "currentPosition": "President, CEO and Commissioner, Empire State Development",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   }
+  }
+ ]
+}

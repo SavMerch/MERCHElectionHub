@@ -76,3 +76,13 @@ Paste a link to an official results page, CSV or PDF, then click **Pull results*
 - Governor, U.S. Senate and U.S. House (by district) are kept. Nothing is ever marked a call; calls come only from Enter AP call. Official feeds with votes override a link for the same race.
 - Safeguards: https only, private/internal addresses blocked, 8 MB limit, page text capped at 150,000 characters (an AI pull costs roughly a few cents to a few tens of cents).
 - Refresh projections re-applies saved links' last results; click Refresh from link to re-fetch the page.
+
+### Texas and the called-race states (Nov. 3-4, 2026)
+- New research files: TX, OH, GA, AR, CO, CT, IL, MD, MA, NY, PA, WY; updated RI and FL. Each adds `policyShifts[]` (with the lever: executive, legislative, federal or mixed) and `impediments[]` (severity-ranked) next to positions, insights, cabinet and the scenario analysis.
+- `apStatus` on each file records what the AP lookup said when checked. Texas was not called (so Hinojosa's win is a scenario assumption); the 13 states in the user's table were reported called, but the AP card with names was not readable, so winners are labeled "per the user-supplied table". The tool never creates a call from this; calls still come only from Enter AP call with an apnews.com source.
+
+## Cabinet slates (likely + alternates)
+Cabinet tabs show a Likely option plus alternates per role. Entries tagged "Analyst-identified" are unsourced judgment (low confidence, verify); sourced entries link references. Many roles have only a holdover "likely" and no alternates. Conduct analysis (Cabinet) now requests ranked likely + 2-3 alternates with sources.
+
+## Iowa, Wisconsin, Kansas update
+IA and WI governor races are called per AP lookup (winner Sand / Crowley per user-supplied results; names not readable from the AP card). Kansas is NOT called by AP as of Nov. 4 04:34 UTC; Holscher analysis is a scenario. Cabinet slates are analyst-identified, unsourced, verify.

@@ -1,0 +1,247 @@
+{
+ "state": "OH",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but the names were not readable here. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "Amy Acton",
+   "party": "D",
+   "role": "Democratic nominee; former Ohio Department of Health director",
+   "team": [
+    "Endorsed by Western Reserve Building Trades Council (president Marty Loney). No campaign manager or transition lead named in sources opened."
+   ],
+   "sources": [
+    "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf",
+    "https://www.tribtoday.com/news/local-news/2026/05/acton-vows-to-work-with-both-dems-gop/",
+    "https://www.news5cleveland.com/news/politics/ohio-politics/one-on-one-dr-amy-acton-discusses-challenges-in-flipping-ohio-blue"
+   ],
+   "positions": [
+    {
+     "topic": "Tax cuts for working families",
+     "stance": "Refundable earned income credit (about 775,000 families) and a $500 to $1,000 child tax credit for families up to $85,000; she estimates about $1 billion a year; rules out eliminating income taxes.",
+     "sources": [
+      "https://www.tribtoday.com/news/local-news/2026/05/acton-vows-to-work-with-both-dems-gop/"
+     ]
+    },
+    {
+     "topic": "Utilities and energy",
+     "stance": "Restore consumer protections targeted by HB 6; require data centers and investors to cover energy and water costs; 'all-of-the-above' energy with union labor.",
+     "sources": [
+      "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf"
+     ]
+    },
+    {
+     "topic": "Education",
+     "stance": "Math, literacy and workforce training; free breakfast and lunch for all students.",
+     "sources": [
+      "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf"
+     ]
+    },
+    {
+     "topic": "Health",
+     "stance": "Use Medicaid pharmacy purchasing power online to lower drug prices; stronger action against surprise billing and predatory collections.",
+     "sources": [
+      "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf"
+     ]
+    },
+    {
+     "topic": "Governing approach",
+     "stance": "Works across the aisle; says she would put some Republicans in cabinet roles; wants to break the Republican supermajority so vetoes stand; predicts Ohio will end gerrymandering.",
+     "sources": [
+      "https://www.tribtoday.com/news/local-news/2026/05/acton-vows-to-work-with-both-dems-gop/",
+      "https://www.news5cleveland.com/news/politics/ohio-politics/one-on-one-dr-amy-acton-discusses-challenges-in-flipping-ohio-blue"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Tax policy",
+     "shift": "Refundable EITC and child tax credit paid for by 'a lot of levers' not named.",
+     "lever": "legislative",
+     "sources": [
+      "https://www.tribtoday.com/news/local-news/2026/05/acton-vows-to-work-with-both-dems-gop/"
+     ]
+    },
+    {
+     "area": "Utilities",
+     "shift": "Reverse HB 6-era consumer rollbacks; cost-allocation for data centers.",
+     "lever": "legislative / PUCO",
+     "sources": [
+      "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf"
+     ]
+    },
+    {
+     "area": "Health",
+     "shift": "Medicaid pharmacy purchasing platform; billing protections.",
+     "lever": "mixed",
+     "sources": [
+      "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf"
+     ]
+    },
+    {
+     "area": "Redistricting",
+     "shift": "Support for ending gerrymandering next year.",
+     "lever": "legislative / ballot",
+     "sources": [
+      "https://www.tribtoday.com/news/local-news/2026/05/acton-vows-to-work-with-both-dems-gop/"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Republican supermajority",
+     "detail": "Republicans hold a supermajority in the General Assembly; vetoes can be overridden, so the agenda depends on cross-party votes.",
+     "severity": "high",
+     "sources": [
+      "https://www.news5cleveland.com/news/politics/ohio-politics/one-on-one-dr-amy-acton-discusses-challenges-in-flipping-ohio-blue",
+      "https://www.tribtoday.com/news/local-news/2026/05/acton-vows-to-work-with-both-dems-gop/"
+     ]
+    },
+    {
+     "title": "Funding gap",
+     "detail": "Credits cost about $1 billion a year and the funding sources were not specified.",
+     "severity": "medium",
+     "sources": [
+      "https://www.tribtoday.com/news/local-news/2026/05/acton-vows-to-work-with-both-dems-gop/"
+     ]
+    },
+    {
+     "title": "Other statewide offices",
+     "detail": "Her page notes Republicans expected to hold the other executive offices and the legislature.",
+     "severity": "medium",
+     "sources": [
+      "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf"
+     ]
+    },
+    {
+     "title": "Security and rhetoric",
+     "detail": "Armed incidents and heated campaign exchanges with Ramaswamy.",
+     "severity": "low",
+     "sources": [
+      "https://www.news5cleveland.com/news/politics/ohio-politics/one-on-one-dr-amy-acton-discusses-challenges-in-flipping-ohio-blue"
+     ]
+    }
+   ],
+   "insights": [
+    "Her stated plan to place Republicans in the cabinet is unusual for a Democratic governor and is the main sign she will seek cross-party cover; no names are public.",
+    "Utility and data-center cost allocation puts PUCO and utility regulation at the center of the first-year agenda.",
+    "With a veto-proof Republican legislature, executive appointments and the budget are her real levers."
+   ],
+   "cabinet": {
+    "Political / campaign leadership": [
+     {
+      "name": "Marty Loney",
+      "currentPosition": "President, Western Reserve Building Trades Council",
+      "why": "INFERRED: endorsing union leader, not a staff role",
+      "status": "INFERRED: endorsing union leader, not a staff role",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.tribtoday.com/news/local-news/2026/05/acton-vows-to-work-with-both-dems-gop/"
+      ]
+     }
+    ],
+    "Health": [
+     {
+      "name": "Mysheika Roberts",
+      "currentPosition": "Health Commissioner, Columbus Public Health",
+      "why": "Public-health official who worked in Ohio's COVID-era response community; fits Acton's public-health identity. No reporting links her.",
+      "status": "Public-health official who worked in Ohio's COVID-era response community; fits Acton's public-health identity. No reporting links her.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Bruce Vanderhoff",
+      "currentPosition": "Former Ohio Department of Health director under DeWine",
+      "why": "Republican-administration holdover pick that fits Acton's stated plan to include Republicans (verify his current role).",
+      "status": "Republican-administration holdover pick that fits Acton's stated plan to include Republicans (verify his current role).",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Sima Merick",
+      "currentPosition": "Executive Director, Ohio Emergency Management Agency",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Jack Marchbanks",
+      "currentPosition": "Director, Ohio Department of Transportation",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes Amy Acton wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "A flip from Republican to Democratic control of the governor's office against a Republican supermajority legislature. The new governor controls the full executive appointment slate, the budget proposal and the veto, but the legislature can override. She has said she would put some Republicans in cabinet roles.",
+    "timing": "Inauguration expected Jan. 11, 2027 (second Monday in January; verify).",
+    "priorities": [
+     "Working-family tax credits (about $1 billion a year).",
+     "Utility cost protections and data-center cost allocation.",
+     "Affordability, childcare, public school funding, mental health."
+    ],
+    "firstMoves": [
+     "Name chief of staff, budget director and cabinet, including some Republicans she says she will include (none named).",
+     "Propose the budget with the tax credits and a funding plan.",
+     "Engage legislative leaders early; vetoes can be overridden."
+    ],
+    "risks": [
+     "Veto-proof Republican legislature.",
+     "Revenue plan for the credits unspecified.",
+     "Total executive turnover on a short clock."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf",
+     "https://www.tribtoday.com/news/local-news/2026/05/acton-vows-to-work-with-both-dems-gop/",
+     "https://www.news5cleveland.com/news/politics/ohio-politics/one-on-one-dr-amy-acton-discusses-challenges-in-flipping-ohio-blue"
+    ]
+   }
+  },
+  {
+   "name": "Vivek Ramaswamy",
+   "party": "R",
+   "role": "Republican nominee",
+   "team": [],
+   "sources": [
+    "https://www.news5cleveland.com/news/politics/ohio-politics/one-on-one-dr-amy-acton-discusses-challenges-in-flipping-ohio-blue"
+   ],
+   "positions": [
+    {
+     "topic": "Campaign line on Acton",
+     "stance": "Called her a 'socialist'; his team disputes her bipartisan image (Acton interview coverage).",
+     "sources": [
+      "https://www.news5cleveland.com/news/politics/ohio-politics/one-on-one-dr-amy-acton-discusses-challenges-in-flipping-ohio-blue",
+      "https://www.tribtoday.com/news/local-news/2026/05/acton-vows-to-work-with-both-dems-gop/"
+     ]
+    }
+   ]
+  }
+ ]
+}

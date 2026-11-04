@@ -1,0 +1,202 @@
+{
+ "state": "GA",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "Keisha Lance Bottoms",
+   "party": "D",
+   "role": "Democratic nominee; former Atlanta mayor",
+   "team": [
+    "No campaign manager or transition lead named in sources opened."
+   ],
+   "sources": [
+    "https://www.gpb.org/news/2026/10/01/medicaid-work-requirements-are-here-stay-no-matter-who-wins-georgia-governors-race",
+    "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+    "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+   ],
+   "positions": [
+    {
+     "topic": "Medicaid",
+     "stance": "Full Medicaid expansion up to 138% of the poverty level as a day-one priority; end Pathways first and seek a higher federal match; opposes work requirements as unnecessary bureaucracy.",
+     "sources": [
+      "https://www.gpb.org/news/2026/10/01/medicaid-work-requirements-are-here-stay-no-matter-who-wins-georgia-governors-race",
+      "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+      "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+     ]
+    },
+    {
+     "topic": "Emergency rooms and uninsured",
+     "stance": "Argues leaving hundreds of thousands uninsured burdens local emergency rooms.",
+     "sources": [
+      "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+      "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Medicaid",
+     "shift": "Replace Pathways with full expansion; Georgia's current waiver expires in December and the next governor decides how coverage continues.",
+     "lever": "mixed (federal approval, legislative funding)",
+     "sources": [
+      "https://www.gpb.org/news/2026/10/01/medicaid-work-requirements-are-here-stay-no-matter-who-wins-georgia-governors-race",
+      "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Federal work requirements",
+     "detail": "Under the 2025 federal law, most expansion adults must show 80 hours of work a month; applies if Georgia expands, so her opposition cannot change the federal rule.",
+     "severity": "high",
+     "sources": [
+      "https://www.gpb.org/news/2026/10/01/medicaid-work-requirements-are-here-stay-no-matter-who-wins-georgia-governors-race"
+     ]
+    },
+    {
+     "title": "State cost unspecified",
+     "detail": "Neither campaign detailed state costs; expansion needs legislative appropriation.",
+     "severity": "high",
+     "sources": [
+      "https://www.gpb.org/news/2026/10/01/medicaid-work-requirements-are-here-stay-no-matter-who-wins-georgia-governors-race",
+      "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/"
+     ]
+    },
+    {
+     "title": "Pathways timeline",
+     "detail": "CMS extended Pathways through at least end of 2026; the state requested a higher federal match.",
+     "severity": "medium",
+     "sources": [
+      "https://www.gpb.org/news/2026/10/01/medicaid-work-requirements-are-here-stay-no-matter-who-wins-georgia-governors-race"
+     ]
+    },
+    {
+     "title": "Opponent's alternative",
+     "detail": "Rick Jackson would pursue a state-designed waiver with work, education or training requirements.",
+     "severity": "medium",
+     "sources": [
+      "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+      "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+     ]
+    }
+   ],
+   "insights": [
+    "The federal work-requirement rule narrows the practical difference between her plan and the Republican one; the real fight is over the Pathways waiver that expires in December.",
+    "Because the waiver decision falls to the next governor at inauguration, the health-agency appointments (DCH, DPH) are early and high-stakes.",
+    "Legislative composition was not confirmed in sources opened; treat the Republican majority as likely but verify."
+   ],
+   "cabinet": {
+    "Health": [
+     {
+      "name": "Russel Carlson",
+      "currentPosition": "Commissioner, Georgia Department of Community Health (Medicaid agency)",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them. Medicaid expansion would test the agency's leadership.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them. Medicaid expansion would test the agency's leadership.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Kathleen Toomey",
+      "currentPosition": "Former Georgia public health commissioner",
+      "why": "Experienced public-health executive; served under Kemp (verify availability and current role).",
+      "status": "Experienced public-health executive; served under Kemp (verify availability and current role).",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Patrice Harris",
+      "currentPosition": "Physician; former American Medical Association president",
+      "why": "National health-policy profile based in Atlanta (verify). No reporting links her.",
+      "status": "National health-policy profile based in Atlanta (verify). No reporting links her.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Russell McMurry",
+      "currentPosition": "Commissioner, Georgia DOT",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "James C. Stallings",
+      "currentPosition": "Director, Georgia Emergency Management and Homeland Security Agency",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes Keisha Lance Bottoms wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "A Republican-to-Democratic flip. The immediate decision is what happens to Pathways and Medicaid when the current waiver expires in December; the rest of the agenda depends on the legislature.",
+    "timing": "Inauguration expected mid-January 2027 (verify).",
+    "priorities": [
+     "Full Medicaid expansion on day one (GPB, WTOC).",
+     "End Pathways and seek a higher federal match."
+    ],
+    "firstMoves": [
+     "Name the Department of Community Health commissioner and a health policy lead (none identified).",
+     "Request federal approvals for expansion and a waiver transition (inference).",
+     "Prepare a budget estimate for expansion (none public)."
+    ],
+    "risks": [
+     "Republican legislature (not verified in sources opened).",
+     "Federal work requirements apply regardless.",
+     "No state cost estimate from either campaign."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.gpb.org/news/2026/10/01/medicaid-work-requirements-are-here-stay-no-matter-who-wins-georgia-governors-race",
+     "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+     "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+    ]
+   }
+  },
+  {
+   "name": "Rick Jackson",
+   "party": "R",
+   "role": "Republican nominee; health care executive",
+   "team": [],
+   "sources": [
+    "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+    "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+   ],
+   "positions": [
+    {
+     "topic": "Medicaid",
+     "stance": "'Close the coverage gap with intelligent Medicaid expansion' via a state-designed waiver with work, education or training requirements; rural hospital stabilization, liability reform, price transparency, 500 inpatient psychiatric beds.",
+     "sources": [
+      "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+      "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+     ]
+    }
+   ]
+  }
+ ]
+}

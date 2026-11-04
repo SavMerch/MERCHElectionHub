@@ -2,16 +2,311 @@
  "state": "WI",
  "published": true,
  "researched": "2026-11-03",
- "note": "Nominee names come from search snippets of secondary sources and should be confirmed against the state's certified ballot. No announced transition team, chief of staff or cabinet picks were found, so no cabinet prospects are listed.",
+ "note": "Scenario analysis for Wisconsin. David Crowley (D) is the user-reported winner; AP lookup shows the race called but names were not readable here. No transition team, chief of staff or cabinet picks were found. Cabinet slates are analyst-identified and unsourced unless a link is shown; verify. Legislature control after Nov. 3 was not confirmed.",
  "nominees": [
   {
    "name": "David Crowley",
    "party": "D",
-   "role": "Nominee",
+   "role": "Democratic nominee; Milwaukee County Executive",
    "team": [],
    "sources": [
-    "https://wisconsinexaminer.com/?p=48143"
-   ]
+    "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/",
+    "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/",
+    "https://wisconsinwatch.org/2026/10/wisconsin-legislative-election-races-to-watch-2026-districts-legislature-control-democrat-republican/"
+   ],
+   "positions": [
+    {
+     "topic": "Labor",
+     "stance": "First-30-days plan: repeal Act 10 to restore collective bargaining.",
+     "sources": [
+      "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/"
+     ]
+    },
+    {
+     "topic": "Education",
+     "stance": "Close the special education funding gap so districts avoid cuts and layoffs.",
+     "sources": [
+      "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/"
+     ]
+    },
+    {
+     "topic": "Child care",
+     "stance": "Universal pre-K and child care using providers already serving families.",
+     "sources": [
+      "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/"
+     ]
+    },
+    {
+     "topic": "Health care",
+     "stance": "Open BadgerCare as a public option for any household, using federal Medicaid match for part of the cost.",
+     "sources": [
+      "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/",
+      "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/"
+     ]
+    },
+    {
+     "topic": "Energy",
+     "stance": "Require the largest AI data center operators to pay full grid-upgrade costs.",
+     "sources": [
+      "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/"
+     ]
+    },
+    {
+     "topic": "Fiscal record",
+     "stance": "Won Republican-led Legislature approval to increase state-shared revenue, enabling a 0.4% Milwaukee County sales tax that gave property tax relief.",
+     "sources": [
+      "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Public-sector labor",
+     "shift": "Repealing Act 10 would reset collective bargaining for state and local employees; it affects school and local-government labor costs and contracts.",
+     "lever": "legislative",
+     "sources": [
+      "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/"
+     ]
+    },
+    {
+     "area": "Health coverage",
+     "shift": "BadgerCare public option would be a major expansion of Medicaid-based coverage; needs federal waiver/approval and state authority.",
+     "lever": "legislative + federal approval",
+     "sources": [
+      "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/",
+      "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/"
+     ]
+    },
+    {
+     "area": "Education finance",
+     "shift": "Closing the special-education funding gap changes state aid to school districts and local property tax pressure.",
+     "lever": "legislative (budget)",
+     "sources": [
+      "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/"
+     ]
+    },
+    {
+     "area": "Energy / utilities",
+     "shift": "Making data centers pay for grid upgrades shifts cost allocation and affects PSC rate cases and economic-development deals.",
+     "lever": "regulatory + legislative",
+     "sources": [
+      "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/"
+     ]
+    },
+    {
+     "area": "Child care",
+     "shift": "Universal pre-K/child care would build on existing providers and requires new state funding and program rules.",
+     "lever": "legislative (budget)",
+     "sources": [
+      "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Republican legislative majorities",
+     "detail": "Before the election Republicans held 18-15 in the Senate and 54-45 in the Assembly; results of the 2026 legislative races were not confirmed here. Act 10 repeal, BadgerCare expansion and new spending need legislative votes.",
+     "severity": "high",
+     "sources": [
+      "https://wisconsinwatch.org/2026/10/wisconsin-legislative-election-races-to-watch-2026-districts-legislature-control-democrat-republican/"
+     ]
+    },
+    {
+     "title": "Funding and federal approval",
+     "detail": "The Crowley release gave no dollar amounts or funding sources, and a BadgerCare public option relies on federal Medicaid match and approval.",
+     "severity": "high",
+     "sources": [
+      "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/",
+      "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/"
+     ]
+    },
+    {
+     "title": "Executive-vs-legislative split unclear",
+     "detail": "The campaign did not say which first-30-days actions are executive orders and which need legislation.",
+     "severity": "medium",
+     "sources": [
+      "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/"
+     ]
+    },
+    {
+     "title": "Partisan friction",
+     "detail": "His launch video criticized Republican legislative leadership, which may harden opposition even though his county record shows a bipartisan deal.",
+     "severity": "medium",
+     "sources": [
+      "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/"
+     ]
+    }
+   ],
+   "insights": [
+    "First-30-days plan makes Act 10 the clearest early signal; whether Democrats flipped any legislative chamber decides how much is reachable (verify post-election results).",
+    "Milwaukee County Executive staff are a likely hiring pipeline (inference)."
+   ],
+   "cabinet": {
+    "Chief of Staff": [
+     {
+      "name": "Milwaukee County chief of staff",
+      "currentPosition": "Senior aide in the Crowley county executive office (unnamed; verify)",
+      "why": "Operational continuity from his county administration is the most direct pipeline.",
+      "status": "Operational continuity from his county administration is the most direct pipeline.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Evers administration veteran",
+      "currentPosition": "Former senior Evers staffer (unnamed)",
+      "why": "State-government experience would speed up the transition; Evers is outgoing.",
+      "status": "State-government experience would speed up the transition; Evers is outgoing.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Democratic legislative leader's chief",
+      "currentPosition": "Senior legislative staffer (unnamed)",
+      "why": "Legislative relations matter given Republican majorities.",
+      "status": "Legislative relations matter given Republican majorities.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Evers DOA budget staff",
+      "currentPosition": "Wisconsin Department of Administration budget official (unnamed)",
+      "why": "State budget process knowledge is hard to replace quickly.",
+      "status": "State budget process knowledge is hard to replace quickly.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Milwaukee County budget director",
+      "currentPosition": "County finance leader (unnamed)",
+      "why": "Crowley's county fiscal record is a core talking point.",
+      "status": "Crowley's county fiscal record is a core talking point.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "DHS secretary under Evers",
+      "currentPosition": "Wisconsin Department of Health Services leadership (verify holder)",
+      "why": "Continuity helps a BadgerCare public-option design effort.",
+      "status": "Continuity helps a BadgerCare public-option design effort.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Medicaid expert from another state",
+      "currentPosition": "State Medicaid director",
+      "why": "Public-option design needs waiver experience.",
+      "status": "Public-option design needs waiver experience.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Education": [
+     {
+      "name": "State Superintendent Jill Underly",
+      "currentPosition": "Wisconsin State Superintendent of Public Instruction (elected, not appointed)",
+      "why": "Special-education funding closes through DPI, which is independently elected; coordination, not appointment.",
+      "status": "Special-education funding closes through DPI, which is independently elected; coordination, not appointment.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Large-district superintendent",
+      "currentPosition": "Wisconsin district leader (unnamed)",
+      "why": "Practical operator for special-ed finance.",
+      "status": "Practical operator for special-ed finance.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Kristina Boardman",
+      "currentPosition": "Secretary, WisDOT",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Greg Engle",
+      "currentPosition": "Administrator, Wisconsin Emergency Management",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Commerce / Economic Development": [
+     {
+      "name": "Missy Hughes",
+      "currentPosition": "CEO, Wisconsin Economic Development Corporation",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes David Crowley wins the Nov. 3, 2026 general election. AP lookup shows the race called (Nov. 4, 2026 04:34 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "Crowley would succeed Democrat Tony Evers with a more ambitious labor and health-coverage agenda (Act 10 repeal, BadgerCare public option, special-education funding) than a pure continuity transition. Outcomes depend on legislative control, which was unconfirmed in sources found.",
+    "timing": "Inauguration expected early January 2027 (verify); 30-day plan frames early executive and legislative asks.",
+    "priorities": [
+     "Repeal Act 10.",
+     "Close special-education funding gap.",
+     "Universal pre-K and child care.",
+     "BadgerCare public option.",
+     "Domestic violence prevention funding."
+    ],
+    "firstMoves": [
+     "Name chief of staff and DHS/DPI liaison.",
+     "Introduce Act 10 repeal and budget asks.",
+     "Begin federal waiver design for BadgerCare."
+    ],
+    "risks": [
+     "Republican legislative opposition if chambers held.",
+     "Unfunded commitments.",
+     "Federal Medicaid changes."
+    ],
+    "pollContext": "PollCheck average Crowley 48.7, Tiffany 44.4 as of Nov. 3; AP lookup shows the race called.",
+    "confidence": "medium-low",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/",
+     "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/",
+     "https://wisconsinwatch.org/2026/10/wisconsin-legislative-election-races-to-watch-2026-districts-legislature-control-democrat-republican/"
+    ]
+   }
   },
   {
    "name": "Tom Tiffany",
@@ -23,5 +318,10 @@
    ]
   }
  ],
- "cabinet": {}
+ "cabinet": {},
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:34:00Z",
+  "note": "AP lookup reports the Wisconsin governor race as called (Nov. 4, 2026, 04:34 UTC). The AP card with names was not readable here; the winner shown is from the user-supplied result. This tool does not make calls."
+ }
 }

@@ -1,0 +1,424 @@
+{
+ "state": "TX",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Texas is a scenario build: AP had not called the governor race when checked (Nov. 4, 2026 04:08 UTC) so Gina Hinojosa's win is an assumption provided by the user, not a result. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search. Dates for the inauguration and legislative session are as recalled and marked verify. Abbott's entry has positions only.",
+ "apStatus": {
+  "called": false,
+  "asOf": "2026-11-04T04:08:00Z",
+  "note": "AP lookup reported this race as not called and the count unfinished. The winner shown is a scenario assumption, not a result."
+ },
+ "nominees": [
+  {
+   "name": "Gina Hinojosa",
+   "party": "D",
+   "role": "Democratic nominee; Texas state representative (Austin attorney)",
+   "team": [
+    "Chuck Rocha, campaign consultant; Fight Agency, Democratic consulting firm brought in (Texas Tribune).",
+    "Coalition strategy per advisers: Latino voters plus suburban and conservative voters upset about public education (Texas Tribune). No campaign manager, chief of staff or transition lead named in the sources opened."
+   ],
+   "sources": [
+    "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+    "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott",
+    "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls",
+    "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/",
+    "https://cbsaustin.com/news/texas-politics/dem-nominee-for-governor-gina-hinojosa-weighs-in-on-school-budget-crises-and-immigration",
+    "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html",
+    "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/",
+    "https://www.forwardtimes.com/news/gina-hinojosa-proposes-1-500-payments-for-every-texas-household/article_5189a4ca-a16a-4692-8e46-498c2599c2c0.html"
+   ],
+   "positions": [
+    {
+     "topic": "Education / vouchers",
+     "stance": "Ends the voucher-style education savings program, raises teacher pay, fully funds neighborhood schools, ends state takeovers of elected school boards, pauses A-F ratings tied to STAAR and changes standardized testing. Says per-student funding is about $10 billion behind 2019.",
+     "sources": [
+      "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+      "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott",
+      "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls",
+      "https://cbsaustin.com/news/texas-politics/dem-nominee-for-governor-gina-hinojosa-weighs-in-on-school-budget-crises-and-immigration",
+      "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/"
+     ]
+    },
+    {
+     "topic": "Texas Education Agency",
+     "stance": "Would replace Commissioner Mike Morath with an educator; says she would fire him on her first day.",
+     "sources": [
+      "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+      "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott",
+      "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls",
+      "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/"
+     ]
+    },
+    {
+     "topic": "Household payments / Rainy Day Fund",
+     "stance": "$1,500 payment per household from the Economic Stabilization Fund, about $17 billion by campaign estimate; would cut the fund to about $10 billion. Needs two-thirds of both chambers.",
+     "sources": [
+      "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott",
+      "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls",
+      "https://www.forwardtimes.com/news/gina-hinojosa-proposes-1-500-payments-for-every-texas-household/article_5189a4ca-a16a-4692-8e46-498c2599c2c0.html"
+     ]
+    },
+    {
+     "topic": "Property tax / corporate incentives",
+     "stance": "Ends what she calls corporate welfare and uses the savings to cut property taxes; opposes Abbott's plan to eliminate homestead school property taxes. Pitches cash back for renters and broader tax reform that lowers rates for families.",
+     "sources": [
+      "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls",
+      "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/",
+      "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html"
+     ]
+    },
+    {
+     "topic": "Data centers and technology",
+     "stance": "Moratorium on new data center permits until protections for water, power and local input exist; end their tax breaks. Wants Flock cameras taken down and residents refunded; sued in Travis County for Abbott-Musk emails.",
+     "sources": [
+      "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott",
+      "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/",
+      "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/"
+     ]
+    },
+    {
+     "topic": "Energy and grid",
+     "stance": "Strengthen grid resilience, hold utilities to reliability standards, support energy diversity; criticizes Abbott's handling of Winter Storm Uri.",
+     "sources": [
+      "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html"
+     ]
+    },
+    {
+     "topic": "Health care",
+     "stance": "Affordability agenda aimed at corporate insurers and drug companies; points to high uninsured rates. Her position on Medicaid expansion and abortion was not found in the sources opened.",
+     "sources": [
+      "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html",
+      "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls"
+     ]
+    },
+    {
+     "topic": "Immigration and border",
+     "stance": "Supports border security with modern infrastructure at ports of entry and coordination with federal partners; opposes withholding public-safety grants from Austin and Houston; says crossings are now very low.",
+     "sources": [
+      "https://cbsaustin.com/news/texas-politics/dem-nominee-for-governor-gina-hinojosa-weighs-in-on-school-budget-crises-and-immigration",
+      "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html"
+     ]
+    },
+    {
+     "topic": "Income tax",
+     "stance": "Says she opposes a state income tax; Abbott cites her 2019 vote against the constitutional ban.",
+     "sources": [
+      "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+      "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Education",
+     "shift": "Replace the TEA commissioner, pause A-F ratings and rework STAAR accountability, end state takeovers, redirect funding to teacher pay, smaller classes and special education.",
+     "lever": "mixed (commissioner is a governor appointment; takeover and testing rules are statute)",
+     "sources": [
+      "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+      "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls",
+      "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/",
+      "https://gov.texas.gov/news/post/governor-abbott-reappoints-morath-as-state-commissioner-of-education"
+     ]
+    },
+    {
+     "area": "School vouchers",
+     "shift": "Repeal the ESA voucher program (about $1 billion).",
+     "lever": "legislative",
+     "sources": [
+      "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/",
+      "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/"
+     ]
+    },
+    {
+     "area": "Fiscal",
+     "shift": "Draw $17 billion from the Rainy Day Fund for household payments and cut the fund to about $10 billion.",
+     "lever": "legislative (two-thirds of both chambers)",
+     "sources": [
+      "https://www.forwardtimes.com/news/gina-hinojosa-proposes-1-500-payments-for-every-texas-household/article_5189a4ca-a16a-4692-8e46-498c2599c2c0.html",
+      "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls",
+      "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott"
+     ]
+    },
+    {
+     "area": "Property tax",
+     "shift": "Fund relief by ending corporate incentives instead of Abbott's sales-tax swap.",
+     "lever": "legislative",
+     "sources": [
+      "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/",
+      "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls"
+     ]
+    },
+    {
+     "area": "Data centers and big-tech",
+     "shift": "Permit moratorium, end tax breaks, remove Flock cameras; release Abbott-Musk emails.",
+     "lever": "mixed",
+     "sources": [
+      "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott",
+      "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/"
+     ]
+    },
+    {
+     "area": "Immigration funding",
+     "shift": "Reverse grant threats against cities; shift to funding local law enforcement.",
+     "lever": "executive",
+     "sources": [
+      "https://cbsaustin.com/news/texas-politics/dem-nominee-for-governor-gina-hinojosa-weighs-in-on-school-budget-crises-and-immigration"
+     ]
+    },
+    {
+     "area": "Ethics and contracting",
+     "shift": "Attack on no-bid contracts and voucher spending as a 'corruption tax'; expect procurement and contract reviews.",
+     "lever": "executive",
+     "sources": [
+      "https://www.forwardtimes.com/news/gina-hinojosa-proposes-1-500-payments-for-every-texas-household/article_5189a4ca-a16a-4692-8e46-498c2599c2c0.html"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Republican Legislature",
+     "detail": "House 88 R / 62 D; Senate 18 R / 11 D with 2 vacancies (Ballotpedia, Nov. 2026). Senate presided over by Dan Patrick, House led by Speaker Dustin Burrows. She says she would rely on outside public pressure.",
+     "severity": "high",
+     "sources": [
+      "https://ballotpedia.org/2026_Texas_legislative_session",
+      "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls"
+     ]
+    },
+    {
+     "title": "Two-thirds vote for the $1,500 payments",
+     "detail": "The Rainy Day Fund spend needs two-thirds of both chambers; the article says it is unknown whether that support exists.",
+     "severity": "high",
+     "sources": [
+      "https://www.forwardtimes.com/news/gina-hinojosa-proposes-1-500-payments-for-every-texas-household/article_5189a4ca-a16a-4692-8e46-498c2599c2c0.html"
+     ]
+    },
+    {
+     "title": "Patrick's competing 2027 agenda",
+     "detail": "Property-tax 'Operation Double Nickel' (another $40,000 homestead exemption), grid security, human-services fraud and 'Sharia' charges; none overlap with her education and data-center agenda.",
+     "severity": "high",
+     "sources": [
+      "https://www.texastribune.org/2026/01/30/dan-patrick-interim-charges-senate-texas-legislature-2027/"
+     ]
+    },
+    {
+     "title": "Independently elected statewide officials",
+     "detail": "Lieutenant Governor, Attorney General, Comptroller and Land Commissioner are elected separately and are not under the governor.",
+     "severity": "high",
+     "sources": [
+      "https://courses.lumenlearning.com/austincc-texasgovernment/chapter/plural-executive/"
+     ]
+    },
+    {
+     "title": "Voucher program is law",
+     "detail": "Repeal needs the Legislature; the program funds about $1 billion and has a Republican-backed constituency.",
+     "severity": "high",
+     "sources": [
+      "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/"
+     ]
+    },
+    {
+     "title": "Thin mandate and money gap",
+     "detail": "Abbott spent nearly $100 million on ads vs about $16 million; about 20% of likely voters said they didn't know enough about her; polls mixed.",
+     "severity": "medium",
+     "sources": [
+      "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/"
+     ]
+    },
+    {
+     "title": "Income-tax attacks",
+     "detail": "Abbott campaign ties her to a state income tax, citing her 2019 vote against the constitutional ban; voters approved the ban.",
+     "severity": "medium",
+     "sources": [
+      "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+      "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/"
+     ]
+    },
+    {
+     "title": "Fund size and rules unclear",
+     "detail": "Sources give the Rainy Day Fund as $24.8 billion (KSAT) and $28 billion (Forward Times); the structure of the payments depends on legislation.",
+     "severity": "low",
+     "sources": [
+      "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+      "https://www.forwardtimes.com/news/gina-hinojosa-proposes-1-500-payments-for-every-texas-household/article_5189a4ca-a16a-4692-8e46-498c2599c2c0.html"
+     ]
+    }
+   ],
+   "insights": [
+    "Expect her agenda to split into what the governor controls alone (TEA commissioner, appointments, contract reviews, executive directives, vetoes and special-session power) and what needs a Republican Legislature (vouchers, Rainy Day Fund, data-center rules). The first group is where early action will be.",
+    "Most of her fiscal ideas collide with Patrick's, which centers on larger homestead exemptions. The overlap is property-tax relief; she would have to pitch relief paid by ending corporate incentives instead of by exemption growth or an Abbott-style sales-tax swap.",
+    "School finance is the likeliest bipartisan space: she cites past work with rural Republicans against vouchers and says she wants 'bipartisan space for public schools.'",
+    "Advisory exposure: moratorium and tax-break rollbacks on data centers affect power, water and local-incentive planning; renewed scrutiny of Abbott-era contracts affects procurement and compliance work; ESA repeal affects school-district and TEA operations."
+   ],
+   "cabinet": {
+    "Education": [
+     {
+      "name": "Stephanie Elizalde",
+      "currentPosition": "Superintendent, Dallas ISD",
+      "why": "Educator profile matching her pledge to replace the TEA commissioner with an educator; large urban district leader. No reporting links her to Hinojosa.",
+      "status": "Educator profile matching her pledge to replace the TEA commissioner with an educator; large urban district leader. No reporting links her to Hinojosa.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Zeph Capo",
+      "currentPosition": "President, Texas AFT",
+      "why": "Leads the state's largest teacher union and has opposed vouchers, aligned with her platform. Union leader, not a classroom-agency executive.",
+      "status": "Leads the state's largest teacher union and has opposed vouchers, aligned with her platform. Union leader, not a classroom-agency executive.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Richard Carranza",
+      "currentPosition": "Former Houston ISD superintendent; former New York City Schools Chancellor",
+      "why": "Senior urban-district executive with Texas experience; controversial record in New York.",
+      "status": "Senior urban-district executive with Texas experience; controversial record in New York.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Political / campaign leadership": [
+     {
+      "name": "Chuck Rocha",
+      "currentPosition": "Campaign consultant",
+      "why": "INFERRED from campaign role; no administration role announced",
+      "status": "INFERRED from campaign role; no administration role announced",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/"
+      ]
+     },
+     {
+      "name": "Fight Agency",
+      "currentPosition": "Democratic consulting firm on the campaign",
+      "why": "INFERRED from campaign role; a firm, not a person",
+      "status": "INFERRED from campaign role; a firm, not a person",
+      "kind": "inferred",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": [
+       "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/"
+      ]
+     }
+    ],
+    "Chief of Staff": [],
+    "Administration": [],
+    "Emergency Management": [
+     {
+      "name": "Nim Kidd",
+      "currentPosition": "Chief, Texas Division of Emergency Management",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Marc Williams",
+      "currentPosition": "Executive Director, TxDOT",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them. Career agency leader.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them. Career agency leader.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes Gina Hinojosa wins the Nov. 3, 2026 general election. AP had not called this race when checked (Nov. 4, 2026 04:08 UTC). Not a call or forecast.",
+    "summary": "A Democratic governor facing a Republican supermajority-style structure: Republicans control both chambers and the presiding officers, and four statewide executive offices are independently elected. The early window is executive: appoint a new TEA commissioner, fill hundreds of board and commission seats as terms expire, review contracts and Abbott-era initiatives, and use vetoes and special-session calls. Anything that needs spending the Rainy Day Fund or repealing vouchers needs Republican votes.",
+    "timing": "Inauguration expected mid-January 2027 and the regular legislative session begins in January 2027 (dates as recalled; verify). Ballotpedia lists no regular session in 2026.",
+    "priorities": [
+     "Affordability: $1,500 household payments from the Rainy Day Fund (TPR, KUT).",
+     "Public schools: end vouchers, replace the TEA commissioner, pause A-F ratings (KSAT, KUT).",
+     "Data-center moratorium and end of their tax breaks (TPR, KBTX).",
+     "Property-tax relief funded by ending corporate incentives (KUT, KBTX)."
+    ],
+    "firstMoves": [
+     "Name a chief of staff, general counsel and budget lead (none identified; analyst inference).",
+     "Name a TEA commissioner and begin the A-F pause (stated; see sources).",
+     "Open talks with Dan Patrick and Speaker Burrows on school finance and property tax (inference from her stated bipartisan-space goal).",
+     "Order contract and procurement reviews of Abbott-era deals (inferred from her no-bid contract criticism)."
+    ],
+    "risks": [
+     "Republican control of both chambers and Patrick's competing agenda.",
+     "Two-thirds threshold for Rainy Day Fund spending.",
+     "Senate confirmation of key appointees (rule not verified in sources opened).",
+     "Texas lacks a statewide Democratic bench in other executive offices."
+    ],
+    "pollContext": "Polls were tight; one Marist poll had Abbott ahead by 4, a late-July Fox poll by 1, and five public polls showed him trailing (Texas Tribune). Not a forecast.",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+     "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott",
+     "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls",
+     "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/",
+     "https://www.forwardtimes.com/news/gina-hinojosa-proposes-1-500-payments-for-every-texas-household/article_5189a4ca-a16a-4692-8e46-498c2599c2c0.html",
+     "https://ballotpedia.org/2026_Texas_legislative_session",
+     "https://www.texastribune.org/2026/01/30/dan-patrick-interim-charges-senate-texas-legislature-2027/",
+     "https://courses.lumenlearning.com/austincc-texasgovernment/chapter/plural-executive/"
+    ]
+   }
+  },
+  {
+   "name": "Greg Abbott",
+   "party": "R",
+   "role": "Republican nominee; incumbent governor seeking a fourth term",
+   "team": [
+    "Not researched for staff or advisers."
+   ],
+   "sources": [
+    "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+    "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott",
+    "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/",
+    "https://cbsaustin.com/news/texas-politics/dem-nominee-for-governor-gina-hinojosa-weighs-in-on-school-budget-crises-and-immigration"
+   ],
+   "positions": [
+    {
+     "topic": "Property taxes",
+     "stance": "Eliminate school property taxes for homeowners and raise the sales tax to pay for it.",
+     "sources": [
+      "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott"
+     ]
+    },
+    {
+     "topic": "Education",
+     "stance": "Champions the education savings account program; wants districts to send at least 70% of funding to classrooms, limits on classroom devices, tougher penalties for teachers convicted of abuse; summer tuition discounts at four-year universities.",
+     "sources": [
+      "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/"
+     ]
+    },
+    {
+     "topic": "Border and immigration",
+     "stance": "Border security emphasis; threatened to withhold about $2.5 million in public-safety grants from cities that limit police-immigration cooperation.",
+     "sources": [
+      "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+      "https://cbsaustin.com/news/texas-politics/dem-nominee-for-governor-gina-hinojosa-weighs-in-on-school-budget-crises-and-immigration"
+     ]
+    },
+    {
+     "topic": "Data centers and Flock",
+     "stance": "Announced measures to rein in Flock cameras and data-center development (Texas Tribune).",
+     "sources": [
+      "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/"
+     ]
+    }
+   ],
+   "insights": [
+    "Continuity case: policy extends the 2023-2027 agenda; the transition question is personnel and the fourth-term agenda, not direction."
+   ]
+  }
+ ]
+}

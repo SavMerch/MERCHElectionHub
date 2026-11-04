@@ -2,7 +2,7 @@
  "state": "KS",
  "published": true,
  "researched": "2026-11-03",
- "note": "Scenario analyses assume each nominee wins; they are not calls or forecasts. Neither campaign has announced a transition team, chief of staff or cabinet picks in anything we found. Cabinet entries are labeled ANNOUNCED, HOLDOVER OPTION (current post-holder a new governor would keep or replace), STATED INTENT, or INFERRED (a documented role, not an announcement). Kansas does not list current secretaries for Commerce, KDOT, KDHE, Corrections, Revenue, Labor, Agriculture, DCF/KDADS or the Adjutant General in this dataset because we could not confirm current holders from sources we opened. Those roles show 'none identified'. The Kansas Education Commissioner is chosen by the elected State Board of Education, not the governor.",
+ "note": "Scenario analyses assume each nominee wins; they are not calls or forecasts. Neither campaign has announced a transition team, chief of staff or cabinet picks in anything we found. Cabinet entries are labeled ANNOUNCED, HOLDOVER OPTION (current post-holder a new governor would keep or replace), STATED INTENT, or INFERRED (a documented role, not an announcement). Kansas does not list current secretaries for Commerce, KDOT, KDHE, Corrections, Revenue, Labor, Agriculture, DCF/KDADS or the Adjutant General in this dataset because we could not confirm current holders from sources we opened. Those roles show 'none identified'. The Kansas Education Commissioner is chosen by the elected State Board of Education, not the governor. UPDATE Nov. 3-4: AP has NOT called the Kansas governor race. Holscher content is a scenario; the user expects a Democratic hold but pre-election polls led by Masterson.",
  "nominees": [
   {
    "name": "Ty Masterson",
@@ -187,9 +187,11 @@
     "No campaign manager, pollster or transition lead named in the sources we opened."
    ],
    "sources": [
-    "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+    "https://cindyforkansas.com/priorities/",
+    "https://www.270towin.com/2026-governor-polls/kansas",
     "https://www.hppr.org/hppr-news/2026-05-15/democratic-ticket-in-kansas-governors-race-pairs-legislators-from-johnson-sedgwick-counties",
-    "https://www.270towin.com/2026-governor-polls/kansas"
+    "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+    "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
    ],
    "positions": [
     {
@@ -232,6 +234,34 @@
      "stance": "Public education, healthcare access and economic affordability; lowering costs for working people.",
      "sources": [
       "https://www.hppr.org/hppr-news/2026-05-15/democratic-ticket-in-kansas-governors-race-pairs-legislators-from-johnson-sedgwick-counties"
+     ]
+    },
+    {
+     "topic": "Property tax",
+     "stance": "Lower the home assessment rate from 11.5% to 9%; restrict tax breaks for wealthy business owners while keeping senior and disabled-veteran exemptions; fully fund special education to ease local pressure.",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
+     ]
+    },
+    {
+     "topic": "Cannabis, data centers, corporate deals",
+     "stance": "Supports recreational and medical cannabis; supports pausing new data center approvals until guardrails exist; wants to end sweetheart corporate deals.",
+     "sources": [
+      "https://cindyforkansas.com/priorities/"
+     ]
+    },
+    {
+     "topic": "Taxes",
+     "stance": "Has fought to end the sales tax on food and the income tax on Social Security benefits.",
+     "sources": [
+      "https://cindyforkansas.com/priorities/"
+     ]
+    },
+    {
+     "topic": "Education",
+     "stance": "Says she helped secure $500 million in new school funding and blocked voucher expansion.",
+     "sources": [
+      "https://cindyforkansas.com/priorities/"
      ]
     }
    ],
@@ -280,6 +310,106 @@
        "https://kansasreflector.com/briefs/kansas-gov-laura-kelly-picks-budget-director-to-lead-department-of-administration1/"
       ]
      }
+    ],
+    "Chief of Staff": [
+     {
+      "name": "Kelly administration senior staffer",
+      "currentPosition": "Senior aide to Gov. Laura Kelly (unnamed; verify)",
+      "why": "Continuity from the Kelly office would smooth a Democrat-to-Democrat handover (inference).",
+      "status": "Continuity from the Kelly office would smooth a Democrat-to-Democrat handover (inference).",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Legislative aide to Holscher",
+      "currentPosition": "Senate staff (unnamed)",
+      "why": "Legislative relations will matter with GOP supermajorities.",
+      "status": "Legislative relations will matter with GOP supermajorities.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Johnson County political ally",
+      "currentPosition": "Local Democratic operative (unnamed)",
+      "why": "Ticket-adjacent profile (inference).",
+      "status": "Ticket-adjacent profile (inference).",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Adam Proffitt",
+      "currentPosition": "Director of the Budget, State of Kansas",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Kansas Legislative Research staffer",
+      "currentPosition": "Fiscal analyst (unnamed)",
+      "why": "Fiscal expertise needed for property-tax and special-education costing.",
+      "status": "Fiscal expertise needed for property-tax and special-education costing.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "Janet Stanek",
+      "currentPosition": "Secretary, Kansas Department of Health and Environment",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Medicaid director under Kelly",
+      "currentPosition": "KDHE/KanCare official (unnamed)",
+      "why": "Medicaid expansion needs KanCare expertise.",
+      "status": "Medicaid expansion needs KanCare expertise.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Calvin Reed",
+      "currentPosition": "Secretary of Transportation (KDOT)",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Angee Morgan",
+      "currentPosition": "Director, Kansas Division of Emergency Management",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
     ]
    },
    "analysis": {
@@ -311,7 +441,86 @@
      "https://www.hppr.org/hppr-news/2026-05-15/democratic-ticket-in-kansas-governors-race-pairs-legislators-from-johnson-sedgwick-counties",
      "https://www.270towin.com/2026-governor-polls/kansas"
     ]
-   }
+   },
+   "policyShifts": [
+    {
+     "area": "Medicaid",
+     "shift": "Expansion would be a major change after years of vetoed or blocked bills; needs legislative passage or a ballot route.",
+     "lever": "legislative",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+      "https://cindyforkansas.com/priorities/"
+     ]
+    },
+    {
+     "area": "Property tax and school finance",
+     "shift": "Cutting the assessment rate to 9% and fully funding special education moves costs from local property taxes to the state budget, with state revenue effects to be modeled.",
+     "lever": "legislative (budget)",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race",
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "area": "Cannabis",
+     "shift": "Medical and recreational legalization would set up a new state regulatory and revenue structure.",
+     "lever": "legislative",
+     "sources": [
+      "https://cindyforkansas.com/priorities/",
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "area": "Economic development",
+     "shift": "Ending sweetheart deals and pausing data-center approvals tightens incentive practice and affects pipeline projects and STAR-type bond deals.",
+     "lever": "mixed",
+     "sources": [
+      "https://cindyforkansas.com/priorities/",
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Republican supermajorities",
+     "detail": "Republicans hold two-thirds majorities in both chambers, enough to override vetoes; Holscher's agenda depends on a few GOP votes.",
+     "severity": "high",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
+     ]
+    },
+    {
+     "title": "Property tax competition",
+     "detail": "House and Senate leaders blocked each other's 2026 property tax bills; Masterson pushes a 3% valuation-cap constitutional amendment that Democrats call a gimmick.",
+     "severity": "high",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
+     ]
+    },
+    {
+     "title": "Cost of her own proposals",
+     "detail": "Lowering the assessment rate and fully funding special education carry state budget costs; none were quantified in the sources found.",
+     "severity": "medium",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race",
+      "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+     ]
+    },
+    {
+     "title": "Local government resistance",
+     "detail": "Cities and counties depend on property tax for most operating revenue and resist state changes.",
+     "severity": "medium",
+     "sources": [
+      "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
+     ]
+    }
+   ]
   }
- ]
+ ],
+ "apStatus": {
+  "called": false,
+  "asOf": "2026-11-04T04:34:00Z",
+  "note": "AP lookup reports the Kansas governor race NOT called as of Nov. 4, 2026 04:34 UTC. Pre-election polling led by Ty Masterson (R). The Holscher analysis is a scenario only; the user expects a Democratic hold, which is not confirmed."
+ }
 }

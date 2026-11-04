@@ -1,0 +1,278 @@
+{
+ "state": "IA",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Scenario analysis for Iowa. Rob Sand (D) is the user-reported winner; AP lookup shows the race called but names were not readable here. No transition team, chief of staff or cabinet picks were found. Cabinet slates are analyst-identified and unsourced unless a link is shown; verify.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:34:00Z",
+  "note": "AP lookup reports the Iowa governor race as called (Nov. 4, 2026, 04:34 UTC). The AP card with names was not readable here; the winner shown is from the user-supplied result. This tool does not make calls."
+ },
+ "nominees": [
+  {
+   "name": "Rob Sand",
+   "party": "D",
+   "role": "Democratic nominee; Iowa State Auditor",
+   "team": [
+    "Running mate: Dave Muhlbauer, Crawford County supervisor (Wikipedia, 2026 Iowa elections)."
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_Iowa_elections",
+    "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html",
+    "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+   ],
+   "positions": [
+    {
+     "topic": "Health care",
+     "stance": "End private management (MCOs) of Iowa Medicaid, paying providers directly through a state-run nonprofit-style system; would sign the Work Without Worry bill lifting Medicaid income/asset limits for working Iowans with disabilities.",
+     "sources": [
+      "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+     ]
+    },
+    {
+     "topic": "Cost of living",
+     "stance": "State board to negotiate prescription drug prices; cap utility fees; expand surprise medical billing law; $2,000 family caregiver tax credit.",
+     "sources": [
+      "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html"
+     ]
+    },
+    {
+     "topic": "Education",
+     "stance": "Universal free preschool and school lunches; income limits, tuition-increase caps and annual audits for private-school tuition assistance.",
+     "sources": [
+      "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html"
+     ]
+    },
+    {
+     "topic": "Housing",
+     "stance": "Cut state regulation and simplify permitting to encourage homebuilding.",
+     "sources": [
+      "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html"
+     ]
+    },
+    {
+     "topic": "Revenue",
+     "stance": "Floated marijuana-legalization tax revenue and higher taxes on data centers as possible funding for Medicaid changes.",
+     "sources": [
+      "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Medicaid",
+     "shift": "Reverse the managed-care model: a move from private MCOs to state direct payment. This reshapes Iowa HHS procurement, contracts and provider payment systems.",
+     "lever": "legislative + administrative",
+     "sources": [
+      "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+     ]
+    },
+    {
+     "area": "Prescription drugs / consumer protection",
+     "shift": "New state drug-price negotiation board and utility fee caps would require new statutory authority and standing up a board and staff.",
+     "lever": "legislative",
+     "sources": [
+      "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html"
+     ]
+    },
+    {
+     "area": "Education finance",
+     "shift": "Universal free preschool and school lunches would add recurring state costs; guardrails on private school tuition assistance would amend the existing program.",
+     "lever": "legislative",
+     "sources": [
+      "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html",
+      "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+     ]
+    },
+    {
+     "area": "Housing and permitting",
+     "shift": "Regulatory simplification and permitting reform could be partly administrative (state rules) and partly statutory.",
+     "lever": "mixed",
+     "sources": [
+      "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Republican legislature",
+     "detail": "Republicans hold a House supermajority and a Senate majority; Sand says he expects to work with them. Most of his agenda needs legislation.",
+     "severity": "high",
+     "sources": [
+      "https://en.wikipedia.org/wiki/2026_Iowa_elections",
+      "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+     ]
+    },
+    {
+     "title": "Funding gaps",
+     "detail": "Reporting found no price tags or funding sources for his proposals, and direct Medicaid payment could cost the state more.",
+     "severity": "high",
+     "sources": [
+      "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html",
+      "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+     ]
+    },
+    {
+     "title": "Medicaid transition risk",
+     "detail": "Sand himself says reversing privatization will take time and must be done carefully to avoid failure.",
+     "severity": "medium",
+     "sources": [
+      "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+     ]
+    },
+    {
+     "title": "Tax-revenue assumptions",
+     "detail": "Marijuana-legalization revenue and higher data-center taxes depend on legislative action that Republican leaders are unlikely to take quickly (inference).",
+     "severity": "medium",
+     "sources": [
+      "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+     ]
+    }
+   ],
+   "insights": [
+    "First Democratic governor since Culver in 2011 if the result stands; cabinet-level turnover is likely large because all current directors were appointed by Reynolds (inference; verify).",
+    "Sand is State Auditor, so an auditor-office staff pipeline and budget-oversight experience are plausible sources of senior hires (inference)."
+   ],
+   "cabinet": {
+    "Chief of Staff": [
+     {
+      "name": "Sand State Auditor office senior staff",
+      "currentPosition": "Senior aide in the Iowa Auditor's office (unnamed; verify)",
+      "why": "Operational pipeline from his current office; analyst inference, no reporting.",
+      "status": "Analyst inference",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Jeff Link",
+      "currentPosition": "Iowa Democratic strategist",
+      "why": "Longtime Iowa Democratic adviser; fits political-director or senior-adviser role more than operational chief of staff.",
+      "status": "Longtime Iowa Democratic adviser; fits political-director or senior-adviser role more than operational chief of staff.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Brad Anderson",
+      "currentPosition": "Iowa Democratic strategist; 2020 Biden Iowa director",
+      "why": "Statewide campaign manager profile; verify availability.",
+      "status": "Statewide campaign manager profile; verify availability.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Rob Sand's State Auditor deputy",
+      "currentPosition": "Deputy in the State Auditor's office (unnamed; verify)",
+      "why": "Auditor-office finance staff are a plausible pipeline for DOM leadership.",
+      "status": "Auditor-office finance staff are a plausible pipeline for DOM leadership.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Current DOM director",
+      "currentPosition": "Iowa Department of Management director",
+      "why": "Reynolds appointee; a reset is likely, but a career budget staffer could be retained.",
+      "status": "Reynolds appointee; a reset is likely, but a career budget staffer could be retained.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "Former Iowa HHS officials",
+      "currentPosition": "Veterans of Iowa Medicaid/DHS under Democratic administrations (unnamed)",
+      "why": "Reversing Medicaid privatization needs managed-care and procurement expertise; likely drawn from outside current leadership.",
+      "status": "Reversing Medicaid privatization needs managed-care and procurement expertise; likely drawn from outside current leadership.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     },
+     {
+      "name": "Medicaid policy expert from another state",
+      "currentPosition": "Public-sector Medicaid executive",
+      "why": "Direct-pay model design draws on states that run fee-for-service or nonprofit models (inference).",
+      "status": "Direct-pay model design draws on states that run fee-for-service or nonprofit models (inference).",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Joyce Flinn",
+      "currentPosition": "Director, Iowa Homeland Security and Emergency Management (verify holder)",
+      "why": "Current holder as I last knew it (verify); emergency management often retains career leadership across transitions.",
+      "status": "Current holder as I last knew it (verify); emergency management often retains career leadership across transitions.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Transportation": [
+     {
+      "name": "Scott Marler",
+      "currentPosition": "Director, Iowa DOT",
+      "why": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "status": "Current holder as I last knew it (verify). Continuity or reset decision for the new governor.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   },
+   "analysis": {
+    "assumption": "Scenario: assumes Rob Sand wins the Nov. 3, 2026 general election. AP lookup shows the race called (Nov. 4, 2026 04:34 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "Sand would be a Democratic governor facing a Republican House supermajority and Senate majority, so his agenda splits into administrative actions (Medicaid contract strategy, appointments, procurement) and legislative asks that need Republican votes. His Medicaid privatization reversal is the largest operational and procurement event.",
+    "timing": "Inauguration expected mid-January 2027 (verify date); first budget and Medicaid contract decisions in the first session.",
+    "priorities": [
+     "Reverse Medicaid privatization carefully.",
+     "Prescription-drug and utility cost relief.",
+     "Free preschool and school lunches.",
+     "Housing permitting reform."
+    ],
+    "firstMoves": [
+     "Name chief of staff and Iowa HHS/Medicaid leadership.",
+     "Open talks with Republican leaders on Work Without Worry, which had bipartisan support.",
+     "Review MCO contracts for exit timing."
+    ],
+    "risks": [
+     "Republican legislative opposition.",
+     "Unfunded proposals.",
+     "Medicaid transition disruption."
+    ],
+    "pollContext": "270toWin average Sand 51.0, Lahn 44.4 as of Oct. 21; AP lookup shows the race called.",
+    "confidence": "medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html",
+     "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/",
+     "https://en.wikipedia.org/wiki/2026_Iowa_elections"
+    ]
+   }
+  },
+  {
+   "name": "Zach Lahn",
+   "party": "R",
+   "role": "Republican nominee (not the user-reported winner)",
+   "team": [],
+   "sources": [
+    "https://en.wikipedia.org/wiki/2026_Iowa_elections"
+   ]
+  }
+ ]
+}

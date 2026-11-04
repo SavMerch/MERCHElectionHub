@@ -1,0 +1,188 @@
+{
+ "state": "MD",
+ "published": true,
+ "researched": "2026-11-03",
+ "note": "Winner shown per the user-supplied table of called races; AP lookup says the race is called but names were not readable here. Incumbent continuity. No campaign or transition staff naming and no cabinet picks were found in the sources opened. Roles with no sourced name show 'none identified' instead of a guess. Use Conduct analysis for a live search.",
+ "apStatus": {
+  "called": true,
+  "asOf": "2026-11-04T04:16:00Z",
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+ },
+ "nominees": [
+  {
+   "name": "Wes Moore",
+   "party": "D",
+   "role": "Democratic incumbent governor",
+   "team": [
+    "Campaign slate that could back primary challengers (Maryland Matters)."
+   ],
+   "sources": [
+    "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+   ],
+   "positions": [
+    {
+     "topic": "Budget",
+     "stance": "About $1.5 billion projected FY2027 deficit; no new taxes; general fund smaller than the current year (fourth straight cut).",
+     "sources": [
+      "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+     ]
+    },
+    {
+     "topic": "Agenda",
+     "stance": "Housing, education, crime prevention, economic development, health care, workforce and apprenticeship.",
+     "sources": [
+      "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+     ]
+    },
+    {
+     "topic": "Redistricting",
+     "stance": "Supports redrawing congressional maps; Senate appears opposed.",
+     "sources": [
+      "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+     ]
+    }
+   ],
+   "policyShifts": [
+    {
+     "area": "Budget",
+     "shift": "Continued cuts and fund shifts instead of taxes.",
+     "lever": "legislative (budget)",
+     "sources": [
+      "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+     ]
+    },
+    {
+     "area": "Congressional map",
+     "shift": "Possible redraw if the legislature agrees.",
+     "lever": "legislative",
+     "sources": [
+      "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+     ]
+    }
+   ],
+   "impediments": [
+    {
+     "title": "Legislative friction",
+     "detail": "Lawmakers overrode more than a dozen Moore vetoes in a December special session.",
+     "severity": "high",
+     "sources": [
+      "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+     ]
+    },
+    {
+     "title": "Key Bridge cost",
+     "detail": "Replacement estimate rose from $1.7 billion to about $5.2 billion; federal Transportation Secretary criticism; no contingency plan.",
+     "severity": "high",
+     "sources": [
+      "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+     ]
+    },
+    {
+     "title": "Federal job losses",
+     "detail": "About 25,000 federal job losses shape revenue.",
+     "severity": "medium",
+     "sources": [
+      "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+     ]
+    },
+    {
+     "title": "Approval",
+     "detail": "Approval slipped to about 52% (Gonzales poll).",
+     "severity": "low",
+     "sources": [
+      "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+     ]
+    }
+   ],
+   "insights": [
+    "Friction with his own party's legislature is the main risk, not the opposition party.",
+    "Key Bridge funding is the largest single capital exposure."
+   ],
+   "analysis": {
+    "assumption": "Scenario: assumes Wes Moore wins the Nov. 3, 2026 general election. AP has called this race (AP lookup, Nov. 4, 2026 04:16 UTC); this tool does not make calls. Not a call or forecast.",
+    "summary": "Incumbent second term in a fiscally tight environment: budget gap, bridge cost, federal job losses and strained legislative relations.",
+    "timing": "Next term begins Jan. 2027 (verify).",
+    "priorities": [
+     "Close the deficit without taxes.",
+     "Key Bridge funding.",
+     "Housing and workforce."
+    ],
+    "firstMoves": [
+     "Introduce a constrained FY2028 budget.",
+     "Repair legislative relations."
+    ],
+    "risks": [
+     "Veto overrides, federal funding."
+    ],
+    "pollContext": "AP lookup reported the race as called; no vote totals were readable here.",
+    "confidence": "low-medium",
+    "researched": "2026-11-03",
+    "sources": [
+     "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+    ]
+   },
+   "cabinet": {
+    "Chief of Staff": [
+     {
+      "name": "Fagan Harris",
+      "currentPosition": "Chief of Staff to the Governor",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Budget Director": [
+     {
+      "name": "Helene Grady",
+      "currentPosition": "Secretary, Department of Budget and Management",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Health": [
+     {
+      "name": "Laura Herrera Scott",
+      "currentPosition": "Secretary, Maryland Department of Health",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Commerce / Economic Development": [
+     {
+      "name": "Kevin Anderson",
+      "currentPosition": "Secretary, Department of Commerce",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ],
+    "Emergency Management": [
+     {
+      "name": "Russell Strickland",
+      "currentPosition": "Secretary, Maryland Department of Emergency Management",
+      "why": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "status": "Current holder as I last knew it (verify). Continuity pick for a same-party or incumbent governor; a new governor decides whether to keep them.",
+      "kind": "analyst",
+      "confidence": "low",
+      "lastResearched": "2026-11-03",
+      "sources": []
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -6,7 +6,12 @@
  "apStatus": {
   "called": true,
   "asOf": "2026-11-04T04:16:00Z",
-  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races."
+  "note": "AP lookup reports this race as called. The AP card with names was not readable here; the winner shown is from the user-supplied table of called races.",
+  "winner": {
+   "name": "Ned Lamont",
+   "party": "D",
+   "basis": "user-supplied result; AP lookup shows the race called"
+  }
  },
  "nominees": [
   {

@@ -6,7 +6,12 @@
  "apStatus": {
   "called": true,
   "asOf": "2026-11-04T04:34:00Z",
-  "note": "AP lookup reports the Iowa governor race as called (Nov. 4, 2026, 04:34 UTC). The AP card with names was not readable here; the winner shown is from the user-supplied result. This tool does not make calls."
+  "note": "AP lookup reports the Iowa governor race as called (Nov. 4, 2026, 04:34 UTC). The AP card with names was not readable here; the winner shown is from the user-supplied result. This tool does not make calls.",
+  "winner": {
+   "name": "Rob Sand",
+   "party": "D",
+   "basis": "user-supplied result; AP lookup shows the race called"
+  }
  },
  "nominees": [
   {

@@ -86,3 +86,7 @@ Cabinet tabs show a Likely option plus alternates per role. Entries tagged "Anal
 
 ## Iowa, Wisconsin, Kansas update
 IA and WI governor races are called per AP lookup (winner Sand / Crowley per user-supplied results; names not readable from the AP card). Kansas is NOT called by AP as of Nov. 4 04:34 UTC; Holscher analysis is a scenario. Cabinet slates are analyst-identified, unsourced, verify.
+
+## Map, Advisory projections, Competitive Intelligence
+- Map defaults to Election outcome: called winners per AP lookup (winner party from `apStatus.winner` in research files, built into `outcomes.json`; AP-sourced entries from Enter AP call take precedence), lighter tiles for states with no 2026 governor race (sitting governor's party), orange border for party flips. Florida is AP-called but its winner is not recorded.
+- `data/intel.json` (built to `intel.json`): `advisory` = per-candidate structural projections (inference, labeled) for 39 governor races; `vendors` = documented incumbent firms by category only where a source exists (CA, TX, NE, VT, HI, NY, FL, NM). Edit as research improves.

@@ -1,0 +1,3110 @@
+{
+ "vendors": {
+  "asOf": "2026-11-04",
+  "hudSource": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+  "landscape": {
+   "strategy": {
+    "label": "General strategy and management consulting",
+    "firms": [
+     "Deloitte",
+     "BCG",
+     "McKinsey",
+     "Guidehouse",
+     "Bain",
+     "KPMG"
+    ],
+    "play": "Typically win through statewide IT/Medicaid modernization, operating-model reviews and governor-office efficiency studies; most active at the start of a new administration. Guidehouse is the one with documented state disaster-recovery work (Vermont CDBG-DR)."
+   },
+   "emergency": {
+    "label": "Emergency management and disaster recovery consulting",
+    "firms": [
+     "Tetra Tech",
+     "IEM",
+     "ACDC (as named; confirm the firm)",
+     "Tidal Basin",
+     "Hagerty Consulting",
+     "AECOM",
+     "ICF",
+     "GrantWorks",
+     "Horne",
+     "BDO"
+    ],
+    "play": "Win through FEMA Public Assistance/Hazard Mitigation technical assistance, CDBG-DR program management and housing delivery. Documented state awards in this build: IEM (CA, TX, NY legacy), AECOM/ICF/GrantWorks/BDO (TX), Hagerty (NE), Tidal Basin (HI)."
+   },
+   "audit": {
+    "label": "Audit and compliance services",
+    "firms": [
+     "Forvis Mazars",
+     "CLA",
+     "Horne",
+     "BDO",
+     "CSRS"
+    ],
+    "play": "Win through single-audit support, CDBG-DR monitoring/oversight and subrecipient compliance. Documented in this build: Horne (CA, TX monitoring), CSRS (FL oversight), Hagerty (TX oversight). Many states' statewide audits are done by the state auditor, which limits outside-firm incumbency (verify per state)."
+   }
+  },
+  "states": {
+   "AK": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "AL": {
+    "tier": "high",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "AR": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "AZ": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "CA": {
+    "tier": "high",
+    "categories": {
+     "strategy": {
+      "incumbents": [
+       {
+        "firm": "McKinsey & Company",
+        "scope": "DMV efficiency work for Gov. Newsom's DMV strike team",
+        "period": "contract since ended",
+        "value": "$1.5M",
+        "note": "Single contract; shows access to the governor's office, not a current incumbency.",
+        "sources": [
+         "https://www.techwire.net/news/dmv-work-among-consultant-mckinseys-state-contracts.html"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     },
+     "emergency": {
+      "incumbents": [
+       {
+        "firm": "IEM",
+        "scope": "ReCoverCA program management services (CDBG-DR)",
+        "period": "2/25/2026 – 2/19/2030",
+        "value": "$46.2M",
+        "note": "",
+        "sources": [
+         "https://www.hcd.ca.gov/funding/dr/grant-administration/procurements-contracts"
+        ],
+        "basis": "documented"
+       },
+       {
+        "firm": "SLSCo, Ltd.",
+        "scope": "Owner-occupied rebuild construction management and delivery",
+        "period": "6/21/2021 – 12/31/2027",
+        "value": "$110.9M",
+        "note": "",
+        "sources": [
+         "https://www.hcd.ca.gov/funding/dr/grant-administration/procurements-contracts"
+        ],
+        "basis": "documented"
+       },
+       {
+        "firm": "Horne LLP",
+        "scope": "Owner-occupied rebuild program management services",
+        "period": "5/28/2020 – 12/31/2027",
+        "value": "$24.0M",
+        "note": "Horne's term overlaps IEM's new program-management award; check scope split.",
+        "sources": [
+         "https://www.hcd.ca.gov/funding/dr/grant-administration/procurements-contracts"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     },
+     "audit": {
+      "incumbents": [
+       {
+        "firm": "Horne LLP",
+        "scope": "Program management and monitoring role on CDBG-DR OOR program",
+        "period": "through 12/31/2027",
+        "value": "(included above)",
+        "note": "",
+        "sources": [
+         "https://www.hcd.ca.gov/funding/dr/grant-administration/procurements-contracts"
+        ],
+        "basis": "documented"
+       },
+       {
+        "firm": "MB3, Inc. (formerly GCR)",
+        "scope": "CDBG-DR prime grant management",
+        "period": "10/29/2019 – 10/31/2022",
+        "value": "$13.6M",
+        "note": "Prior prime grant manager; contract ended.",
+        "sources": [
+         "https://www.hcd.ca.gov/funding/dr/grant-administration/procurements-contracts"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     }
+    },
+    "signal": "IEM's new ReCoverCA award (to 2030) and Horne/SLSCo (to 2027) are in place. Next opening is an incoming governor's review and audit/monitoring support (inference)."
+   },
+   "CO": {
+    "tier": "low",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "CT": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "FL": {
+    "tier": "high",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [
+       {
+        "firm": "CSRS, Inc.",
+        "scope": "Florida disaster recovery oversight and monitoring (CDBG-DR)",
+        "period": "period not stated",
+        "value": "not stated",
+        "note": "Per the firm's own project page; client agency and term not confirmed.",
+        "sources": [
+         "https://csrsinc.com/projects/florida-disaster-recovery-oversight-&-monitoring-–-cdbg-dr"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     }
+    },
+    "signal": "Only an oversight/monitoring firm (CSRS) found; a $2.8B+ HUD portfolio implies active vendors that we could not confirm (inference)."
+   },
+   "GA": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "GU": {
+    "tier": "high",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "HI": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [
+       {
+        "firm": "Tidal Basin Group",
+        "scope": "Emergency-standby disaster recovery support to HI-EMA: FEMA Public Assistance and Hazard Mitigation services, grant management",
+        "period": "period not stated",
+        "value": "not stated",
+        "note": "",
+        "sources": [
+         "https://tidalbasingroup.com/education/case-studies/disaster-response-and-recovery-support-services-for-the-state-of-hawaii"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    },
+    "signal": "Tidal Basin is on emergency standby at HI-EMA; Maui CDBG-DR is run at county level, so county procurements matter more than state ones (inference)."
+   },
+   "IA": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "ID": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "IL": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "KS": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "MA": {
+    "tier": "low",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "MD": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "ME": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "MI": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "MN": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "MP": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "NE": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [
+       {
+        "firm": "Hagerty Consulting, Inc.",
+        "scope": "CDBG-DR grants management services (plus 2020 Winter Storm Ulmer action plan; duplication-of-benefits TA)",
+        "period": "8/9/2021 – 3/31/2026 (after three amendments)",
+        "value": "$4.9M",
+        "note": "Term end of 3/31/2026 has passed; whether it was extended or rebid was not confirmed.",
+        "sources": [
+         "https://opportunity.nebraska.gov/wp-content/uploads/2025/04/Contract-Report-April-2025-Procured-Contracts.pdf"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    },
+    "signal": "Hagerty's CDBG-DR grants-management term ended 3/31/2026; watch for extension or rebid. Merch pitch: compliance and closeout support to a new or incumbent prime."
+   },
+   "NH": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "NM": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [
+       {
+        "firm": "IEM",
+        "scope": "Federal (FEMA) Hermit's Peak/Calf Canyon claims review technical support; a federal contract, not a state one",
+        "period": "FEMA award",
+        "value": "$33M",
+        "note": "Shows IEM presence in the state's disaster-claims ecosystem.",
+        "sources": [
+         "https://iem.com/tag/response/"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    },
+    "signal": "IEM's federal claims contract is time-limited; state-level recovery vendors not identified."
+   },
+   "NV": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "NY": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [
+       {
+        "firm": "IEM",
+        "scope": "NY Rising disaster recovery program (post-Sandy)",
+        "period": "legacy, 2013 onward",
+        "value": "not stated",
+        "note": "Legacy engagement; current status not confirmed.",
+        "sources": [
+         "https://iem.com/repairing-and-rebuilding-in-the-state-of-new-york-ny-rising-disaster-recovery-program/"
+        ],
+        "basis": "documented"
+       },
+       {
+        "firm": "CohnReznick",
+        "scope": "Governor's Office of Storm Recovery advisory",
+        "period": "legacy case study",
+        "value": "not stated",
+        "note": "Legacy engagement; current status not confirmed.",
+        "sources": [
+         "https://www.cohnreznick.com/insights/case-study-ny-state-governors-office-of-storm-recovery"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    },
+    "signal": "Only legacy Sandy-era firms found; current CDBG-DR (Ida) vendors not identified. Open field for diligence."
+   },
+   "OH": {
+    "tier": "low",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "OK": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "OR": {
+    "tier": "high",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "PA": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "RI": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "SC": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "SD": {
+    "tier": "low",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "TN": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "TX": {
+    "tier": "high",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [
+       {
+        "firm": "GrantWorks, Inc.",
+        "scope": "Grant administration, applicant outreach, project management for housing and infrastructure (multiple GLO contracts)",
+        "period": "2018 – 6/30/2025 (several), 2021 – 11/2025",
+        "value": "$84.2M largest single contract",
+        "note": "",
+        "sources": [
+         "https://www.glo.texas.gov/sites/default/files/documents/disaster-recovery/state-of-texas-glo-contracts-report-all.pdf"
+        ],
+        "basis": "documented"
+       },
+       {
+        "firm": "IEM International",
+        "scope": "Homeowner assistance program operations and outreach",
+        "period": "9/2018 – 6/30/2025",
+        "value": "$43.7M + $16.0M",
+        "note": "",
+        "sources": [
+         "https://www.glo.texas.gov/sites/default/files/documents/disaster-recovery/state-of-texas-glo-contracts-report-all.pdf"
+        ],
+        "basis": "documented"
+       },
+       {
+        "firm": "AECOM",
+        "scope": "HAP operations; new 2024-disasters HAP/HRP implementation",
+        "period": "new award 10/14/2025 – 11/30/2028",
+        "value": "$35.0M (new)",
+        "note": "",
+        "sources": [
+         "https://www.glo.texas.gov/sites/default/files/documents/disaster-recovery/state-of-texas-glo-contracts-report-all.pdf"
+        ],
+        "basis": "documented"
+       },
+       {
+        "firm": "ICF",
+        "scope": "CDBG-MIT grant administration and management",
+        "period": "11/1/2024 – 10/31/2028",
+        "value": "$38.5M (renewal of $45.0M)",
+        "note": "",
+        "sources": [
+         "https://www.glo.texas.gov/sites/default/files/documents/disaster-recovery/state-of-texas-glo-contracts-report-all.pdf"
+        ],
+        "basis": "documented"
+       },
+       {
+        "firm": "BDO Government Services",
+        "scope": "Houston housing program implementation",
+        "period": "3/2020 – 12/31/2025",
+        "value": "$46.5M",
+        "note": "Term ended 12/31/2025; check for recompete.",
+        "sources": [
+         "https://www.glo.texas.gov/sites/default/files/documents/disaster-recovery/state-of-texas-glo-contracts-report-all.pdf"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     },
+     "audit": {
+      "incumbents": [
+       {
+        "firm": "Horne LLP",
+        "scope": "Monitoring and oversight",
+        "period": "per GLO contracts report",
+        "value": "$10.4M",
+        "note": "",
+        "sources": [
+         "https://www.glo.texas.gov/sites/default/files/documents/disaster-recovery/state-of-texas-glo-contracts-report-all.pdf"
+        ],
+        "basis": "documented"
+       },
+       {
+        "firm": "Hagerty Consulting",
+        "scope": "Alternative housing study and oversight (four contracts)",
+        "period": "per GLO contracts report",
+        "value": "~$2.3M combined",
+        "note": "",
+        "sources": [
+         "https://www.glo.texas.gov/sites/default/files/documents/disaster-recovery/state-of-texas-glo-contracts-report-all.pdf"
+        ],
+        "basis": "documented"
+       },
+       {
+        "firm": "Ardurra",
+        "scope": "Guidance and consulting oversight",
+        "period": "per GLO contracts report",
+        "value": "$3.0M",
+        "note": "",
+        "sources": [
+         "https://www.glo.texas.gov/sites/default/files/documents/disaster-recovery/state-of-texas-glo-contracts-report-all.pdf"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     }
+    },
+    "signal": "GrantWorks, IEM, AECOM and BDO terms from 2018 expired June-Dec 2025; AECOM won a new 2025 award and ICF's CDBG-MIT renewal runs to 2028. Subcontract and monitoring niches are open (inference)."
+   },
+   "VI": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "VT": {
+    "tier": "medium",
+    "categories": {
+     "strategy": {
+      "incumbents": [
+       {
+        "firm": "Guidehouse Inc.",
+        "scope": "CDBG-DR action plan data analysis and drafting; master contract procured by Agency of Administration in June 2020, renewed annually, expanded for 2023-24 floods",
+        "period": "master 2020; work order April 2025",
+        "value": "not stated",
+        "note": "Direct pay by ACCD, reimbursed from CDBG-DR once received.",
+        "sources": [
+         "https://outside.vermont.gov/agency/ACCD/ACCD_Web_Docs/CD/VCDP/CDBG-DR/Cover%20Page%20-%20ACCD%20Guidehouse%20Contract%20CDBG-DR%202025.pdf"
+        ],
+        "basis": "documented"
+       }
+      ],
+      "status": "documented"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    },
+    "signal": "Guidehouse has been the long-running master contractor; a second-source or compliance partner role is the likely entry (inference)."
+   },
+   "WI": {
+    "tier": "low",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   },
+   "WY": {
+    "tier": "none",
+    "categories": {
+     "strategy": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "emergency": {
+      "incumbents": [],
+      "status": "none identified"
+     },
+     "audit": {
+      "incumbents": [],
+      "status": "none identified"
+     }
+    }
+   }
+  }
+ },
+ "advisory": {
+  "asOf": "2026-11-04",
+  "hudSource": "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+  "note": "Projections are structural inference, not candidate statements, unless a sourced 'called out' item is shown. Tier is based on the state's presence in HUD's CDBG-DR grant history (extraction not independently verified).",
+  "states": {
+   "AK": {
+    "tier": "medium",
+    "incumbentGovernor": "Mike Dunleavy",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Jonathan Kreiss-Tomkins",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Mike Dunleavy (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Bernadette Wilson",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Mike Dunleavy: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "AL": {
+    "tier": "high",
+    "incumbentGovernor": "Kay Ivey",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Doug Jones",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Kay Ivey (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Tommy Tuberville",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Kay Ivey: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "AR": {
+    "tier": "medium",
+    "incumbentGovernor": "Sarah Huckabee Sanders",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Fredrick Love",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Sarah Huckabee Sanders (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Sarah Huckabee Sanders",
+      "party": "R",
+      "incumbent": true,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Health: No new Medicaid coverage mandates; no new multiyear spending obligations.",
+        "sources": [
+         "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.axios.com/local/nw-arkansas/2026/04/08/gov-sanders-outlines-budget-agenda-for-lawmakers"
+      ]
+     }
+    }
+   },
+   "AZ": {
+    "tier": "none",
+    "incumbentGovernor": "Katie Hobbs",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Katie Hobbs",
+      "party": "D",
+      "incumbent": true,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Andy Biggs",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Katie Hobbs (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "CA": {
+    "tier": "high",
+    "incumbentGovernor": "Gavin Newsom",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Xavier Becerra",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Gavin Newsom: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Steve Hilton",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Gavin Newsom (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "CO": {
+    "tier": "low",
+    "incumbentGovernor": "Jared Polis",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Phil Weiser",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Housing and affordability: Increase attainable owner-occupied homes by 40,000; stands with renters; commentary notes few specifics.",
+        "sources": [
+         "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+        ]
+       },
+       {
+        "text": "Health care: 'Primary care for all'; strengthen the Colorado Option; doubts a full public option, would study single-payer; challenge hospital consolidation, surprise billing and medical debt; safety-net stabilization task force for federal cuts; continue insu",
+        "sources": [
+         "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado",
+         "https://foleyhoag.com/news-and-insights/blogs/state-ag-insights/2026/september/colorado-2026-elections-democratic-nominees-for-governor-and-attorney-general-what-healthcare-li/"
+        ]
+       },
+       {
+        "text": "Rights and elections: Protect elections, reproductive and LGBTQ+ rights, public lands and fair representation; early supporter of emergency redistricting, which Polis opposed.",
+        "sources": [
+         "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+        ]
+       },
+       {
+        "text": "Federal relations: Continued litigation posture; commentary asks about 'uncooperative federalism' but he has not committed.",
+        "sources": [
+         "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Same-party successor to Jared Polis: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Small state-level CDBG-DR footprint; demand more likely from FEMA PA/HM, infrastructure funds and general grants compliance."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado",
+       "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado",
+       "https://foleyhoag.com/news-and-insights/blogs/state-ag-insights/2026/september/colorado-2026-elections-democratic-nominees-for-governor-and-attorney-general-what-healthcare-li/",
+       "https://www.kiowacountypress.net/content/commentary-what-expect-weiser-administration-colorado"
+      ]
+     },
+     "R": {
+      "name": "Victor Marx",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Jared Polis (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Small state-level CDBG-DR footprint; demand more likely from FEMA PA/HM, infrastructure funds and general grants compliance."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "CT": {
+    "tier": "none",
+    "incumbentGovernor": "Ned Lamont",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Ned Lamont",
+      "party": "D",
+      "incumbent": true,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Education and local aid: About $193 million in supplemental K-12 grants; more than $100 million one-time to lower local property taxes; about $300 million for the Early Childhood Education Endowment; universal free school breakfast.",
+        "sources": [
+         "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+        ]
+       },
+       {
+        "text": "Fiscal management: Over $1 billion in extra pension payments in each of FY2026 and FY2027; Federal Cuts Response Fund up $50 million; $813.7 million of volatile revenue spent under a governor's declaration.",
+        "sources": [
+         "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+        ]
+       },
+       {
+        "text": "Pensions and reserves: Continued large pension paydowns and a federal-cuts response fund.",
+        "sources": [
+         "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+        ]
+       },
+       {
+        "text": "Municipal aid: More one-time local aid to hold down property taxes.",
+        "sources": [
+         "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget",
+       "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget",
+       "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget",
+       "https://portal.ct.gov/governor/news/press-releases/2026/05-2026/governor-lamont-signs-fy-2027-state-budget"
+      ]
+     },
+     "R": {
+      "name": "Ryan Fazio",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Ned Lamont (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "FL": {
+    "tier": "high",
+    "incumbentGovernor": "Ron DeSantis",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "David Jolly",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Property tax: Opposes Amendment 3.",
+        "sources": [
+         "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Party change from Ron DeSantis (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+      ]
+     },
+     "R": {
+      "name": "Byron Donalds",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Property tax: Supports Amendment 3 (substantial homestead property-tax cut). His running mate Avila sponsored the property-tax amendment.",
+        "sources": [
+         "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor",
+         "https://www.wlrn.org/government-politics/2026-08-25/byron-donalds-makes-his-pick-for-lieutenant-governor-heres-what-to-know"
+        ]
+       },
+       {
+        "text": "Insurance, transportation, student proficiency: Names insurance costs and transportation as priorities and a goal of raising math and reading proficiency from about 30% to 50%.",
+        "sources": [
+         "https://www.governing.com/politics/byron-donalds-plans-for-governing-florida-if-elected"
+        ]
+       },
+       {
+        "text": "Property tax: Support for Amendment 3 (homestead cut).",
+        "sources": [
+         "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Same-party successor to Ron DeSantis: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor",
+       "https://www.wlrn.org/government-politics/2026-08-25/byron-donalds-makes-his-pick-for-lieutenant-governor-heres-what-to-know",
+       "https://www.governing.com/politics/byron-donalds-plans-for-governing-florida-if-elected",
+       "https://www.wlrn.org/government-politics/2026-10-30/3-major-issues-that-republican-byron-donalds-or-democrat-david-jolly-will-need-to-address-as-floridas-next-governor"
+      ]
+     }
+    }
+   },
+   "GA": {
+    "tier": "medium",
+    "incumbentGovernor": "Brian Kemp",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Keisha Lance Bottoms",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Medicaid: Full Medicaid expansion up to 138% of the poverty level as a day-one priority; end Pathways first and seek a higher federal match; opposes work requirements as unnecessary bureaucracy.",
+        "sources": [
+         "https://www.gpb.org/news/2026/10/01/medicaid-work-requirements-are-here-stay-no-matter-who-wins-georgia-governors-race",
+         "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+         "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+        ]
+       },
+       {
+        "text": "Emergency rooms and uninsured: Argues leaving hundreds of thousands uninsured burdens local emergency rooms.",
+        "sources": [
+         "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+         "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+        ]
+       },
+       {
+        "text": "Medicaid: Replace Pathways with full expansion; Georgia's current waiver expires in December and the next governor decides how coverage continues.",
+        "sources": [
+         "https://www.gpb.org/news/2026/10/01/medicaid-work-requirements-are-here-stay-no-matter-who-wins-georgia-governors-race",
+         "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Party change from Brian Kemp (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.gpb.org/news/2026/10/01/medicaid-work-requirements-are-here-stay-no-matter-who-wins-georgia-governors-race",
+       "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+       "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction",
+       "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/"
+      ]
+     },
+     "R": {
+      "name": "Rick Jackson",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Medicaid: 'Close the coverage gap with intelligent Medicaid expansion' via a state-designed waiver with work, education or training requirements; rural hospital stabilization, liability reform, price transparency, 500 inpatient psychiatric beds.",
+        "sources": [
+         "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+         "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Same-party successor to Brian Kemp: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.atlantanewsfirst.com/2026/09/08/work-requirements-or-full-coverage-georgia-governor-hopefuls-roll-out-healthcare-proposals/",
+       "https://www.wtoc.com/2026/09/08/gops-jackson-rolls-out-ga-roadmap-bottoms-calls-it-distraction"
+      ]
+     }
+    }
+   },
+   "GU": {
+    "tier": "high",
+    "incumbentGovernor": "Lou Leon Guerrero",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Therese Terlaje",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Lou Leon Guerrero: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Vicente \"Tony\" Ada",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Lou Leon Guerrero (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "HI": {
+    "tier": "none",
+    "incumbentGovernor": "Josh Green",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Josh Green",
+      "party": "D",
+      "incumbent": true,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Gary Cordery",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Josh Green (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "IA": {
+    "tier": "medium",
+    "incumbentGovernor": "Kim Reynolds",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Rob Sand",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Health care: End private management (MCOs) of Iowa Medicaid, paying providers directly through a state-run nonprofit-style system; would sign the Work Without Worry bill lifting Medicaid income/asset limits for working Iowans with disabilities.",
+        "sources": [
+         "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+        ]
+       },
+       {
+        "text": "Housing: Cut state regulation and simplify permitting to encourage homebuilding.",
+        "sources": [
+         "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html"
+        ]
+       },
+       {
+        "text": "Revenue: Floated marijuana-legalization tax revenue and higher taxes on data centers as possible funding for Medicaid changes.",
+        "sources": [
+         "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+        ]
+       },
+       {
+        "text": "Medicaid: Reverse the managed-care model: a move from private MCOs to state direct payment. This reshapes Iowa HHS procurement, contracts and provider payment systems.",
+        "sources": [
+         "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+        ]
+       },
+       {
+        "text": "Housing and permitting: Regulatory simplification and permitting reform could be partly administrative (state rules) and partly statutory.",
+        "sources": [
+         "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Party change from Kim Reynolds (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/",
+       "https://www.thegazette.com/news/elections/state/free-school-lunches-prescription-drug-board-among-rob-sand-s-cost-cutting-pitches/article_27dd021b-0dbd-40ce-8394-df6f8e22646f.html",
+       "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/",
+       "https://www.wowt.com/2026/10/08/rob-sand-backs-medicaid-pay-changes-disabled-iowans-proposes-ending-privatization/"
+      ]
+     },
+     "R": {
+      "name": "Zach Lahn",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Kim Reynolds: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "ID": {
+    "tier": "none",
+    "incumbentGovernor": "Brad Little",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Terri Pickens",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Brad Little (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Brad Little",
+      "party": "R",
+      "incumbent": true,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "IL": {
+    "tier": "none",
+    "incumbentGovernor": "JB Pritzker",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "JB Pritzker",
+      "party": "D",
+      "incumbent": true,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Darren Bailey",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from JB Pritzker (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "KS": {
+    "tier": "none",
+    "incumbentGovernor": "Laura Kelly",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Cindy Holscher",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Education: Supports fully funding K-12 special education, arguing shortfalls push local districts to raise property taxes; opposes Masterson's approach to public schools.",
+        "sources": [
+         "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+        ]
+       },
+       {
+        "text": "Health care / abortion: Supports Medicaid expansion and abortion rights; opposed the 2022 abortion amendment.",
+        "sources": [
+         "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+        ]
+       },
+       {
+        "text": "Property tax: Lower the home assessment rate from 11.5% to 9%; restrict tax breaks for wealthy business owners while keeping senior and disabled-veteran exemptions; fully fund special education to ease local pressure.",
+        "sources": [
+         "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race"
+        ]
+       },
+       {
+        "text": "Medicaid: Expansion would be a major change after years of vetoed or blocked bills; needs legislative passage or a ballot route.",
+        "sources": [
+         "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+         "https://cindyforkansas.com/priorities/"
+        ]
+       },
+       {
+        "text": "Property tax and school finance: Cutting the assessment rate to 9% and fully funding special education moves costs from local property taxes to the state budget, with state revenue effects to be modeled.",
+        "sources": [
+         "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race",
+         "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Same-party successor to Laura Kelly: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+       "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival",
+       "https://www.hppr.org/hppr-news/2026-10-29/lack-of-major-property-tax-relief-in-kansas-prompts-finger-pointing-in-governors-race",
+       "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+      ]
+     },
+     "R": {
+      "name": "Ty Masterson",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Property taxes / local government: Rein in local property taxes through budget oversight, possibly elected county appraisers.",
+        "sources": [
+         "https://www.wibw.com/2025/07/21/gubernatorial-candidate-ty-masterson-shares-top-campaign-priorities/"
+        ]
+       },
+       {
+        "text": "Abortion, Medicaid expansion, marijuana: Rejects abortion rights, Medicaid expansion and marijuana legalization (per Holscher-campaign coverage of the contrast).",
+        "sources": [
+         "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Party change from Laura Kelly (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.wibw.com/2025/07/21/gubernatorial-candidate-ty-masterson-shares-top-campaign-priorities/",
+       "https://www.hppr.org/hppr-news/2026-10-05/democrat-cindy-holschers-campaign-for-kansas-governor-highlights-distinctions-from-gop-rival"
+      ]
+     }
+    }
+   },
+   "MA": {
+    "tier": "low",
+    "incumbentGovernor": "Maura Healey",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Maura Healey",
+      "party": "D",
+      "incumbent": true,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Housing: Affordable Homes Act ($4.1 billion), MassDreams and Commonwealth Builder Fund (2024 agenda).",
+        "sources": [
+         "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure"
+        ]
+       },
+       {
+        "text": "Transportation: Double MBTA operating funding; reduced-fare program; Cape Cod Bridges.",
+        "sources": [
+         "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure"
+        ]
+       },
+       {
+        "text": "Climate: HVAC heat-pump training; Disaster Relief Resiliency Fund.",
+        "sources": [
+         "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure"
+        ]
+       },
+       {
+        "text": "Housing: Continued implementation under a new housing secretary.",
+        "sources": [
+         "https://www.wgbh.org/news/local/2026-02-19/state-housing-secretary-to-step-down-healeys-eighth-state-cabinet-departure-in-three-years"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Small state-level CDBG-DR footprint; demand more likely from FEMA PA/HM, infrastructure funds and general grants compliance."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure",
+       "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure",
+       "https://www.mass.gov/news/governor-healey-announces-second-year-agenda-to-lower-costs-improve-quality-of-life-through-education-housing-and-infrastructure",
+       "https://www.wgbh.org/news/local/2026-02-19/state-housing-secretary-to-step-down-healeys-eighth-state-cabinet-departure-in-three-years"
+      ]
+     },
+     "R": {
+      "name": "Mike Minogue",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Maura Healey (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Small state-level CDBG-DR footprint; demand more likely from FEMA PA/HM, infrastructure funds and general grants compliance."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "MD": {
+    "tier": "none",
+    "incumbentGovernor": "Wes Moore",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Wes Moore",
+      "party": "D",
+      "incumbent": true,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Agenda: Housing, education, crime prevention, economic development, health care, workforce and apprenticeship.",
+        "sources": [
+         "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://marylandmatters.org/2026/01/14/moore-lists-wins-but-enters-fourth-session-with-a-lot-that-needs-to-be-accomplished-still/"
+      ]
+     },
+     "R": {
+      "name": "Dan Cox",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Wes Moore (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "ME": {
+    "tier": "none",
+    "incumbentGovernor": "Janet Mills",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Hannah Pingree",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Janet Mills: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Robert Charles",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Janet Mills (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "MI": {
+    "tier": "medium",
+    "incumbentGovernor": "Gretchen Whitmer",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Jocelyn Benson",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Gretchen Whitmer: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "John James",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Gretchen Whitmer (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "MN": {
+    "tier": "none",
+    "incumbentGovernor": "Tim Walz",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Amy Klobuchar",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Tim Walz: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Lisa Demuth",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Tim Walz (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "MP": {
+    "tier": "medium",
+    "incumbentGovernor": "David M. Apatang",
+    "openSeat": true,
+    "candidates": {
+     "R": {
+      "name": "Ralph Torres",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from David M. Apatang (O): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "NE": {
+    "tier": "medium",
+    "incumbentGovernor": "Jim Pillen",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Lynne Walz",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Jim Pillen (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Jim Pillen",
+      "party": "R",
+      "incumbent": true,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "NH": {
+    "tier": "none",
+    "incumbentGovernor": "Kelly Ayotte",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Cinde Warmington",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Kelly Ayotte (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Kelly Ayotte",
+      "party": "R",
+      "incumbent": true,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "NM": {
+    "tier": "medium",
+    "incumbentGovernor": "Michelle Lujan Grisham",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Deb Haaland",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Michelle Lujan Grisham: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Gregg Hull",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Michelle Lujan Grisham (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "NV": {
+    "tier": "none",
+    "incumbentGovernor": "Joe Lombardo",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Aaron Ford",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Joe Lombardo (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Joe Lombardo",
+      "party": "R",
+      "incumbent": true,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "NY": {
+    "tier": "medium",
+    "incumbentGovernor": "Kathy Hochul",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Kathy Hochul",
+      "party": "D",
+      "incumbent": true,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Health and housing: $38.2 billion Medicaid; $750 million hospitals and nursing homes; $25 billion affordable housing initiative.",
+        "sources": [
+         "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+        ]
+       },
+       {
+        "text": "Housing: $25 billion affordable housing initiative.",
+        "sources": [
+         "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/",
+       "https://www.wnyt.com/top-stories/gov-hochul-releases-executive-budget-for-fiscal-year-2027/"
+      ]
+     },
+     "R": {
+      "name": "Bruce Blakeman",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Kathy Hochul (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "OH": {
+    "tier": "low",
+    "incumbentGovernor": "Mike DeWine",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Amy Acton",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Utilities and energy: Restore consumer protections targeted by HB 6; require data centers and investors to cover energy and water costs; 'all-of-the-above' energy with union labor.",
+        "sources": [
+         "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf"
+        ]
+       },
+       {
+        "text": "Health: Use Medicaid pharmacy purchasing power online to lower drug prices; stronger action against surprise billing and predatory collections.",
+        "sources": [
+         "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf"
+        ]
+       },
+       {
+        "text": "Health: Medicaid pharmacy purchasing platform; billing protections.",
+        "sources": [
+         "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Party change from Mike DeWine (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Small state-level CDBG-DR footprint; demand more likely from FEMA PA/HM, infrastructure funds and general grants compliance."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf",
+       "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf",
+       "https://www.stateside.com/sites/default/files/2026-07/Amy%20Acton%20Gov%20Profile.pdf"
+      ]
+     },
+     "R": {
+      "name": "Vivek Ramaswamy",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Mike DeWine: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Small state-level CDBG-DR footprint; demand more likely from FEMA PA/HM, infrastructure funds and general grants compliance."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "OK": {
+    "tier": "medium",
+    "incumbentGovernor": "Kevin Stitt",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Cyndi Munson",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Kevin Stitt (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Mike Mazzei",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Kevin Stitt: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "OR": {
+    "tier": "high",
+    "incumbentGovernor": "Tina Kotek",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Tina Kotek",
+      "party": "D",
+      "incumbent": true,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Christine Drazan",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Tina Kotek (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "PA": {
+    "tier": "medium",
+    "incumbentGovernor": "Josh Shapiro",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Josh Shapiro",
+      "party": "D",
+      "incumbent": true,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Stacy Garrity",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Josh Shapiro (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "RI": {
+    "tier": "none",
+    "incumbentGovernor": "Dan McKee",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Helena Foulkes",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Dan McKee: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Aaron Guckian",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Dan McKee (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "SC": {
+    "tier": "medium",
+    "incumbentGovernor": "Henry McMaster",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Jermaine Johnson",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Henry McMaster (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Alan Wilson",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Henry McMaster: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "SD": {
+    "tier": "low",
+    "incumbentGovernor": "Larry Rhoden",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Dan Ahlers",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Larry Rhoden (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Small state-level CDBG-DR footprint; demand more likely from FEMA PA/HM, infrastructure funds and general grants compliance."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Larry Rhoden",
+      "party": "R",
+      "incumbent": true,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Small state-level CDBG-DR footprint; demand more likely from FEMA PA/HM, infrastructure funds and general grants compliance."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "TN": {
+    "tier": "medium",
+    "incumbentGovernor": "Bill Lee",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Jerri Green",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Bill Lee (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Marsha Blackburn",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Bill Lee: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "TX": {
+    "tier": "high",
+    "incumbentGovernor": "Greg Abbott",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Gina Hinojosa",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Property tax / corporate incentives: Ends what she calls corporate welfare and uses the savings to cut property taxes; opposes Abbott's plan to eliminate homestead school property taxes. Pitches cash back for renters and broader tax reform that lowers rates fo",
+        "sources": [
+         "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls",
+         "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/",
+         "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html"
+        ]
+       },
+       {
+        "text": "Data centers and technology: Moratorium on new data center permits until protections for water, power and local input exist; end their tax breaks. Wants Flock cameras taken down and residents refunded; sued in Travis County for Abbott-Musk emails.",
+        "sources": [
+         "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott",
+         "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/",
+         "https://www.texastribune.org/2026/10/16/gina-hinojosa-greg-abbott-texas-governor-race/"
+        ]
+       },
+       {
+        "text": "Energy and grid: Strengthen grid resilience, hold utilities to reliability standards, support energy diversity; criticizes Abbott's handling of Winter Storm Uri.",
+        "sources": [
+         "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html"
+        ]
+       },
+       {
+        "text": "Health care: Affordability agenda aimed at corporate insurers and drug companies; points to high uninsured rates. Her position on Medicaid expansion and abortion was not found in the sources opened.",
+        "sources": [
+         "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html",
+         "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls"
+        ]
+       },
+       {
+        "text": "Immigration and border: Supports border security with modern infrastructure at ports of entry and coordination with federal partners; opposes withholding public-safety grants from Austin and Houston; says crossings are now very low.",
+        "sources": [
+         "https://cbsaustin.com/news/texas-politics/dem-nominee-for-governor-gina-hinojosa-weighs-in-on-school-budget-crises-and-immigration",
+         "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Party change from Greg Abbott (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.kut.org/texasstandard/2026-10-23/gina-hinojosa-greg-abbott-texas-governor-race-priorities-polls",
+       "https://www.kbtx.com/2026/10/26/democratic-gubernatorial-challenger-gina-hinojosa-speaks-with-kbtx-terafab-schools-flock-cameras/",
+       "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html",
+       "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott"
+      ]
+     },
+     "R": {
+      "name": "Greg Abbott",
+      "party": "R",
+      "incumbent": true,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Property taxes: Eliminate school property taxes for homeowners and raise the sales tax to pay for it.",
+        "sources": [
+         "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott"
+        ]
+       },
+       {
+        "text": "Border and immigration: Border security emphasis; threatened to withhold about $2.5 million in public-safety grants from cities that limit police-immigration cooperation.",
+        "sources": [
+         "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+         "https://cbsaustin.com/news/texas-politics/dem-nominee-for-governor-gina-hinojosa-weighs-in-on-school-budget-crises-and-immigration"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Large state-level CDBG-DR portfolio in HUD's grant history; expect heavy grant-management, monitoring and closeout demand.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://www.tpr.org/podcast/the-source/2026-10-07/hinojosa-puts-affordability-schools-and-data-centers-at-center-of-challenge-to-abbott",
+       "https://www.ksat.com/news/local/2026/10/20/greg-abbott-gina-hinojosa-offer-competing-visions-for-texas-in-governors-race/",
+       "https://cbsaustin.com/news/texas-politics/dem-nominee-for-governor-gina-hinojosa-weighs-in-on-school-budget-crises-and-immigration"
+      ]
+     }
+    }
+   },
+   "VI": {
+    "tier": "none",
+    "incumbentGovernor": "Albert J. Bryan Jr.",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Stacey E. Plaskett",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Same-party successor to Albert J. Bryan Jr.: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "VT": {
+    "tier": "medium",
+    "incumbentGovernor": "Phil Scott",
+    "openSeat": false,
+    "candidates": {
+     "D": {
+      "name": "Amanda Janoo",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Phil Scott (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Phil Scott",
+      "party": "R",
+      "incumbent": true,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Incumbent: continuity. Existing recovery programs, vendors and contract cycles carry forward; expect procurement to follow current renewals and the governor's established agency heads.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Meaningful state-level CDBG-DR/disaster funds in HUD's grant history; demand for program management and compliance is real but narrower.",
+       "Documented incumbent vendors exist for this state; see Competitive Intelligence."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "WI": {
+    "tier": "low",
+    "incumbentGovernor": "Tony Evers",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "David Crowley",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Health care: Open BadgerCare as a public option for any household, using federal Medicaid match for part of the cost.",
+        "sources": [
+         "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/",
+         "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/"
+        ]
+       },
+       {
+        "text": "Fiscal record: Won Republican-led Legislature approval to increase state-shared revenue, enabling a 0.4% Milwaukee County sales tax that gave property tax relief.",
+        "sources": [
+         "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/"
+        ]
+       },
+       {
+        "text": "Health coverage: BadgerCare public option would be a major expansion of Medicaid-based coverage; needs federal waiver/approval and state authority.",
+        "sources": [
+         "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/",
+         "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/"
+        ]
+       },
+       {
+        "text": "Education finance: Closing the special-education funding gap changes state aid to school districts and local property tax pressure.",
+        "sources": [
+         "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Same-party successor to Tony Evers: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "Small state-level CDBG-DR footprint; demand more likely from FEMA PA/HM, infrastructure funds and general grants compliance."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/",
+       "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/",
+       "https://upnorthnewswi.com/news/politics/crowley-vs-tiffany-top-issues/",
+       "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-announces-plan-for-first-30-days-as-governor/"
+      ]
+     },
+     "R": {
+      "name": "Tom Tiffany",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Tony Evers (D): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "Small state-level CDBG-DR footprint; demand more likely from FEMA PA/HM, infrastructure funds and general grants compliance."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     }
+    }
+   },
+   "WY": {
+    "tier": "none",
+    "incumbentGovernor": "Mark Gordon",
+    "openSeat": true,
+    "candidates": {
+     "D": {
+      "name": "Kenneth Casner",
+      "party": "D",
+      "incumbent": false,
+      "fundsUnderstanding": "A Democratic governor is more likely to emphasize protecting federal pass-through funding (FEMA, HUD, Medicaid) and to challenge federal cuts; expect reliance on state matching dollars where federal share is uncertain (inference from party platforms, not a candidate statement).",
+      "calledOut": [],
+      "calledOutNote": "No candidate statement on FEMA, HUD, grants or disaster recovery was found in our research set. Run Conduct analysis for sourced detail.",
+      "transitionContext": "Party change from Mark Gordon (R): expect broad turnover in agency leadership, a review of inherited contracts and likely procurement pauses before new awards (inference).",
+      "likelyLocalImplementation": "Likely to route recovery and mitigation money through state agencies to local governments with cost-share assistance and equity targeting; more likely to buy outside program-management support for housing and mitigation delivery (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf"
+      ]
+     },
+     "R": {
+      "name": "Eric Barlow",
+      "party": "R",
+      "incumbent": false,
+      "fundsUnderstanding": "A Republican governor is more likely to emphasize fiscal restraint, state-level control of grant dollars and reductions in federal dependency, while still pursuing FEMA/HUD reimbursement after declared disasters (inference from party platforms, not a candidate statement).",
+      "calledOut": [
+       {
+        "text": "Data centers and energy: Protect water and electric rates and give communities information; using Wyoming coal and gas to power data centers is 'not a bad thing.'",
+        "sources": [
+         "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+        ]
+       },
+       {
+        "text": "Water: Colorado River: build an upper-basin coalition with more scientific and legal resources; no federal top-down control.",
+        "sources": [
+         "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+        ]
+       },
+       {
+        "text": "Water: Upper-basin coalition posture on the Colorado River.",
+        "sources": [
+         "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+        ]
+       }
+      ],
+      "calledOutNote": "Statements below come from our researched positions; they are not advisory-specific unless they name FEMA, HUD or grants.",
+      "transitionContext": "Same-party successor to Mark Gordon: continuity with a reset. Agency heads and vendors may be retained, but new cabinet picks and contract reviews are likely in the first 6 months.",
+      "likelyLocalImplementation": "Likely to run recovery through established state agencies (e.g., a land office or emergency division) with fewer, larger vendor contracts and stricter cost control for local governments (inference).",
+      "demandSignals": [
+       "No state-level CDBG-DR grant found in HUD's grant history; demand is mainly FEMA PA/HM, mitigation, infrastructure and broadband/economic-development grants."
+      ],
+      "confidence": "low-medium",
+      "basis": "Structural projection from party, incumbency, open-seat status and the state's HUD footprint; labeled inference.",
+      "researched": "2026-11-04",
+      "sources": [
+       "https://www.hud.gov/sites/dfiles/CPD/documents/CDBG-DR/CDBG-DR-Grant-History-9-1-2026.pdf",
+       "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/",
+       "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/",
+       "https://cowboystatedaily.com/2026/08/14/three-gop-gubernatorial-candidates-face-off-in-final-debate-before-primary-election/"
+      ]
+     }
+    }
+   }
+  }
+ }
+}

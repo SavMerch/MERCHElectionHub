@@ -26,5 +26,5 @@ export async function runRefresh({adapters=ADAPTERS,store,now=new Date()}={}){
   const changed=hash!==prev.hash;out.hash=hash;
   await store.setJSON('latest',out);
   if(changed)await store.setJSON('history/'+now.toISOString(),out); // snapshot only when data changed
-  return{changed,health};
+  return{changed,health,checkedAt:out.checkedAt,races:races.length,calls:all.length};
 }

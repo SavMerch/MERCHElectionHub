@@ -49,3 +49,9 @@ No adapter has seen real votes. Netlify scheduling in production and browser ren
 - **Conduct analysis** button (per tab, per candidate) calls `/api/analyze`, which starts `analyze-background` (Anthropic Messages API + web search) and stores the result in Blobs. Results are shown in a separate "AI-generated" panel; items whose sources were not returned by the search are dropped.
 - Env vars to enable it: `ANTHROPIC_API_KEY` (required; without it the button reports "not configured"), `ANALYZE_TOKEN` (optional; falls back to `REFRESH_TOKEN`; the page asks for it once per browser session), `ANALYZE_DAILY_MAX` (default 20 runs/day), `ANALYZE_MODEL` (default `claude-sonnet-5-5`), `ANALYZE_SEARCH_TOOL` (default `web_search_20250305`). Each run consumes API credits; results are cached 6 hours.
 - Not yet exercised against the live Anthropic API or on Netlify (unit-tested with mocked responses only). Check the first run in Netlify's function logs.
+
+## Refresh projections and AP calls
+
+- **Refresh projections** (top of the page) runs every enabled state feed and re-applies sourced calls. It asks for `REFRESH_TOKEN` once per browser session.
+- **Enter AP call** saves a call (state, office, winner, party, projected/certified) with a required https `apnews.com` source URL to `/api/calls`. Calls are stored in Blobs, shown as "AP (entered by analyst)", and applied on every refresh. Races with no state feed show the call only, without vote counts.
+- The tool does not generate its own projections. AP's results pages are not read automatically (the pages are not a licensed feed, and this environment cannot reach them). For automated AP data you would need AP's Elections API under a license.

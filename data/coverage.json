@@ -130,7 +130,9 @@
   },
   "VI": {
    "candidate": "https://vivote.gov/",
-   "status": "UNVERIFIED"
+   "status": "UNVERIFIED",
+   "snapshot": "https://vivote.gov/wp-content/uploads/2026/11/Territorial-Summary-w-detail.pdf",
+   "detail": "Governor totals copied from the official Territorial Summary PDF (report dated 11/03/2026 9:00 PM) into data/manual-results.json. A point-in-time snapshot, not a live feed; update the file when a newer report is posted."
   },
   "GU": {
    "candidate": "https://gec.guam.gov/",

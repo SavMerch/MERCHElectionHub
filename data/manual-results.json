@@ -1,0 +1,54 @@
+{
+ "note": "Sourced snapshots from official election-office documents. Each entry is a point-in-time copy; sourceUpdated shows the report time. Percentages are computed from listed totals unless the source gives them. Replace the entry when a newer report is published.",
+ "races": [
+  {
+   "state": "VI",
+   "office": "Governor",
+   "district": null,
+   "reportingPct": null,
+   "final": false,
+   "sourceName": "Virgin Islands Elections System, Territorial Summary (unofficial)",
+   "sourceUrl": "https://vivote.gov/wp-content/uploads/2026/11/Territorial-Summary-w-detail.pdf",
+   "sourceUpdated": "2026-11-03T21:00:00",
+   "detail": "Report dated 11/03/2026 9:00 PM (time zone not stated in the report). Precincts reporting not listed in the report. Unofficial. Percentages are computed from the listed totals (18,891 votes in this race).",
+   "candidates": [
+    {
+     "name": "Stacey E. Plaskett",
+     "party": "DEM",
+     "votes": 11865,
+     "pct": 62.81
+    },
+    {
+     "name": "Adlah \"Foncie\" Donastorg",
+     "party": "IND",
+     "votes": 2507,
+     "pct": 13.27
+    },
+    {
+     "name": "Oakland Benta",
+     "party": "IND",
+     "votes": 2273,
+     "pct": 12.03
+    },
+    {
+     "name": "Warren Mosler",
+     "party": "IND",
+     "votes": 1293,
+     "pct": 6.84
+    },
+    {
+     "name": "Gustav James",
+     "party": "IND",
+     "votes": 637,
+     "pct": 3.37
+    },
+    {
+     "name": "Write-In Totals",
+     "party": null,
+     "votes": 316,
+     "pct": 1.67
+    }
+   ]
+  }
+ ]
+}

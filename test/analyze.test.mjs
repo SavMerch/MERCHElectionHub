@@ -37,3 +37,19 @@ test('background stores result or error',async()=>{process.env.ANALYZE_TOKEN='to
   assert.equal(st.m.get('analysis/ks-cabinet-r').status,'error');
   const f=await bg(new Request('https://x.test/',{method:'POST',headers:{'x-analyze-token':'no'},body}),{},{store:st});assert.equal(f.status,403)});
 test('advisory prompt carries the advisory brief and rules',()=>{const p=buildPrompt({state:'FL',stateName:'Florida',tab:'Advisory',cand:{name:'X',party:'D'}});assert.match(p,/FEMA Public Assistance/);assert.match(p,/CDBG-DR/);assert.match(p,/No source = do not include/)});
+test('url matching tolerates trailing slash, www and utm params',async()=>{const {matchUrl}=await import('../netlify/functions/lib/analyze.mjs');const a=new Set(['https://www.wlrn.org/a/b/']);
+  assert.equal(matchUrl('https://wlrn.org/a/b?utm_source=x',a),'https://www.wlrn.org/a/b/');assert.equal(matchUrl('https://wlrn.org/other',a),null)});
+test('transition scores need sources and stay in range',()=>{const al=new Set(['https://a.com/x']);
+  const r=validate({summary:'s',scores:{leg:{score:70,rationale:'r',label:'inference',sources:['https://a.com/x']},cab:{score:150,rationale:'r',sources:['https://a.com/x']},agency:{score:40,rationale:'r',sources:['https://nope.com']}}},al);
+  assert.equal(r.scores.leg.score,70);assert.ok(!r.scores.cab&&!r.scores.agency)});
+test('runAnalysis retries for JSON when the first answer is prose, and reports diagnostics',async()=>{let n=0;
+  const f=async()=>{n++;return {ok:true,json:async()=>n===1?{stop_reason:'end_turn',usage:{input_tokens:10,output_tokens:5,server_tool_use:{web_search_requests:2}},content:[{type:'web_search_tool_result',content:[{url:'https://a.com/x'}]},{type:'text',text:'notes only'}]}:{stop_reason:'end_turn',usage:{input_tokens:3,output_tokens:4},content:[{type:'text',text:'{"summary":"s","findings":[{"heading":"h","text":"t","label":"reported","sources":["https://a.com/x/"]}],"gaps":[]}'}]}}};
+  const r=await runAnalysis({fetchImpl:f,apiKey:'k',prompt:'p'});assert.equal(n,2);assert.equal(r.findings.length,1);assert.equal(r.diag.searches,2);assert.equal(r.diag.outTokens,9)});
+test('transition prompt carries the scoring brief',()=>{const p=buildPrompt({state:'KS',stateName:'Kansas',tab:'Transition',cand:{name:'both',party:'R/D'}});assert.match(p,/"leg"/);assert.match(p,/whole state/);assert.doesNotMatch(p,/Assume, for scenario/)});
+test('assess: scores validated, always labeled unsourced inference, no search tool sent',async()=>{
+  const {validateAssess,runAssess,assessPrompt}=await import('../netlify/functions/lib/analyze.mjs');
+  const v=validateAssess({summary:'s',scores:{exec:{score:100,rationale:'open',confidence:'high'},party:{score:150,rationale:'x'},leg:{score:40}}});
+  assert.equal(v.scores.exec.score,100);assert.equal(v.scores.exec.label,'inference');assert.ok(!v.scores.party&&!v.scores.leg);assert.equal(v.unsourced,true);
+  let body;const f=async(u,o)=>{body=JSON.parse(o.body);return {ok:true,json:async()=>({content:[{type:'text',text:'{"summary":"s","scores":{"cab":{"score":60,"rationale":"r"}}}'}],usage:{input_tokens:5,output_tokens:6}})}};
+  const r=await runAssess({fetchImpl:f,apiKey:'k',prompt:assessPrompt({state:'KS',stateName:'Kansas',known:'Open seat'})});
+  assert.equal(body.tools,undefined);assert.equal(r.scores.cab.score,60);assert.equal(r.diag.searches,0)});

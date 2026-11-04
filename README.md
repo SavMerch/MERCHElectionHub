@@ -55,3 +55,16 @@ No adapter has seen real votes. Netlify scheduling in production and browser ren
 - **Refresh projections** (top of the page) runs every enabled state feed and re-applies sourced calls. It asks for `REFRESH_TOKEN` once per browser session.
 - **Enter AP call** saves a call (state, office, winner, party, projected/certified) with a required https `apnews.com` source URL to `/api/calls`. Calls are stored in Blobs, shown as "AP (entered by analyst)", and applied on every refresh. Races with no state feed show the call only, without vote counts.
 - The tool does not generate its own projections. AP's results pages are not read automatically (the pages are not a licensed feed, and this environment cannot reach them). For automated AP data you would need AP's Elections API under a license.
+
+### Troubleshooting Conduct analysis
+- Open `https://YOUR-SITE/api/analyze?diag=1&token=YOUR_TOKEN`. It makes one tiny web-search call and returns the exact Anthropic status or error (key missing, model name, web search not enabled for the organization, no credits).
+- Web search must be enabled for your organization in the Anthropic Console (Settings > Privacy/Features). Without it every run fails with an API error.
+- Each result panel shows run details (searches, tokens, source URLs seen, whether the output parsed).
+
+### Sourced snapshots (`data/manual-results.json`)
+Point-in-time copies of official election-office documents, merged on every refresh with their own `sourceUpdated` time. Currently: U.S. Virgin Islands Governor from the Territorial Summary PDF (report dated 11/03/2026 9:00 PM). To update, replace the candidate totals and `sourceUpdated` with the newer report and commit. Disable with `ENABLE_MANUAL=0`.
+
+### Transition scoring
+- **Analyze (quick assessment):** one fast model call with no web search (cost is a fraction of a cent to a few cents). Scores all five components with a rationale and confidence; labeled model judgment, unsourced.
+- **Conduct analysis:** the sourced, web-search version for legislative friction, cabinet turnover and agency exposure.
+- Scores you type and weights you change are saved in your browser (per jurisdiction) and are never overwritten by a new run. "Reset my edits" restores the suggested values. They are not shared with other users.

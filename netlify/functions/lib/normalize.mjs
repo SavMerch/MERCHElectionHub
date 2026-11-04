@@ -28,7 +28,7 @@ export function validateRace(r){
 // Manual, sourced calls (data/calls.json). A call without an https source is ignored.
 export function applyCalls(races,calls){
   for(const r of races){
-    const c=(calls||[]).find(x=>x.state===r.state&&String(x.office).toLowerCase()===r.office.toLowerCase());
+    const dk=d=>d==null||d===''?'':String(parseInt(d,10)||d).toLowerCase();const c=(calls||[]).find(x=>x.state===r.state&&String(x.office).toLowerCase()===r.office.toLowerCase()&&dk(x.district)===dk(r.district));
     if(!c||!/^https:\/\//.test(c.source||'')||!['projected','certified'].includes(c.status)||!c.winner)continue;
     r.call={winner:c.winner,winnerParty:party(c.winnerParty),status:c.status,calledBy:c.calledBy||null,source:c.source,calledAt:c.calledAt||null};
     r.status=c.status;

@@ -36,6 +36,11 @@
   to = "/.netlify/functions/calls"
   status = 200
 
+[[redirects]]
+  from = "/api/links"
+  to = "/.netlify/functions/links"
+  status = 200
+
 [[headers]]
   for = "/research/*"
   [headers.values]

@@ -68,3 +68,11 @@ Point-in-time copies of official election-office documents, merged on every refr
 - **Analyze (quick assessment):** one fast model call with no web search (cost is a fraction of a cent to a few cents). Scores all five components with a rationale and confidence; labeled model judgment, unsourced.
 - **Conduct analysis:** the sourced, web-search version for legislative friction, cabinet turnover and agency exposure.
 - Scores you type and weights you change are saved in your browser (per jurisdiction) and are never overwritten by a new run. "Reset my edits" restores the suggested values. They are not shared with other users.
+
+### Pull results from a link (Results tab, every jurisdiction)
+Paste a link to an official results page, CSV or PDF, then click **Pull results** (later **Refresh from link**). Needs `REFRESH_TOKEN`; AI extraction also needs `ANTHROPIC_API_KEY`.
+- Standard election-night CSV exports (same vendor format as NM/SD/NE) are parsed directly with no AI and no cost.
+- Other pages are read by AI. Every vote total must appear in the page text or it is dropped ("verified"). PDFs are read by AI without that check and are labeled "check source".
+- Governor, U.S. Senate and U.S. House (by district) are kept. Nothing is ever marked a call; calls come only from Enter AP call. Official feeds with votes override a link for the same race.
+- Safeguards: https only, private/internal addresses blocked, 8 MB limit, page text capped at 150,000 characters (an AI pull costs roughly a few cents to a few tens of cents).
+- Refresh projections re-applies saved links' last results; click Refresh from link to re-fetch the page.
